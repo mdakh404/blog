@@ -9,7 +9,7 @@ This one is non-technical blog-post, here, I am sharing my time and experience d
 
 Blog post about the Hacken Cup from @[HackenProof](https://hackenproof.com/)
 
-[**Hacken Cup: How It Happened — HackenProof Blog | HackenProof** ](https://blog.hackenproof.com/events/hacken-cup-how-it-happened/?utm_content=78544821&utm_medium=social&utm_source=twitter "https://blog.hackenproof.com/events/hacken-cup-how-it-happened/?utm_content=78544821&utm_medium=social&utm_source=twitter")[](https://blog.hackenproof.com/events/hacken-cup-how-it-happened/?utm_content=78544821&utm_medium=social&utm_source=twitter)
+[**Hacken Cup: How It Happened — HackenProof Blog | HackenProof** ](https://blog.hackenproof.com/events/hacken-cup-how-it-happened "https://blog.hackenproof.com/events/hacken-cup-how-it-happened")[](https://blog.hackenproof.com/events/hacken-cup-how-it-happened)
 
 **Disclaimer**: This one is long with lots of images and memes :v
 
@@ -173,7 +173,7 @@ All jokes apart — Thanks to all Hackers. **Really**, I was following many 
 
 [**Arbin**](https://twitter.com/arbingodar)
 
-[**|S|A|X|X|**](https://twitter.com/_SaxX_)
+[**SAXX**](https://twitter.com/_SaxX_)
 
 [**Ahmed Aboul-Ela**](https://twitter.com/aboul3la)
 
@@ -200,16 +200,16 @@ All jokes apart — Thanks to all Hackers. **Really**, I was following many 
 Everyone Participated In Hacken Cup got the **Certificate of Recognition**.
 
 ![](https://cdn-images-1.medium.com/max/800/1*oGwh8pK0O93Au4Xni-hdKA.png)
-![Hackers + TEAM == ❤](https://cdn-images-1.medium.com/max/800/1*mx4xa5LaAAZfr8XR3AaqLA.jpeg)
+![Hackers + TEAM == ❤](https://cdn-images-1.medium.com/max/800/1*mx4xa5LaAAZfr8XR3AaqLA.jpeg)<br/>
 Hackers + TEAM == ❤
 
 After **H4Ck\_K1ng** almost all day , we headed to Afterparty and really enjoyed!!
 
-![](https://cdn-images-1.medium.com/max/800/1*Aj3yBDE9MM7nFg3B34IjGA.png)
+![](https://cdn-images-1.medium.com/max/800/1*Aj3yBDE9MM7nFg3B34IjGA.png)<br /> br />
 
 Best tweet from @hackeenproof
 
-![Shubham — I managed somehow.](https://cdn-images-1.medium.com/max/800/1*TBWjkO1iE7Ot0_sv_mT8AQ.png)
+![Shubham — I managed somehow.](https://cdn-images-1.medium.com/max/800/1*TBWjkO1iE7Ot0_sv_mT8AQ.png)<br /> br />
 Shubham — I managed somehow.
 
 LONG DAY !!!!!
@@ -275,7 +275,7 @@ Deepest Metro -Hacken Office
 
 Next day, we had to leave Kyiv :(
 
-![with Jane, Geekboy & Shubham (Bina Naahee !!!)](https://cdn-images-1.medium.com/max/800/1*dHxEFfL2AfLhgrZRgGDLGg.png)
+![with Jane, Geekboy & Shubham (Bina Naahee !!!)](https://cdn-images-1.medium.com/max/800/1*dHxEFfL2AfLhgrZRgGDLGg.png)<br />
 with Jane, Geekboy & Shubham (Bina Naahee !!!)
 
 Reached home after long connecting flights :)
