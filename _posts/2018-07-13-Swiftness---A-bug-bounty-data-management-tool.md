@@ -3,10 +3,12 @@ layout: post
 title: Swiftness — A bug bounty data management tool.
 ---
 
+Swiftness is a macOS productivity tool for bug hunters and security professionals to intensify penetration testing process with checklist and notes features.
+
+
 ![Swiftness with my targets and data.](https://cdn-images-1.medium.com/max/800/1*KukMRmgQZg6z9xVqGRBmIQ.png)
                               
 
-Swiftness is a macOS productivity tool for bug hunters and security professionals to intensify penetration testing process with checklist and notes features.
 
 SecurityEscape developed Swiftness for handling their day to day clients’ application auditing, later, They planned to make it public and we have been working on a lot of things to make it ready for the public. Finally, v0.2 is out. Now it has,
 
