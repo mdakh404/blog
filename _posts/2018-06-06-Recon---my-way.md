@@ -7,10 +7,8 @@ A detailed blog post on my reconnaissance processes for web applications securit
 
 #### UPDATE: I created a GitHub repository with tools from this post and personal installation guide.
 
-[**ehsahil/recon-my-way**  
-_recon-my-way — This repository created for personal use and added tools from my latest blog post._github.com](https://github.com/ehsahil/recon-my-way "https://github.com/ehsahil/recon-my-way")[](https://github.com/ehsahil/recon-my-way)
+[**ehsahil/recon-my-way**  ](https://github.com/ehsahil/recon-my-way "https://github.com/ehsahil/recon-my-way")[](https://github.com/ehsahil/recon-my-way)
 
-yes, I did !! 🌋
 
 Recently, some new members of the InfoSec community asked me to share my recon process. Hence, I decided to begin writing this blog and tried to include such tools and services which helps me a lot while testing and will help the readers too, for sure.
 
@@ -40,7 +38,7 @@ I ran knockpy on an old program’s in-scope asset with almost 150 bugs resolved
 Lesson: knockpy = quick win
 
 ![see 404 error in above screenshot == Quick win.](https://cdn-images-1.medium.com/max/800/1*9rx6jBUwgCBr77YgZHsYCQ.png)
-see 404 error in above screenshot == Quick win.
+
 
 ### 2\. A Tool I Modified.
 
@@ -48,8 +46,7 @@ I use a customized tool for subdomain reconnaissance.
 
 I used a resolver tool by [Malvinsh](https://github.com/melvinsh/subresolve) and customized it.
 
-[**melvinsh/subresolve**  
-_subresolve — Resolve and quickly portscan a list of (sub)domains._github.com](https://github.com/melvinsh/subresolve "https://github.com/melvinsh/subresolve")[](https://github.com/melvinsh/subresolve)
+[**melvinsh/subresolve**  ](https://github.com/melvinsh/subresolve "https://github.com/melvinsh/subresolve")[](https://github.com/melvinsh/subresolve)
 
 Malvinsh resolver tool runs as.
 
@@ -78,13 +75,11 @@ The script is using the following tools to get the subdomains data.
 
 *   [Subfinder](https://github.com/Ice3man543/subfinder)
 
-[**Ice3man543/subfinder**  
-_subfinder — SubFinder is a subdomain discovery tool that can enumerate massive amounts of valid subdomains for any…_github.com](https://github.com/Ice3man543/subfinder "https://github.com/Ice3man543/subfinder")[](https://github.com/Ice3man543/subfinder)
+[**Ice3man543/subfinder**  ](https://github.com/Ice3man543/subfinder "https://github.com/Ice3man543/subfinder")[](https://github.com/Ice3man543/subfinder)
 
 *   [Censys subdomain finder.](https://github.com/christophetd/censys-subdomain-finder)
 
-[**christophetd/censys-subdomain-finder**  
-_censys-subdomain-finder — ⚡ Perform subdomain enumeration using the certificate transparency logs from Censys._github.com](https://github.com/christophetd/censys-subdomain-finder "https://github.com/christophetd/censys-subdomain-finder")[](https://github.com/christophetd/censys-subdomain-finder)
+[**christophetd/censys-subdomain-finder** ](https://github.com/christophetd/censys-subdomain-finder "https://github.com/christophetd/censys-subdomain-finder")[](https://github.com/christophetd/censys-subdomain-finder)
 
 *   [Knockpy](https://github.com/guelfoweb/knock)
 
