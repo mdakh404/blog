@@ -60,8 +60,8 @@ Malvinsh Tools Original output.
 
 Using its logic I created two scripts.
 
-*   **Subdomain.rb**
-*   **Recon.rb**
+*   **subdomain.rb** [**gist**](https://gist.github.com/ehsahil/0b618104319a97b21bea88fbb5ea49c2)**.**
+*   **recon.rb** [**gist**](https://gist.github.com/ehsahil/f0f6e731a22a111399aa8503e34b6919)**.**
 
 **Caution:** Do not use these scripts on programs where automatic testing is forbidden and also on the targets on which you are not allowed to.
 
@@ -73,25 +73,19 @@ Subfinder and sublist3r results sometime overlap. I tried to run both tools sepa
 
 The script is using the following tools to get the subdomains data.
 
-*   [Subfinder](https://github.com/Ice3man543/subfinder)
+*   [**Ice3man543/subfinder**  ](https://github.com/Ice3man543/subfinder "https://github.com/Ice3man543/subfinder")[](https://github.com/Ice3man543/subfinder)
 
-[**Ice3man543/subfinder**  ](https://github.com/Ice3man543/subfinder "https://github.com/Ice3man543/subfinder")[](https://github.com/Ice3man543/subfinder)
+*   [**christophetd/censys-subdomain-finder** ](https://github.com/christophetd/censys-subdomain-finder "https://github.com/christophetd/censys-subdomain-finder")[](https://github.com/christophetd/censys-subdomain-finder)
 
-*   [Censys subdomain finder.](https://github.com/christophetd/censys-subdomain-finder)
+*   [**guelfoweb/knock** ](https://github.com/guelfoweb/knock "https://github.com/guelfoweb/knock")[](https://github.com/guelfoweb/knock)
 
-[**christophetd/censys-subdomain-finder** ](https://github.com/christophetd/censys-subdomain-finder "https://github.com/christophetd/censys-subdomain-finder")[](https://github.com/christophetd/censys-subdomain-finder)
+*   [**aboul3la/Sublist3r** ](https://github.com/aboul3la/Sublist3r "https://github.com/aboul3la/Sublist3r")[](https://github.com/aboul3la/Sublist3r)
 
-*   [Knockpy](https://github.com/guelfoweb/knock)
 
-[**guelfoweb/knock** ](https://github.com/guelfoweb/knock "https://github.com/guelfoweb/knock")[](https://github.com/guelfoweb/knock)
 
-*   [Sublist3r](https://github.com/aboul3la/Sublist3r)
+* [**michenriksen/aquatone** ](https://github.com/michenriksen/aquatone "https://github.com/michenriksen/aquatone")[](https://github.com/michenriksen/aquatone)
 
-[**aboul3la/Sublist3r** ](https://github.com/aboul3la/Sublist3r "https://github.com/aboul3la/Sublist3r")[](https://github.com/aboul3la/Sublist3r)
 
-*   [Aquatone](https://github.com/michenriksen/aquatone)
-
-[**michenriksen/aquatone** ](https://github.com/michenriksen/aquatone "https://github.com/michenriksen/aquatone")[](https://github.com/michenriksen/aquatone)
 
 **subdomain.rb** [**gist**](https://gist.github.com/ehsahil/0b618104319a97b21bea88fbb5ea49c2)**.**
 
@@ -113,15 +107,12 @@ Recon.rb is another lightweight script and it is also flexible hence, more tools
 *   **Host** : Resolve the subdomain.
 *   **Nmap** : Perform Port scan on subdomain
 
-[**Nmap: the Network Mapper — Free Security Scanner** ](https://nmap.org/ "https://nmap.org/")[](https://nmap.org/)
+*   [**Nmap: the Network Mapper — Free Security Scanner** ](https://nmap.org/ "https://nmap.org/")[](https://nmap.org/)
 
-*   **AWS CLI — **In the script AWS, CLI used test subdomains are connected to AWS bucket or not also checks for list permission. (Can be customized to test for write permission files.)
+*   [**AWS Command Line Interface** ](https://aws.amazon.com/cli "https://aws.amazon.com/cli")[](https://aws.amazon.com/cli)
 
-[**AWS Command Line Interface** ](https://aws.amazon.com/cli "https://aws.amazon.com/cli")[](https://aws.amazon.com/cli)
+*   [**maurosoria/dirsearch**  ](https://github.com/maurosoria/dirsearch "https://github.com/maurosoria/dirsearch")[](https://github.com/maurosoria/dirsearch)
 
-*   **Dirsearch** — Search for directories with default wordlist and all (\*) extensions.
-
-[**maurosoria/dirsearch**  ](https://github.com/maurosoria/dirsearch "https://github.com/maurosoria/dirsearch")[](https://github.com/maurosoria/dirsearch)
 
 **recon.rb** [**gist**](https://gist.github.com/ehsahil/f0f6e731a22a111399aa8503e34b6919)**.**
 
@@ -132,9 +123,7 @@ Recon.rb demo run.
 
 A tool with Above functionality in the organized fashion.
 
-**Lazyrecon**
-
-[**nahamsec/lazyrecon** ](https://github.com/nahamsec/lazyrecon "https://github.com/nahamsec/lazyrecon")[](https://github.com/nahamsec/lazyrecon)
+* [**nahamsec/lazyrecon** ](https://github.com/nahamsec/lazyrecon "https://github.com/nahamsec/lazyrecon")[](https://github.com/nahamsec/lazyrecon)
 
 **Interesting blog posts**
 
@@ -165,18 +154,36 @@ I generally use the following two tools.
 I go for this section after reporting 2–3 issues in a particular program and wait for the response, if I find program interesting then I try to collect as much information as I can about the target using the following services.
 
 
-[**Censys** ](https://censys.io/ "https://censys.io/")[](https://censys.io/)
+* [**yamakira/censys-enumeration** ](https://github.com/yamakira/censys-enumeration "https://github.com/yamakira/censys-enumeration")[](https://github.com/yamakira/censys-enumeration)
 
-**Tool for Censys:**
 
-[**yamakira/censys-enumeration** ](https://github.com/yamakira/censys-enumeration "https://github.com/yamakira/censys-enumeration")[](https://github.com/yamakira/censys-enumeration)
 
 *  [**Shodan** ](https://www.shodan.io/ "https://www.shodan.io/")[](https://www.shodan.io/)
 
+```
+Shodan Basic Commands. 
 
+443.https.tls.certificate.parsed.extensions.subject_alt_name.dns_names:domain.com
+
+“hackme.tld” + internal 
+
+“hackme.tld” + sandbox
+
+“hackme.tld” + Staging
+
+“hackme.tld” + Development/Dev
+
+“hackme.tld” +  production/prod
+
+ hackme inc
+ 
+ Credit: @nahamsec
+ 
+ Interesting posts: 
+ https://0xpatrik.com/censys-guide/
+```
 
 *   [**ViewDNS.info — Your one source for DNS related tools!**  ](http://viewdns.info/ "http://viewdns.info/")[](http://viewdns.info/)
-
 
 
 Get the whois information of target using whois command or use an online tool.
@@ -199,13 +206,39 @@ IP range for hackerone.com
 
 
 *   **Nmap Subdomain finding.**
+
+```
+#Finding subdomains via Nmap. 
+
+nmap --script dns-brute --script-args dns-brute.domain=domain.com,dns-brute.threads=6,dns-brute.hostlist=./sub1000.lst
+
+nmap --script dns-brute --script-args dns-brute.domain=domain.com,dns-brute.threads=6,dns-brute.hostlist=./sub10000.lst
+
+nmap --script dns-brute --script-args dns-brute.domain=domain.com,dns-brute.threads=6,dns-brute.hostlist=./sub100000.lst
+
+nmap --script dns-brute --script-args dns-brute.domain=domain.com,dns-brute.threads=6,dns-brute.hostlist=./sub1000000.lst
+
+
+#Wordlist : 
+
+1. sub1000.lst - https://drive.google.com/open?id=0B0h-Dh0Oss1zOGFqVVl1bTVpdWc
+2. sub10000.lst - https://drive.google.com/open?id=0B0h-Dh0Oss1zTTdmQnZsQ0JCYzA
+3. sub100000.lst - https://drive.google.com/open?id=0B0h-Dh0Oss1zdDBFT1dCc08ya0U
+4. sub1000000.lst - https://drive.google.com/open?id=0B0h-Dh0Oss1zODNfSG1sbVJ1WE0
+
+In case above links are not available : https://github.com/ehsahil/wordlists-for-nmap
+
+#Taken from http://blog.x1622.com/2016/11/subdomain-discovery-with-nmap-and.html
+
+```
+
 *   **Content-Security-Policy (CSP)**
 
 Tools
 
-[**yamakira/domains-from-csp**  ](https://github.com/yamakira/domains-from-csp "https://github.com/yamakira/domains-from-csp")[](https://github.com/yamakira/domains-from-csp)
+* [**yamakira/domains-from-csp**  ](https://github.com/yamakira/domains-from-csp "https://github.com/yamakira/domains-from-csp")[](https://github.com/yamakira/domains-from-csp)
 
-[**Analyse your HTTP response headers** ](https://securityheaders.com/ "https://securityheaders.com/")[](https://securityheaders.com/)
+* [**Analyse your HTTP response headers** ](https://securityheaders.com/ "https://securityheaders.com/")[](https://securityheaders.com/)
 
 
 *   [**eldraco/domain\_analyzer** ](https://github.com/eldraco/domain_analyzer "https://github.com/eldraco/domain_analyzer")[](https://github.com/eldraco/domain_analyzer)
@@ -222,18 +255,16 @@ Tools
 
 
 
-*   **Certificate Transparency**
+* [**Google Transparency Report** ](https://transparencyreport.google.com/https/certificates "https://transparencyreport.google.com/https/certificates")[](https://transparencyreport.google.com/https/certificates)
 
-[**Google Transparency Report** ](https://transparencyreport.google.com/https/certificates "https://transparencyreport.google.com/https/certificates")[](https://transparencyreport.google.com/https/certificates)
-
-*   [https://certspotter.com/api/v0/certs?domain=hackerone.com](https://certspotter.com/api/v0/certs?domain=domain.com)
+*   [**https://certspotter.com/api/v0/certs?domain=hackerone.com**](https://certspotter.com/api/v0/certs?domain=domain.com)
 
 
 *   [**CertDB — SSL certificates search engine** ](https://certdb.com/ "https://certdb.com/")[](https://certdb.com/)
 
 
 
-*   [https://crt.sh/?q=%25domain.com](https://crt.sh/?q=%25domain.com)
+*   [**Crt.sh**](https://crt.sh/?q=%25domain.com)[](https://crt.sh/?q=%25domain.com)
 
 
 
@@ -249,15 +280,15 @@ Typical notification from Facebook when new asset on the same crt is available.
 
 **Interesting blog posts & tools taken from**
 
-[**Asset Discovery: Doing Reconnaissance the Hard Way**  ](https://0xpatrik.com/asset-discovery/ "https://0xpatrik.com/asset-discovery/")[](https://0xpatrik.com/asset-discovery/)
+* [**Asset Discovery: Doing Reconnaissance the Hard Way**  ](https://0xpatrik.com/asset-discovery/ "https://0xpatrik.com/asset-discovery/")[](https://0xpatrik.com/asset-discovery/)
 
-[**Subdomain Takeover: Thoughts on Risks**  ](https://0xpatrik.com/subdomain-takeover/ "https://0xpatrik.com/subdomain-takeover/")[](https://0xpatrik.com/subdomain-takeover/)
+* [**Subdomain Takeover: Thoughts on Risks**  ](https://0xpatrik.com/subdomain-takeover/ "https://0xpatrik.com/subdomain-takeover/")[](https://0xpatrik.com/subdomain-takeover/)
 
-[**Subdomain Takeover: Proof Creation for Bug Bounties** ](https://0xpatrik.com/takeover-proofs/ "https://0xpatrik.com/takeover-proofs/")[](https://0xpatrik.com/takeover-proofs/)
+* [**Subdomain Takeover: Proof Creation for Bug Bounties** ](https://0xpatrik.com/takeover-proofs/ "https://0xpatrik.com/takeover-proofs/")[](https://0xpatrik.com/takeover-proofs/)
 
-[**Project Sonar: An Underrated Source of Internet-wide Data**  ](https://0xpatrik.com/project-sonar-guide/ "https://0xpatrik.com/project-sonar-guide/")[](https://0xpatrik.com/project-sonar-guide/)
+* [**Project Sonar: An Underrated Source of Internet-wide Data**  ](https://0xpatrik.com/project-sonar-guide/ "https://0xpatrik.com/project-sonar-guide/")[](https://0xpatrik.com/project-sonar-guide/)
 
-[**EdOverflow/can-i-take-over-xyz**  ](https://github.com/EdOverflow/can-i-take-over-xyz "https://github.com/EdOverflow/can-i-take-over-xyz")[](https://github.com/EdOverflow/can-i-take-over-xyz)
+* [**EdOverflow/can-i-take-over-xyz**  ](https://github.com/EdOverflow/can-i-take-over-xyz "https://github.com/EdOverflow/can-i-take-over-xyz")[](https://github.com/EdOverflow/can-i-take-over-xyz)
 
 ### 5\. Data Storage Buckets.
 
@@ -280,22 +311,16 @@ If you find the bucket like **upload-user-content-target-prod **— try to c
 *   [**Bucket Finder — DigiNinja** ](https://digi.ninja/projects/bucket_finder.php "https://digi.ninja/projects/bucket_finder.php")[](https://digi.ninja/projects/bucket_finder.php) — **Great Tool for finding buckets using subdomains wordlist, can be integrated into recon.rb script but I don’t always use it.
 
 
-
 *   [**nahamsec/lazys3**  ](https://github.com/nahamsec/lazys3 "https://github.com/nahamsec/lazys3")[](https://github.com/nahamsec/lazys3) — LazyS3 is an another tool which I use almost frequently to find the staging, sandboxed, dev and production buckets.
 
 
 
-*   [https://github.com/bbb31/slurp](https://github.com/bbb31/slurp) - Slurp great tool for AWS Buckets Recon. (Deleted After Microsoft Purchased Github I guess). Weird!
-
-
-
-*   
-[**gwen001/s3-buckets-finder**  ](https://github.com/gwen001/s3-buckets-finder "https://github.com/gwen001/s3-buckets-finder")[](https://github.com/gwen001/s3-buckets-finder)— Another good tool for AWS S3 buckets.
+*   [**gwen001/s3-buckets-finder**  ](https://github.com/gwen001/s3-buckets-finder "https://github.com/gwen001/s3-buckets-finder")[](https://github.com/gwen001/s3-buckets-finder)— Another good tool for AWS S3 buckets.
 
 
 **Interesting blog post**
 
-[**A deep dive into AWS S3 access controls — taking full control over your assets** ](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/ "https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/")[](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/)
+* [**A deep dive into AWS S3 access controls — taking full control over your assets** ](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/ "https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/")[](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/)
 
 ### 6\. Github For Recon.
 
@@ -303,7 +328,7 @@ Github is extremely helpful in finding Sensitive information regarding the targe
 
 **Interesting blog post**
 
-[**GitHub for Bug Bounty Hunters**  ](https://edoverflow.com//2017/github-for-bugbountyhunters "https://edoverflow.com//2017/github-for-bugbountyhunters")[](https://edoverflow.com//2017/github-for-bugbountyhunters)
+* [**GitHub for Bug Bounty Hunters**  ](https://edoverflow.com//2017/github-for-bugbountyhunters "https://edoverflow.com//2017/github-for-bugbountyhunters")[](https://edoverflow.com//2017/github-for-bugbountyhunters)
 
 ### 7\. Read every JS.
 
@@ -322,20 +347,16 @@ The more Javascript files you read, the more chances will be of win.
 
 I generally like to read the javascript code manually with the help of JSBeautifier.
 
-[**Online JavaScript beautifier**  ](http://jsbeautifier.org/ "http://jsbeautifier.org/")[](http://jsbeautifier.org/)
-
-The following tools are useful:
+* [**Online JavaScript beautifier**  ](http://jsbeautifier.org/ "http://jsbeautifier.org/")[](http://jsbeautifier.org/)
 
 * [**GerbenJavado/LinkFinder**  ](https://github.com/GerbenJavado/LinkFinder "https://github.com/GerbenJavado/LinkFinder")[](https://github.com/GerbenJavado/LinkFinder)
-
-
 
 * [**nahamsec/JSParser**  ](https://github.com/nahamsec/JSParser "https://github.com/nahamsec/JSParser")[](https://github.com/nahamsec/JSParser)
 
 
 **Interesting blog post**
 
-[**Bug Bounty — Tips / Tricks / JS (JavaScript Files)**  ](https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d "https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d")[](https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d)
+* [**Bug Bounty — Tips / Tricks / JS (JavaScript Files)**  ](https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d "https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d")[](https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d)
 
 ### 8\. [Archive](http://archive.org/web/)
 
@@ -363,6 +384,45 @@ Swiftness- My personal websec checklist.
 ### 10\. Extra points for recon.
 
 **Note**: I have provided some data in gist because I regularly update them and those updates will be automatically available here.
+
+```
+Tips from @jobertabma, co-founder of HackerOne -- https://twitter.com/jobertabma/status/998769037445230592
+
+0x00: I visit the product and marketing pages and read up what the products do. I identify how the product it exposed to the end user. This will give me an idea what the initial attack surface looks like, what data they're protecting, how users interact with each other, and what the learning curve looks like. I sign up for any number of accounts that is required to test the features. This will give me insight into the individual features. I do some light fingerprinting of the frameworks they use.I've even talked to engineers, product managers, and executives before even looking at something.
+
+0x01: I prioritize based on features and then weakness type. I generally set a goal for myself to go after particular information, e.g. for an email provider I might ask myself: "I want to get access to someone's emails." Because I know what their features do, I can make an educated guess which features process emails. This is where I will look for vulnerabilities first and prioritize weaknesses that could give access (e.g. IDOR) before others (e.g. XSS). Some features contain more vulnerabilities than others.
+Rule of thumb: the more complex the feature is, the more likely it is it contains vulnerabilities. I never check for two weakness types at the same time. I usually time box looking at a feature, often to avoid going down a rabbit hole and wasting time.
+It's often better to pause, take notes on the behavior you observed, and move on. I've had multiple (shower) "aha" moments where I connected the dots later. I don't always find something. That's OK. Work through the system's features until you run out of endpoints.
+
+0x02: Only then do I focus on expanding my attack surface. I use http://archive.org , their (minified) JavaScript files, documentation, schemas, and best guesses to find these. Personally, I hardly ever brute force files and directories. In this process,I place myself in the head of an engineer of the company and ask myself: "If I were to build feature x, what would I have to do?" This question helps me identify where technical debt is and how I can automate the detection of new features.
+I'm not a mayfly: I pick a target and often stick with it for months instead of switching targets frequently. I actually think I'd do fine as a junior engineer at most of my targets. It allows me to build a relationship with the team.
+
+0x03: I'm familiar with a wide range of vulnerability types. I've only gotten there by creating structure in my work and setting goals. I never start from a vulnerability type, always from an indication something may be vulnerable or a feature.
+If I come across technology I haven't used yet, I often take a step back and use it outside of the application's context. This will increase my frame of reference and understand how the technology is used within the system.
+I use bug bounties as a way to expand my knowledge, not to treat it as a race. It has helped me being an engineer first. Throughout the process I make extensive notes (with http://recon.sh , see my GitHub).
+
+0x04: I write simple scripts and use available tools to help me in my process of expanding my attack surface. I've written tools who'd email me a weekly diff of endpoints found in a JavaScript file or code linters to point out dangerous functions or complex code patterns.
+I use a combination of @culturedcode and http://recon.sh ! I haven't used mind maps because of the lack of similarity between features across different assets. There's some process to be put in place there and it might help, I've just never done it myself.
+
+Full disclosure: I rarely use them. The stuff that people find during recon, I find when I have a reason to look for it, so you could say I don’t do recon like the majority of the community does their recon. When I do, I’ve used https://gist.github.com/jhaddix .
+
+Of course! Here are some Quora answers that I've written in the past that might help answer your question: https://www.quora.com/How-does-one-become-a-bug-bounty-hunter/answer/Jobert-Abma …, https://www.quora.com/How-much-time-did-you-take-from-completely-beginning-hacking-to-your-first-success-or-bug-bounty/answer/Jobert-Abma …, https://www.quora.com/How-do-bug-bounty-hunters-find-bugs/answer/Jobert-Abma …, https://www.quora.com/What-things-should-I-learn-to-become-a-bug-bounty-hunter-Should-I-start-by-learning-programming-languages-I-am-17-years-old/answer/Jobert-Abma …, and https://www.quora.com/What-can-I-do-as-a-high-school-student-to-get-into-bug-bounty-hunting/answer/Jobert-Abma …. Let me know if that helped!
+
+Personal: 
+
+1. Follow security and engineering team members on twitter. 
+2. Read all engineering/dev blog posts available. 
+3. Use the Company services as a normal user if you can. 
+4. Reading commits and public issues conversations on Github.
+5. Reading robots.txt files. 
+6. Be familiar with the companies dev stacks and use them if you can.
+7. Watch target companies videos on youtube or on other platforms about new products, demo, conference etc. 
+8. Search for the information about the targets on Pastebin and trello etc.
+9. Searching swf, txt, xml etc files using Search Engines dork.
+10. Initially, I report only 2-3 issues with little recon. 
+11. Follow other security researchers on social networking sites. 
+```
+
 
 Best of luck for all of your future infosec things.
 
