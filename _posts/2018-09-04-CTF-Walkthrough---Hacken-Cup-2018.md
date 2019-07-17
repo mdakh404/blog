@@ -3,6 +3,8 @@ layout: post
 title: CTF Walkthrough — Hacken Cup 2018
 ---
 
+HackIT/Hacken/HackenProof Organised a 3rd security conference in Kharkiv, Ukraine last year, I was invited to the conference with all the expenses covered, they invited me via Twitter‘s DM and the invitation got into my Request folder somehow I haven’t seen it until the conference was finished.
+
 **Update-2 (07-Sept-2018):** I just got the confirmation email from **HackenProof** that, my application is accepted for Hacken cup 2018 ❤
 
 ![❤ ❤ ❤](https://cdn-images-1.medium.com/max/800/1*VxXtgAmD94tWP1FL8gBqtQ.png)
@@ -19,7 +21,6 @@ Here is the updated post by HackenProof about the Hacken Cup.
 
 **Last year’s story**
 
-HackIT Organised a 3rd security conference in Kharkiv, Ukraine last year, I was invited to the conference with all the expenses covered, they invited me via Twitter‘s DM and the invitation got into my Request folder somehow I haven’t seen it until the conference was finished.
 
 ![3rd Hackit Conference Invite.](https://cdn-images-1.medium.com/max/800/1*yyhL468BO5uaRAlFEHpbyg.png)
 3rd Hackit Conference Invite.
