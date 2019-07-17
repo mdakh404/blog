@@ -33,7 +33,7 @@ I responded and told them, that message was in my twitter’s request folder, th
 
 ![](https://cdn-images-1.medium.com/max/800/1*cUqS2jRx9_aNvzyYsYYc7w.png)
 
-Now, let’s start the walkthrough — stay with me.
+##Now, let’s start the walkthrough — stay with me.
 
 On **7-August-2018**, I got the following email from [HackenProof](https://hackenproof.com). Hackenproof is organizing onsite **Hacken Cup Bug Hunting Marathon** during HackIT 4.0 — The 4th Global CyberSecurity Forum in **Kyiv, Ukraine** from 8–11 October**.**
 
@@ -58,9 +58,8 @@ hmm…something is interesting.
 After trying few things, I used “**Show Original**” Option from Gmail and searched for “Apply” keyword.
 
 ![Found an external IP address.](https://cdn-images-1.medium.com/max/800/1*jdPHR0qJpwohJ9gNLDgUtA.png)
-Found an external IP address.
 
-Got an external IP address. :
+###Got an external IP address. :
 
 [http://159.65.204.68](http://159.65.204.68)
 
@@ -101,20 +100,20 @@ Sure, I am not passing.
 
 I started my recon process for the endpoint.
 
-1.  Nmap — **159.65.204.68**
+*1.  Nmap 
 
-nmap -sV 159.65.204.68
+`nmap -sV 159.65.204.68`
 
 ![Lots of ports are open](https://cdn-images-1.medium.com/max/800/1*ds_gA3Mx5-5Xf5AlNu18GA.png)
 
 
-Lots of ports are open
+Lots of ports were open
 
 Got many open ports and I left them to see later and I tried to see if I can find something interesting via dirsearch.
 
-2\. [Dirsearch](https://github.com/maurosoria/dirsearch) — 159.65.204.68
+*2\. [Dirsearch](https://github.com/maurosoria/dirsearch) — 159.65.204.68
 
-python3 dirsearch.py -u [http://159.65.204.68](http://159.65.204.68) -e \*
+`python3 dirsearch.py -u [http://159.65.204.68](http://159.65.204.68) -e \*`
 
 ![](https://cdn-images-1.medium.com/max/800/1*Hasb9Iim-ctUpOlV1tLrDA.png)
 
@@ -122,7 +121,7 @@ After running Dirsearch, I found a publicly available **.git** directory and us
 
 I cloned the .git files using the following command.
 
-bash gitdumper.sh [http://159.65.204.68/.git/](http://159.65.204.68/.git/) ehsahil
+`bash gitdumper.sh [http://159.65.204.68/.git/](http://159.65.204.68/.git/) ehsahil`
 
 Gitdumper cloned the publicly available git files into a folder ‘**ehsahil**’
 
@@ -140,9 +139,7 @@ I found objects folder interesting and decided to look into all of them.
 
 It’s time to find the object Ids. For that, I used **find** command
 
-```
-find -type f
-```
+`find -type f`
 
 I got the following result with all the object-ids.
 
@@ -150,18 +147,15 @@ I got the following result with all the object-ids.
 
 I have to remove all the dots(.) and forward slashes from the above result using **sed**.
 
-```
-sed -e 's/\.//g'
-```
+
+`sed -e 's/\.//g'`
 
 
 Saved all object id in an objectids.txt file.
 
 Now, I got all the Object IDs, its time to cat every file to see the contents.
 
-```
-git cat-file -p <object\_id>
-```
+`git cat-file -p <object\_id>`
 
 But manually viewing the contents of the all the objects was time-consuming.
 
@@ -199,7 +193,7 @@ My credentials are my credentials none of your credentials !!!Pheww!!!
 Credentials for admin panel.
 
 ```
-$username = ‘[admin@cup.hackenproof.com](mailto:admin@cup.hackenproof.com)’;  
+$username = ‘[admin@cup.hackenproof.com';  
 $password = ‘Qd79E0FL&R’;
 ```
 
@@ -217,7 +211,9 @@ After login, application redirected me to the following page with a file uploadi
 http://159.65.204.68/admin/index.php
 
 ![Admin File uploading endpoint.](https://cdn-images-1.medium.com/max/800/1*jvAkm0ly38FDs0NuVMdP7A.png)
+
 Admin File uploading endpoint.ALRIGHT!
+
 ![Index.php Source Code](https://cdn-images-1.medium.com/max/800/1*14reeCnGumQG9t2Lu3-cUQ.png)
 
 
@@ -225,7 +221,7 @@ Index.php Source Code
 
 Reviewing the index.php file from the objects folder.
 
-1.  Index.php is only checking for **mimetype** (**image/jpeg, image/gif, image/png**) to validate the uploaded image is indeed an image or not.
+1\.  Index.php is only checking for **mimetype** (**image/jpeg, image/gif, image/png**) to validate the uploaded image is indeed an image or not.
 
 2\. Application is uploading the user file on the
 
@@ -243,7 +239,7 @@ One of them is by using **php5** as  an  extension instead of **php** to bypass 
 ![file with .php extension is not uploading as expected.](https://cdn-images-1.medium.com/max/600/1*YOQT7dzVzcWH7dv4CIPK5A.png)
 
 
-file with .php extension is not uploading as expected.
+###file with .php extension is not uploading as expected
 
 ![](https://cdn-images-1.medium.com/max/600/1*BX378IxAp7ezUWflg47hKg.png)
 ![Uploaded php file with .php5 extension and file was successfully uploaded.](https://cdn-images-1.medium.com/max/600/1*FLPU1_ETOfkK5WtHtSbzXQ.png)
@@ -273,9 +269,8 @@ let’s see the content of the congrats.html
 
 ![cat congrats.html](https://cdn-images-1.medium.com/max/800/1*KpvMPcTMOe_fMXijZSVtpA.png)
 
-```
-cat congrats.html
-```
+
+`cat congrats.html`
 
 Let’s Open the “congrats.html” in the browser.
 
