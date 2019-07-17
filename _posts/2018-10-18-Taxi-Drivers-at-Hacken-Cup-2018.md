@@ -22,7 +22,7 @@ The following is a summary of my 8-day trip to Kyiv, Ukraine.
 3.  **07-Oct — 2018 — ** [**Recon — My-way**](https://media.giphy.com/media/dahnt6nqwan1S/giphy.mp4)
 4.  **08-Oct-20118 — ** [**Main H4Ck\_K1ng Day**](https://media.giphy.com/media/eCqFYAVjjDksg/giphy.mp4)
 5.  **09-Oct-2018 — ** [**Chernobyl Trip**](https://media.giphy.com/media/3oKIPiqfUtLCnIKxRS/giphy.mp4)
-6.  **10 & 11-Oct-2018 — ** [** HackIT Security Conference**](https://media.giphy.com/media/8Ttma3MSNSqbQ9AhDs/giphy.mp4)
+6.  **10-11-Oct-2018 — ** [** HackIT Security Conference**](https://media.giphy.com/media/8Ttma3MSNSqbQ9AhDs/giphy.mp4)
 7.  **12-Oct-2018 — ** [**HackenProof Office Visit**](https://media.giphy.com/media/iRzlyqHL8hJTy/giphy.mp4)
 8.  **13-Oct-2018 — ** [**Roaming around**](https://media.giphy.com/media/OqtiRTl7ZPUVW/giphy.mp4)
 9.  **14-Oct-2018 —** [** Back to home**](https://media.giphy.com/media/xThtaesxnOYUQvmoZq/giphy.mp4)
