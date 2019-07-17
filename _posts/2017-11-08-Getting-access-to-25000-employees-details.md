@@ -4,8 +4,6 @@ title: Getting access to 25000 employees details
 
 ---
 
-Hey,
-
 I want to share one of my findings in a private program on HackerOne, which was — critical but straightforward one. During testing for that private program. I found an endpoint for Internal team management.
 
 ![Internal Team management endpoint](https://cdn-images-1.medium.com/max/800/1*gaorKvd3BUxEl0nxbvCK9Q.png)
