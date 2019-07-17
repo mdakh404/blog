@@ -12,7 +12,6 @@ I am currently working as Security Engineer II at **Zomato**,  <br />
 Bug bounty Hunter at **HackerOne**, **Bugcrowd**, **Intigriti**, **Hackenproof** and others,  <br />
 Previously **Nykaa** and **Securityescape** <br />
 
-More info: https://in.linkedin.com/in/ehsahil
 
 ### Contact me
 
