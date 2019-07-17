@@ -83,18 +83,15 @@ The script is using the following tools to get the subdomains data.
 
 *   [Knockpy](https://github.com/guelfoweb/knock)
 
-[**guelfoweb/knock**  
-_knock — Knock Subdomain Scan_github.com](https://github.com/guelfoweb/knock "https://github.com/guelfoweb/knock")[](https://github.com/guelfoweb/knock)
+[**guelfoweb/knock** ](https://github.com/guelfoweb/knock "https://github.com/guelfoweb/knock")[](https://github.com/guelfoweb/knock)
 
 *   [Sublist3r](https://github.com/aboul3la/Sublist3r)
 
-[**aboul3la/Sublist3r**  
-_Sublist3r — Fast subdomains enumeration tool for penetration testers_github.com](https://github.com/aboul3la/Sublist3r "https://github.com/aboul3la/Sublist3r")[](https://github.com/aboul3la/Sublist3r)
+[**aboul3la/Sublist3r** ](https://github.com/aboul3la/Sublist3r "https://github.com/aboul3la/Sublist3r")[](https://github.com/aboul3la/Sublist3r)
 
 *   [Aquatone](https://github.com/michenriksen/aquatone)
 
-[**michenriksen/aquatone**  
-_aquatone — A Tool for Domain Flyovers_github.com](https://github.com/michenriksen/aquatone "https://github.com/michenriksen/aquatone")[](https://github.com/michenriksen/aquatone)
+[**michenriksen/aquatone** ](https://github.com/michenriksen/aquatone "https://github.com/michenriksen/aquatone")[](https://github.com/michenriksen/aquatone)
 
 **subdomain.rb** [**gist**](https://gist.github.com/ehsahil/0b618104319a97b21bea88fbb5ea49c2)**.**
 
@@ -116,18 +113,15 @@ Recon.rb is another lightweight script and it is also flexible hence, more tools
 *   **Host** : Resolve the subdomain.
 *   **Nmap** : Perform Port scan on subdomain
 
-[**Nmap: the Network Mapper — Free Security Scanner**  
-_Nmap Free Security Scanner, Port Scanner, & Network Exploration Tool. Download open source software for Linux, Windows…_nmap.org](https://nmap.org/ "https://nmap.org/")[](https://nmap.org/)
+[**Nmap: the Network Mapper — Free Security Scanner** ](https://nmap.org/ "https://nmap.org/")[](https://nmap.org/)
 
 *   **AWS CLI — **In the script AWS, CLI used test subdomains are connected to AWS bucket or not also checks for list permission. (Can be customized to test for write permission files.)
 
-[**AWS Command Line Interface**  
-_The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and…_aws.amazon.com](https://aws.amazon.com/cli "https://aws.amazon.com/cli")[](https://aws.amazon.com/cli)
+[**AWS Command Line Interface** ](https://aws.amazon.com/cli "https://aws.amazon.com/cli")[](https://aws.amazon.com/cli)
 
 *   **Dirsearch** — Search for directories with default wordlist and all (\*) extensions.
 
-[**maurosoria/dirsearch**  
-_dirsearch — Web path scanner_github.com](https://github.com/maurosoria/dirsearch "https://github.com/maurosoria/dirsearch")[](https://github.com/maurosoria/dirsearch)
+[**maurosoria/dirsearch**  ](https://github.com/maurosoria/dirsearch "https://github.com/maurosoria/dirsearch")[](https://github.com/maurosoria/dirsearch)
 
 **recon.rb** [**gist**](https://gist.github.com/ehsahil/f0f6e731a22a111399aa8503e34b6919)**.**
 
@@ -140,16 +134,13 @@ A tool with Above functionality in the organized fashion.
 
 **Lazyrecon**
 
-[**nahamsec/lazyrecon**  
-_lazyrecon — This script is intended to automate your reconnaissance process in an organized fashion_github.com](https://github.com/nahamsec/lazyrecon "https://github.com/nahamsec/lazyrecon")[](https://github.com/nahamsec/lazyrecon)
+[**nahamsec/lazyrecon** ](https://github.com/nahamsec/lazyrecon "https://github.com/nahamsec/lazyrecon")[](https://github.com/nahamsec/lazyrecon)
 
 **Interesting blog posts**
 
-[**\[BugBounty\] Decoding a $😱,000.00 htpasswd bounty**  
-_A Private Bug Bounty Program had a globally readable .htpasswd file. I cracked the DES hash, got access to development…_blog.it-securityguard.com](https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/ "https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/")[](https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/)
+[**\[BugBounty\] Decoding a $😱,000.00 htpasswd bounty** ](https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/ "https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/")[](https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/)
 
-[**Scanning the Alexa Top 1M for .DS\_Store files**  
-_Some readers may remember our Analysis of .git folders in the Alexa Top 1M. WIth our tools, we were able to discover and…_en.internetwache.org](https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/ "https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/")[](https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/)
+[**Scanning the Alexa Top 1M for .DS\_Store files** ](https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/ "https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/")[](https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/)
 
 ### 3\. Visual Recon
 
@@ -159,22 +150,19 @@ I generally use the following two tools.
 
 *   [**WebScreenshot**](https://github.com/maaaaz/webscreenshot)
 
-[**maaaaz/webscreenshot**  
-_webscreenshot — A simple script to screenshot a list of websites_github.com](https://github.com/maaaaz/webscreenshot "https://github.com/maaaaz/webscreenshot")[](https://github.com/maaaaz/webscreenshot)
+[**maaaaz/webscreenshot** ](https://github.com/maaaaz/webscreenshot "https://github.com/maaaaz/webscreenshot")[](https://github.com/maaaaz/webscreenshot)
 
 ![](https://cdn-images-1.medium.com/max/800/1*k_HXhIWo8TvbADiM_Skw-g.png)
 
 *   [**Lazyshot**](https://github.com/mdhama/lazyshot)
 
-[**mdhama/lazyshot**  
-_lazyshot — The simplest way to take an automated screenshot of given URLs. Easy installation! Edit_github.com](https://github.com/mdhama/lazyshot "https://github.com/mdhama/lazyshot")[](https://github.com/mdhama/lazyshot)
+[**mdhama/lazyshot** ](https://github.com/mdhama/lazyshot "https://github.com/mdhama/lazyshot")[](https://github.com/mdhama/lazyshot)
 
 ![](https://cdn-images-1.medium.com/max/800/1*XnDnEykchL_PlM0Lt4146g.png)
 
 **Interesting blog posts**
 
-[**\[Tools\] Visual Recon — A beginners guide**  
-_During the process of RECON you often get thousands of domains you have to look at. A suitable way to decrease the time…_blog.it-securityguard.com](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/ "https://blog.it-securityguard.com/visual-recon-a-beginners-guide/")[](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
+[**\[Tools\] Visual Recon — A beginners guide** ](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/ "https://blog.it-securityguard.com/visual-recon-a-beginners-guide/")[](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
 
 ### 4\. More Assets — More findings — More win.
 
@@ -182,23 +170,19 @@ I go for this section after reporting 2–3 issues in a particular program and w
 
 *   **Censys**
 
-[**Censys**  
-_Censys is a platform that helps information security practitioners discover, monitor, and analyze devices that are…_censys.io](https://censys.io/ "https://censys.io/")[](https://censys.io/)
+[**Censys** ](https://censys.io/ "https://censys.io/")[](https://censys.io/)
 
 **Tool for Censys:**
 
-[**yamakira/censys-enumeration**  
-_censys-enumeration — A script to extract subdomains/emails for a given domain using SSL/TLS certificate dataset on…_github.com](https://github.com/yamakira/censys-enumeration "https://github.com/yamakira/censys-enumeration")[](https://github.com/yamakira/censys-enumeration)
+[**yamakira/censys-enumeration** ](https://github.com/yamakira/censys-enumeration "https://github.com/yamakira/censys-enumeration")[](https://github.com/yamakira/censys-enumeration)
 
 *   **Shodan**
 
-[**Shodan**  
-_Shodan has servers located around the world that crawl the Internet 24/7 to provide the latest Internet intelligence…_www.shodan.io](https://www.shodan.io/ "https://www.shodan.io/")[](https://www.shodan.io/)
+[**Shodan** ](https://www.shodan.io/ "https://www.shodan.io/")[](https://www.shodan.io/)
 
 *   **ViewDNS** — Reverse Whois Lookup.
 
-[**ViewDNS.info — Your one source for DNS related tools!**  
-_Reverse IP Lookup Find all sites hosted on a given server._viewdns.info](http://viewdns.info/ "http://viewdns.info/")[](http://viewdns.info/)
+[**ViewDNS.info — Your one source for DNS related tools!**  ](http://viewdns.info/ "http://viewdns.info/")[](http://viewdns.info/)
 
 Get the whois information of target using whois command or use an online tool.
 
@@ -218,19 +202,16 @@ IP range for hackerone.com
 
 *   **AltDNS**
 
-[**infosec-au/altdns**  
-_altdns — Generates permutations, alterations and mutations of subdomains and then resolves them_github.com](https://github.com/infosec-au/altdns "https://github.com/infosec-au/altdns")[](https://github.com/infosec-au/altdns)
+[**infosec-au/altdns** ](https://github.com/infosec-au/altdns "https://github.com/infosec-au/altdns")[](https://github.com/infosec-au/altdns)
 
 *   **Nmap Subdomain finding.**
 *   **Content-Security-Policy (CSP)**
 
 Tools
 
-[**yamakira/domains-from-csp**  
-_domains-from-csp — A script to extract domain names from Content Security Policy(CSP) headers_github.com](https://github.com/yamakira/domains-from-csp "https://github.com/yamakira/domains-from-csp")[](https://github.com/yamakira/domains-from-csp)
+[**yamakira/domains-from-csp**  ](https://github.com/yamakira/domains-from-csp "https://github.com/yamakira/domains-from-csp")[](https://github.com/yamakira/domains-from-csp)
 
-[**Analyse your HTTP response headers**  
-_Quickly and easily assess the security of your HTTP response headers_securityheaders.com](https://securityheaders.com/ "https://securityheaders.com/")[](https://securityheaders.com/)
+[**Analyse your HTTP response headers** ](https://securityheaders.com/ "https://securityheaders.com/")[](https://securityheaders.com/)
 
 *   **More targets with Burp Suite** by  [**Jason Haddix**](https://medium.com/u/1dfc5adea2d4)
 
@@ -238,8 +219,7 @@ _Quickly and easily assess the security of your HTTP response headers_securityhe
 
 *   **Domain Analyzer**
 
-[**eldraco/domain\_analyzer**  
-_domain\_analyzer — Analyze the security of any domain by finding all the information possible. Made in python._github.com](https://github.com/eldraco/domain_analyzer "https://github.com/eldraco/domain_analyzer")[](https://github.com/eldraco/domain_analyzer)
+[**eldraco/domain\_analyzer** ](https://github.com/eldraco/domain_analyzer "https://github.com/eldraco/domain_analyzer")[](https://github.com/eldraco/domain_analyzer)
 
 *   **Domain Profiler**
 
@@ -248,24 +228,20 @@ _domain-profiler — Given a domain, will tell you the decisions that the do
 
 *   **VHost Scan**
 
-[**codingo/VHostScan**  
-_VHostScan — A virtual host scanner that performs reverse lookups, can be used with pivot tools, detect catch-all…_github.com](https://github.com/codingo/VHostScan "https://github.com/codingo/VHostScan")[](https://github.com/codingo/VHostScan)
+[**codingo/VHostScan** ](https://github.com/codingo/VHostScan "https://github.com/codingo/VHostScan")[](https://github.com/codingo/VHostScan)
 
 *   **ThreatCrowd**
 
-[**Threat Crowd | Threatcrowd.org Open Source Threat Intelligence**  
-_© Copyright 2017 AlienVault, Inc. | AlienVault Products | AlienVault Solutions | Open Threat Exchange | Security…_www.threatcrowd.org](https://www.threatcrowd.org/ "https://www.threatcrowd.org/")[](https://www.threatcrowd.org/)
+[**Threat Crowd | Threatcrowd.org Open Source Threat Intelligence** ](https://www.threatcrowd.org/ "https://www.threatcrowd.org/")[](https://www.threatcrowd.org/)
 
 *   **Visual Site Mapper**
 
-[**Visual Site Mapper — Create a visual map of your site**  
-_Visual Site Mapper is a free service that can quickly show an interactive visual map of your site._www.visualsitemapper.com](http://www.visualsitemapper.com/ "http://www.visualsitemapper.com/")[](http://www.visualsitemapper.com/)
+[**Visual Site Mapper — Create a visual map of your site** ](http://www.visualsitemapper.com/ "http://www.visualsitemapper.com/")[](http://www.visualsitemapper.com/)
 
 *   **Certificate Transparency**
 *   **Google Transparency Report**
 
-[**Google Transparency Report**  
-_Edit description_transparencyreport.google.com](https://transparencyreport.google.com/https/certificates "https://transparencyreport.google.com/https/certificates")[](https://transparencyreport.google.com/https/certificates)
+[**Google Transparency Report** ](https://transparencyreport.google.com/https/certificates "https://transparencyreport.google.com/https/certificates")[](https://transparencyreport.google.com/https/certificates)
 
 *   **Certsspotter**
 
@@ -273,8 +249,7 @@ _Edit description_transparencyreport.google.com](https://transparencyreport.goog
 
 *   **CertDB**
 
-[**CertDB — SSL certificates search engine**  
-_CertDB is a search engine for SSL certificates. It allows for exploration and analysis of data about organizations…_certdb.com](https://certdb.com/ "https://certdb.com/")[](https://certdb.com/)
+[**CertDB — SSL certificates search engine** ](https://certdb.com/ "https://certdb.com/")[](https://certdb.com/)
 
 *   **Crt.sh** —
 
@@ -282,8 +257,7 @@ _CertDB is a search engine for SSL certificates. It allows for exploration and a
 
 *   **Facebook Certificate Transparency Monitoring Subscriptions.**
 
-[**Certificate Transparency Monitoring — Facebook for Developers**  
-_Edit description_developers.facebook.com](https://developers.facebook.com/tools/ct "https://developers.facebook.com/tools/ct")[](https://developers.facebook.com/tools/ct)
+[**Certificate Transparency Monitoring — Facebook for Developers** ](https://developers.facebook.com/tools/ct "https://developers.facebook.com/tools/ct")[](https://developers.facebook.com/tools/ct)
 
 ![Facebook Crt transparency monitoring subscriptions.](https://cdn-images-1.medium.com/max/800/1*KogNCTgMlSQmARkFplHBwA.png)
 Facebook Crt transparency monitoring subscriptions.![Typical notification from Facebook when new asset on the same crt is available.](https://cdn-images-1.medium.com/max/800/1*dcLY8QxDdE88CoUlF1tHSg.png)
@@ -291,20 +265,15 @@ Typical notification from Facebook when new asset on the same crt is available.
 
 **Interesting blog posts & tools taken from**
 
-[**Asset Discovery: Doing Reconnaissance the Hard Way**  
-_Last week, I wrote about Project Sonar as a great source for reconnaissance tasks. In this post, I want to generalize…_0xpatrik.com](https://0xpatrik.com/asset-discovery/ "https://0xpatrik.com/asset-discovery/")[](https://0xpatrik.com/asset-discovery/)
+[**Asset Discovery: Doing Reconnaissance the Hard Way**  ](https://0xpatrik.com/asset-discovery/ "https://0xpatrik.com/asset-discovery/")[](https://0xpatrik.com/asset-discovery/)
 
-[**Subdomain Takeover: Thoughts on Risks**  
-_Last year, I wrote about subdomain takeover. Although the concept is now generally understood, I noticed that people…_0xpatrik.com](https://0xpatrik.com/subdomain-takeover/ "https://0xpatrik.com/subdomain-takeover/")[](https://0xpatrik.com/subdomain-takeover/)
+[**Subdomain Takeover: Thoughts on Risks**  ](https://0xpatrik.com/subdomain-takeover/ "https://0xpatrik.com/subdomain-takeover/")[](https://0xpatrik.com/subdomain-takeover/)
 
-[**Subdomain Takeover: Proof Creation for Bug Bounties**  
-_The post about subdomain takeover from last week received great feedback. I decided to follow-up and explain the…_0xpatrik.com](https://0xpatrik.com/takeover-proofs/ "https://0xpatrik.com/takeover-proofs/")[](https://0xpatrik.com/takeover-proofs/)
+[**Subdomain Takeover: Proof Creation for Bug Bounties** ](https://0xpatrik.com/takeover-proofs/ "https://0xpatrik.com/takeover-proofs/")[](https://0xpatrik.com/takeover-proofs/)
 
-[**Project Sonar: An Underrated Source of Internet-wide Data**  
-_The Internet-Wide Scans Data Repository (scans.io) was created alongside Censys. The purpose of this repository is to…_0xpatrik.com](https://0xpatrik.com/project-sonar-guide/ "https://0xpatrik.com/project-sonar-guide/")[](https://0xpatrik.com/project-sonar-guide/)
+[**Project Sonar: An Underrated Source of Internet-wide Data**  ](https://0xpatrik.com/project-sonar-guide/ "https://0xpatrik.com/project-sonar-guide/")[](https://0xpatrik.com/project-sonar-guide/)
 
-[**EdOverflow/can-i-take-over-xyz**  
-_can-i-take-over-xyz — “Can I take over XYZ?” — a list of services and how to claim (sub)domains with dangling DNS…_github.com](https://github.com/EdOverflow/can-i-take-over-xyz "https://github.com/EdOverflow/can-i-take-over-xyz")[](https://github.com/EdOverflow/can-i-take-over-xyz)
+[**EdOverflow/can-i-take-over-xyz**  ](https://github.com/EdOverflow/can-i-take-over-xyz "https://github.com/EdOverflow/can-i-take-over-xyz")[](https://github.com/EdOverflow/can-i-take-over-xyz)
 
 ### 5\. Data Storage Buckets.
 
@@ -324,18 +293,15 @@ If you find the bucket like **upload-user-content-target-prod **— try to c
 
 *   [**AWS CLI**](https://aws.amazon.com/cli/) — AWS CLI is useful for verifying or testing the permissions of the AWS S3 buckets, Creating Buckets and Read other buckets data. AWS Account needed to use CLI.
 
-[**AWS Command Line Interface**  
-_The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and…_aws.amazon.com](https://aws.amazon.com/cli/ "https://aws.amazon.com/cli/")[](https://aws.amazon.com/cli/)
+[**AWS Command Line Interface** ](https://aws.amazon.com/cli/ "https://aws.amazon.com/cli/")[](https://aws.amazon.com/cli/)
 
 *   **Bucket Finder — **Great Tool for finding buckets using subdomains wordlist, can be integrated into recon.rb script but I don’t always use it.
 
-[**Bucket Finder — DigiNinja**  
-_An app to brute force Amazon S3 bucket names then search them for publicly available files. Even gives the option to…_digi.ninja](https://digi.ninja/projects/bucket_finder.php "https://digi.ninja/projects/bucket_finder.php")[](https://digi.ninja/projects/bucket_finder.php)
+[**Bucket Finder — DigiNinja** ](https://digi.ninja/projects/bucket_finder.php "https://digi.ninja/projects/bucket_finder.php")[](https://digi.ninja/projects/bucket_finder.php)
 
 *   **LazyS3** — LazyS3 is an another tool which I use almost frequently to find the staging, sandboxed, dev and production buckets.
 
-[**nahamsec/lazys3**  
-_Contribute to lazys3 development by creating an account on GitHub._github.com](https://github.com/nahamsec/lazys3 "https://github.com/nahamsec/lazys3")[](https://github.com/nahamsec/lazys3)
+[**nahamsec/lazys3**  ](https://github.com/nahamsec/lazys3 "https://github.com/nahamsec/lazys3")[](https://github.com/nahamsec/lazys3)
 
 *   **Slurp**: Slurp great tool for AWS Buckets Recon. (Deleted After Microsoft Purchased Github I guess). Weird!
 
@@ -343,13 +309,11 @@ _Contribute to lazys3 development by creating an account on GitHub._github.com](
 
 *   **S3 Bucket Finder** — Another good tool for AWS S3 buckets.
 
-[**gwen001/s3-buckets-finder**  
-_s3-buckets-finder — Find aws s3 buckets and extract datas._github.com](https://github.com/gwen001/s3-buckets-finder "https://github.com/gwen001/s3-buckets-finder")[](https://github.com/gwen001/s3-buckets-finder)
+[**gwen001/s3-buckets-finder**  ](https://github.com/gwen001/s3-buckets-finder "https://github.com/gwen001/s3-buckets-finder")[](https://github.com/gwen001/s3-buckets-finder)
 
 **Interesting blog post**
 
-[**A deep dive into AWS S3 access controls — taking full control over your assets**  
-_TL;DR: Setting up access control of AWS S3 consists of multiple levels each with its own unique risk of…_labs.detectify.com](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/ "https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/")[](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/)
+[**A deep dive into AWS S3 access controls — taking full control over your assets** ](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/ "https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/")[](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/)
 
 ### 6\. Github For Recon.
 
@@ -357,8 +321,7 @@ Github is extremely helpful in finding Sensitive information regarding the targe
 
 **Interesting blog post**
 
-[**GitHub for Bug Bounty Hunters**  
-_My tips for finding security issues in GitHub projects._edoverflow.com](https://edoverflow.com//2017/github-for-bugbountyhunters "https://edoverflow.com//2017/github-for-bugbountyhunters")[](https://edoverflow.com//2017/github-for-bugbountyhunters)
+[**GitHub for Bug Bounty Hunters**  ](https://edoverflow.com//2017/github-for-bugbountyhunters "https://edoverflow.com//2017/github-for-bugbountyhunters")[](https://edoverflow.com//2017/github-for-bugbountyhunters)
 
 ### 7\. Read every JS.
 
@@ -377,25 +340,21 @@ The more Javascript files you read, the more chances will be of win.
 
 I generally like to read the javascript code manually with the help of JSBeautifier.
 
-[**Online JavaScript beautifier**  
-_Chrome, in case the built-in CSS and javascript formatting isn’t enough for you: — Quick source viewer by Tomi…_jsbeautifier.org](http://jsbeautifier.org/ "http://jsbeautifier.org/")[](http://jsbeautifier.org/)
+[**Online JavaScript beautifier**  ](http://jsbeautifier.org/ "http://jsbeautifier.org/")[](http://jsbeautifier.org/)
 
 The following tools are useful:
 
 **LinkFinder**
 
-[**GerbenJavado/LinkFinder**  
-_LinkFinder — A python script that finds endpoints in JavaScript files_github.com](https://github.com/GerbenJavado/LinkFinder "https://github.com/GerbenJavado/LinkFinder")[](https://github.com/GerbenJavado/LinkFinder)
+[**GerbenJavado/LinkFinder**  ](https://github.com/GerbenJavado/LinkFinder "https://github.com/GerbenJavado/LinkFinder")[](https://github.com/GerbenJavado/LinkFinder)
 
 **JSParser** — Another great tool by [Behrouz Sadeghipour](https://medium.com/u/9a72584d6865)
 
-[**nahamsec/JSParser**  
-_Contribute to JSParser development by creating an account on GitHub._github.com](https://github.com/nahamsec/JSParser "https://github.com/nahamsec/JSParser")[](https://github.com/nahamsec/JSParser)
+[**nahamsec/JSParser**  ](https://github.com/nahamsec/JSParser "https://github.com/nahamsec/JSParser")[](https://github.com/nahamsec/JSParser)
 
 **Interesting blog post**
 
-[**Bug Bounty — Tips / Tricks / JS (JavaScript Files)**  
-_It all started in month of August when I reached out to Gerben Javado regarding a question, yes it was a basic question…_medium.com](https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d "https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d")[](https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d)
+[**Bug Bounty — Tips / Tricks / JS (JavaScript Files)**  ](https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d "https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d")[](https://medium.com/bugbountywriteup/bug-bounty-tips-tricks-js-javascript-files-bdde412ea49d)
 
 ### 8\. [Archive](http://archive.org/web/)
 
@@ -436,5 +395,4 @@ Until next time!
 
 **If you like my blog posts and my work, Please consider checking out my “Buy me a coffee” page**
 
-[**Buy Me A Coffee - Best Way for Creators to Receive Tips**  
-_Buy Me A Coffee help creators receive support from their audience in a friendly manner. Quickly accept donations and…_www.buymeacoffee.com](https://www.buymeacoffee.com/ehsahil "https://www.buymeacoffee.com/ehsahil")[](https://www.buymeacoffee.com/ehsahil)
+[**Buy Me A Coffee - Best Way for Creators to Receive Tips** ](https://www.buymeacoffee.com/ehsahil "https://www.buymeacoffee.com/ehsahil")[](https://www.buymeacoffee.com/ehsahil)
