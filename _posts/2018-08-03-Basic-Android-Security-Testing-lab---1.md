@@ -3,8 +3,9 @@ layout: post
 title: Basic Android Security Testing lab — 1
 ---
 
-Hi Everyone,
 
+
+Hi Everyone,
 Actually, I was creating a new Android application testing lab for myself and thought to document the whole process. There is nothing extraordinary in this post just a simple lab setup up guide.
 
 **Why using Genymotion, not a physical device?**
