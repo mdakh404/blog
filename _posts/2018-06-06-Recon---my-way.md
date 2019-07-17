@@ -7,7 +7,7 @@ A detailed blog post on my reconnaissance processes for web applications securit
 
 #### UPDATE: I created a GitHub repository with tools from this post and personal installation guide.
 
-[**ehsahil/recon-my-way**  ](https://github.com/ehsahil/recon-my-way "https://github.com/ehsahil/recon-my-way")[](https://github.com/ehsahil/recon-my-way)
+* [**ehsahil/recon-my-way**  ](https://github.com/ehsahil/recon-my-way "https://github.com/ehsahil/recon-my-way")[](https://github.com/ehsahil/recon-my-way)
 
 
 Recently, some new members of the InfoSec community asked me to share my recon process. Hence, I decided to begin writing this blog and tried to include such tools and services which helps me a lot while testing and will help the readers too, for sure.
@@ -46,7 +46,7 @@ I use a customized tool for subdomain reconnaissance.
 
 I used a resolver tool by [Malvinsh](https://github.com/melvinsh/subresolve) and customized it.
 
-[**melvinsh/subresolve**  ](https://github.com/melvinsh/subresolve "https://github.com/melvinsh/subresolve")[](https://github.com/melvinsh/subresolve)
+* [**melvinsh/subresolve**  ](https://github.com/melvinsh/subresolve "https://github.com/melvinsh/subresolve")[](https://github.com/melvinsh/subresolve)
 
 Malvinsh resolver tool runs as.
 
@@ -92,7 +92,6 @@ The script is using the following tools to get the subdomains data.
 > **Usage: ruby subdomain.rb domain.com**
 
 ![Subdomain.rb demo run.](https://cdn-images-1.medium.com/max/800/1*Y2PA3Sxfce0beCT4N1RQjw.gif)
-Subdomain.rb demo run.
 
 I, usually, create a file and add all subdomains from the above outputs. Then, I use the **sort** command to delete all duplicate/overlapped subdomains from the file.
 
@@ -119,7 +118,6 @@ Recon.rb is another lightweight script and it is also flexible hence, more tools
 > **Usage: ruby recon.rb wordlist**
 
 ![Recon.rb demo run.](https://cdn-images-1.medium.com/max/800/1*SnV-UF4dxE1-iJoU6jcnlg.gif)
-Recon.rb demo run.
 
 A tool with Above functionality in the organized fashion.
 
@@ -127,9 +125,9 @@ A tool with Above functionality in the organized fashion.
 
 **Interesting blog posts**
 
-[**\[BugBounty\] Decoding a $😱,000.00 htpasswd bounty** ](https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/ "https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/")[](https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/)
+* [**\[BugBounty\] Decoding a $😱,000.00 htpasswd bounty** ](https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/ "https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/")[](https://blog.it-securityguard.com/bugbounty-decoding-a-%F0%9F%98%B1-00000-htpasswd-bounty/)
 
-[**Scanning the Alexa Top 1M for .DS\_Store files** ](https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/ "https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/")[](https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/)
+* [**Scanning the Alexa Top 1M for .DS\_Store files** ](https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/ "https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/")[](https://en.internetwache.org/scanning-the-alexa-top-1m-for-ds-store-files-12-03-2018/)
 
 ### 3\. Visual Recon
 
@@ -147,7 +145,7 @@ I generally use the following two tools.
 
 **Interesting blog posts**
 
-[**\[Tools\] Visual Recon — A beginners guide** ](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/ "https://blog.it-securityguard.com/visual-recon-a-beginners-guide/")[](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
+* [**\[Tools\] Visual Recon — A beginners guide** ](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/ "https://blog.it-securityguard.com/visual-recon-a-beginners-guide/")[](https://blog.it-securityguard.com/visual-recon-a-beginners-guide/)
 
 ### 4\. More Assets — More findings — More win.
 
@@ -200,7 +198,7 @@ you will find the host-masters email address then use that email to find other d
 *   [**IP range Crawl**](https://bgp.he.net/)
 
 ![IP range for hackerone.com](https://cdn-images-1.medium.com/max/800/1*TkfmlFDVAFbL4Mn9JFQEbg.png)
-IP range for hackerone.com
+
 
 *   [**infosec-au/altdns** ](https://github.com/infosec-au/altdns "https://github.com/infosec-au/altdns")[](https://github.com/infosec-au/altdns)
 
@@ -232,9 +230,6 @@ In case above links are not available : https://github.com/ehsahil/wordlists-for
 
 ```
 
-*   **Content-Security-Policy (CSP)**
-
-Tools
 
 * [**yamakira/domains-from-csp**  ](https://github.com/yamakira/domains-from-csp "https://github.com/yamakira/domains-from-csp")[](https://github.com/yamakira/domains-from-csp)
 
@@ -273,7 +268,8 @@ Tools
 
 
 ![Facebook Crt transparency monitoring subscriptions.](https://cdn-images-1.medium.com/max/800/1*KogNCTgMlSQmARkFplHBwA.png)
-Facebook Crt transparency monitoring subscriptions.
+
+    Facebook Crt transparency monitoring subscriptions.
 
 ![Typical notification from Facebook when new asset on the same crt is available.](https://cdn-images-1.medium.com/max/800/1*dcLY8QxDdE88CoUlF1tHSg.png)
 Typical notification from Facebook when new asset on the same crt is available.
