@@ -7,9 +7,9 @@ Hi Everyone,
 This is a continuous blog post for my — Basic security testing labs setup series.
 If you have not read those, I’ve embedded the link below.
 
-* [**Basic Penetration testing lab — 1** ](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac "https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac")[](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac)
+* [**Basic Penetration testing lab — 1** ](https://ehsahil.com/Basic-Penetration-testing-lab-1 "https://ehsahil.com/Basic-Penetration-testing-lab-1/")[](https://ehsahil.com/Basic-Penetration-testing-lab-1/)
 
-* [**Basic Android Security Testing lab — Part-1**](https://medium.com/ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533 "https://medium.com/ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533")[](https://medium.com/ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533)
+* [**Basic Android Security Testing lab — Part-1**](https://ehsahil.com/Basic-Android-Security-Testing-lab-1/ "https://ehsahil.com/Basic-Android-Security-Testing-lab-1/")[](https://ehsahil.com/Basic-Android-Security-Testing-lab-1/)
 
 I have collected the resources from many blog posts and included the updated part only. So, That I can use them whenever I am in need. Everyone else also can take reference from it.
 
