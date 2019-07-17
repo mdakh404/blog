@@ -1,10 +1,6 @@
 ---
+layout: post
 title: Basic Android Security Testing lab — 1
-description: 'Hi Everyone,'
-date: '2018-08-03T00:13:46.785Z'
-categories: []
-keywords: []
-slug: /@ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533
 ---
 
 Hi Everyone,
@@ -35,13 +31,11 @@ _We are using cookies to provide statistics that help us give you the best exper
 
 **Virtual Box**: Download virtual-box.
 
-[**Downloads - Oracle VM VirtualBox**  
-_About Screenshots Downloads Documentation End-user docs Technical docs Contribute Community_www.virtualbox.org](https://www.virtualbox.org/wiki/Downloads "https://www.virtualbox.org/wiki/Downloads")[](https://www.virtualbox.org/wiki/Downloads)
+* [**Downloads - Oracle VM VirtualBox** ](https://www.virtualbox.org/wiki/Downloads "https://www.virtualbox.org/wiki/Downloads")[](https://www.virtualbox.org/wiki/Downloads)
 
 **Burp Suite**: You can use the Free version but Pro is recommended.
 
-[**Web Application Security, Testing, & Scanning | PortSwigger**  
-_PortSwigger offers tools for web application security, testing & scanning. Choose from a wide range of security tools &…_portswigger.net](https://portswigger.net "https://portswigger.net")[](https://portswigger.net)
+* [**Web Application Security, Testing, & Scanning | PortSwigger** ](https://portswigger.net "https://portswigger.net")[](https://portswigger.net)
 
 **Android Platform Tools:** Installing ADB and other android tools.
 
@@ -178,8 +172,7 @@ You can use play store available in the device as well as the external services 
 
 For Downloading Application Externally, I generally use.
 
-[**APK Downloader \[Latest\] Download Directly | Chrome Extension v3 (Evozi Official)**  
-_Download APKs Directly From Google Play To Your Computer With APK Downloader Extension For Google Chrome_apps.evozi.com](https://apps.evozi.com/apk-downloader/ "https://apps.evozi.com/apk-downloader/")[](https://apps.evozi.com/apk-downloader/)
+[**APK Downloader \[Latest\] Download Directly | Chrome Extension v3 (Evozi Official)** ](https://apps.evozi.com/apk-downloader/ "https://apps.evozi.com/apk-downloader/")[](https://apps.evozi.com/apk-downloader/)
 
 Add your testing Google account in Google Play Store to download apps.
 
@@ -273,24 +266,16 @@ PS: This method/tool doesn’t work on all the android applications**\***
 
 **Interesting resources to follow.**
 
-[**Mobile Security Wiki**  
-_AppMon - AppMon is a runtime security testing & profiling framework for macOS, iOS and android apps. It is useful for…_mobilesecuritywiki.com](https://mobilesecuritywiki.com/ "https://mobilesecuritywiki.com/")[](https://mobilesecuritywiki.com/)
+* [**Mobile Security Wiki** ](https://mobilesecuritywiki.com/ "https://mobilesecuritywiki.com/")[](https://mobilesecuritywiki.com/)
 
-[**The Stony Path of Android 🤖 Bug Bounty - Bypassing Certificate Pinning**  
-_Dear readers, Long story short, doing bug bounties for mobile devices is hard. With this article I want to show you a…_blog.it-securityguard.com](https://blog.it-securityguard.com/the-stony-path-of-android-%F0%9F%A4%96-bug-bounty-bypassing-certificate-pinning/ "https://blog.it-securityguard.com/the-stony-path-of-android-%F0%9F%A4%96-bug-bounty-bypassing-certificate-pinning/")[](https://blog.it-securityguard.com/the-stony-path-of-android-%F0%9F%A4%96-bug-bounty-bypassing-certificate-pinning/)
+* [**The Stony Path of Android 🤖 Bug Bounty - Bypassing Certificate Pinning** ](https://blog.it-securityguard.com/the-stony-path-of-android-%F0%9F%A4%96-bug-bounty-bypassing-certificate-pinning/ "https://blog.it-securityguard.com/the-stony-path-of-android-%F0%9F%A4%96-bug-bounty-bypassing-certificate-pinning/")[](https://blog.it-securityguard.com/the-stony-path-of-android-%F0%9F%A4%96-bug-bounty-bypassing-certificate-pinning/)
 
-[**Bypassing SSL Pinning in Android Applications**  
-_It is a common practice for Android and iOS applications' developers to implement SSL Pinning in order to make reverse…_serializethoughts.com](https://serializethoughts.com/2016/08/18/bypassing-ssl-pinning-in-android-applications/ "https://serializethoughts.com/2016/08/18/bypassing-ssl-pinning-in-android-applications/")[](https://serializethoughts.com/2016/08/18/bypassing-ssl-pinning-in-android-applications/)
+* [**Bypassing SSL Pinning in Android Applications** ](https://serializethoughts.com/2016/08/18/bypassing-ssl-pinning-in-android-applications/ "https://serializethoughts.com/2016/08/18/bypassing-ssl-pinning-in-android-applications/")[](https://serializethoughts.com/2016/08/18/bypassing-ssl-pinning-in-android-applications/)
 
-[**Four Ways to Bypass Android SSL Verification and Certificate Pinning**  
-_As pentesters, we'd like to convince the app that our certificate is valid and trusted so we can man-in-the-middle…_blog.netspi.com](https://blog.netspi.com/four-ways-bypass-android-ssl-verification-certificate-pinning/ "https://blog.netspi.com/four-ways-bypass-android-ssl-verification-certificate-pinning/")[](https://blog.netspi.com/four-ways-bypass-android-ssl-verification-certificate-pinning/)
+* [**Four Ways to Bypass Android SSL Verification and Certificate Pinning** ](https://blog.netspi.com/four-ways-bypass-android-ssl-verification-certificate-pinning/ "https://blog.netspi.com/four-ways-bypass-android-ssl-verification-certificate-pinning/")[](https://blog.netspi.com/four-ways-bypass-android-ssl-verification-certificate-pinning/)
 
-[**Using Frida on Android without root · John Kozyrakis ~ blog**  
-_Frida is a great toolkit by @oleavr, used to build tools for dynamic instrumentation of apps in userspace. It is often…_koz.io](https://koz.io/using-frida-on-android-without-root/ "https://koz.io/using-frida-on-android-without-root/")[](https://koz.io/using-frida-on-android-without-root/)
+* [**Using Frida on Android without root · John Kozyrakis ~ blog** ](https://koz.io/using-frida-on-android-without-root/ "https://koz.io/using-frida-on-android-without-root/")[](https://koz.io/using-frida-on-android-without-root/)
 
 **If you like my blog posts and my work, Please consider checking out my “Buy me a coffee” page**
-
-[**Buy Me A Coffee - Best Way for Creators to Receive Tips**  
-_Buy Me A Coffee help creators receive support from their audience in a friendly manner. Quickly accept donations and…_www.buymeacoffee.com](https://www.buymeacoffee.com/ehsahil "https://www.buymeacoffee.com/ehsahil")[](https://www.buymeacoffee.com/ehsahil)
 
 #### Part-2 — I will include most of the available certificate pinning bypasses. Until next time.
