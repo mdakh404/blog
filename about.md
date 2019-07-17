@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm an information technology and security enthusiast, with more than five years of practical experience in the information security industry. I've been into research and security auditing for more than a hundred different websites and applications including almost every top internet giant.
+I'm an information technology and security enthusiast, with more than five years of practical experience in the information security industry. 
 
 ### More Information
 
