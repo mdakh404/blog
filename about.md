@@ -8,12 +8,12 @@ I'm an information technology and security enthusiast, with more than five years
 
 ### More Information
 
-I am currently working as Security Engineer II at Zomato 
-Bug bounty Hunter at HackerOne, Bugcrowd, Intigriti, Hackenproof and others 
-Previously Nykaa and Securityescape
+I am currently working as Security Engineer II at **Zomato**,  <br />
+Bug bounty Hunter at **HackerOne**, **Bugcrowd**, **Intigriti**, **Hackenproof** and others,  </br>
+Previously **Nykaa** and **Securityescape** </br>
 
 More info: https://in.linkedin.com/in/ehsahil
 
 ### Contact me
 
-[bewithsahil002@gmail.com](mailto:bewithsahil002@gmail.com)
+[Email](mailto:bewithsahil002@gmail.com)
