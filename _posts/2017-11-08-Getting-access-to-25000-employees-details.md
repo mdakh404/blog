@@ -4,7 +4,7 @@ title: Getting access to 25000 employees details
 
 ---
 
-Hi guys,
+Hey,
 
 I want to share one of my findings in a private program on HackerOne, which was — critical but straightforward one. During testing for that private program. I found an endpoint for Internal team management.
 
@@ -72,33 +72,5 @@ Report closed as Resolved: **25–10–2017**
 
 Final **1200$** Awarded: **26–10–2017**
 
-### Update
 
-As many people messaging me and asking how I found this Asset/Internal team management endpoint. I am providing info about it here,
-
-I found this endpoint using Github issues conversations.
-
-### My recon process.
-
-**Tools**
-
-Sublister,knockpy,dnsresolver,dirsearch,bucket finder,massdns etc.
-
-After reporting some low hanging issues, I go out and follow engineering/Security teams on Twitter and Github & look for anything interesting
-
-I go through all the issues/Repositories companies engineering team created publicly on Github.
-
-I read all blog posts by engineering and security team.
-
-I check their DNS every month. Generally, companies stopped using a service and forgot to delete CNAMES pointing to service.
-
-I use their services as the user and continue my recon processes,
-
-I also use **Burp Suite pro history tool** to find exciting endpoints.
-
-According to me, Recon is not a one time process it’s a continuous process.
-
-**If you like my blog posts and my work, Please consider checking out my “Buy me a coffee” page**
-
-[**Buy Me A Coffee - Best Way for Creators to Receive Tips**  
-_Buy Me A Coffee help creators receive support from their audience in a friendly manner. Quickly accept donations and…_www.buymeacoffee.com](https://www.buymeacoffee.com/ZTExwKcRW "https://www.buymeacoffee.com/ZTExwKcRW")[](https://www.buymeacoffee.com/ZTExwKcRW)
+[**Buy Me A Coffee - Best Way for Creators to Receive Tips**](https://www.buymeacoffee.com/ZTExwKcRW "https://www.buymeacoffee.com/ZTExwKcRW")[](https://www.buymeacoffee.com/ZTExwKcRW)
