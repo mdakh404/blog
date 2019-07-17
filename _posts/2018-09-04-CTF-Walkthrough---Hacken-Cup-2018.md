@@ -1,18 +1,13 @@
 ---
+layout: post
 title: CTF Walkthrough — Hacken Cup 2018
-description: >-
-  Update-2 (07-Sept-2018): I just got the confirmation email from HackenProof
-  that, my application is accepted for Hacken cup 2018 ❤
-date: '2018-09-04T22:25:58.796Z'
-categories: []
-keywords: []
-slug: /@ehsahil/ctf-walkthrough-hacken-cup-2018-1b48b0fd96c
 ---
 
 **Update-2 (07-Sept-2018):** I just got the confirmation email from **HackenProof** that, my application is accepted for Hacken cup 2018 ❤
 
 ![❤ ❤ ❤](https://cdn-images-1.medium.com/max/800/1*VxXtgAmD94tWP1FL8gBqtQ.png)
-❤ ❤ ❤
+
+
 
 **Update-1**: I was planning to publish this walkthrough after the Hacken Cups results but since HackenProof already made the challenge public and I thought to publish it right away someone can use this walkthrough to solve the challenge.
 
@@ -20,8 +15,7 @@ Challenge is live for a few days I think, you can try to solve it.
 
 Here is the updated post by HackenProof about the Hacken Cup.
 
-[**A Change in Hacken Cup Application - HackenProof Blog**  
-_Hacken Ecosystem We want to communicate a slight change in the application process for . Until this moment, in order to…_blog.hackenproof.com](https://blog.hackenproof.com/events/change-in-hacken-cup-application/ "https://blog.hackenproof.com/events/change-in-hacken-cup-application/")[](https://blog.hackenproof.com/events/change-in-hacken-cup-application/)
+[**A Change in Hacken Cup Application - HackenProof Blog** ](https://blog.hackenproof.com/events/change-in-hacken-cup-application/ "https://blog.hackenproof.com/events/change-in-hacken-cup-application/")[](https://blog.hackenproof.com/events/change-in-hacken-cup-application/)
 
 **Last year’s story**
 
@@ -46,7 +40,7 @@ On **7-August-2018**, I got the following email from [HackenProof](https://hacke
 
 ![](https://cdn-images-1.medium.com/max/800/1*KF3vcno72xVzBijrCymonQ.png)
 ![Screenshot of invitation email from HackenProof.](https://cdn-images-1.medium.com/max/800/1*FJFmMGUhwqjLlGzo2Xsg4w.png)
-Screenshot of invitation email from HackenProof.
+
 
 I received the email on my mobile, I clicked on **Apply** but the button didn’t work, I quickly logged into my Gmail via mac and clicked on **Apply** again. Still not working.
 
@@ -72,7 +66,7 @@ Got an external IP address. :
 opened it in Google Chrome, the following page appeared
 
 ![You shall????](https://cdn-images-1.medium.com/max/800/1*VYl16aYf6gQazVCSJXtgaw.png)
-You shall????
+
 
 You shall what?
 
@@ -87,7 +81,11 @@ and also, a sweet message
 **It would be too easy :)**
 
 ![It really was too easy.](https://cdn-images-1.medium.com/max/800/1*aMbm6USXOvWuo0_NYQ1EZQ.png)
-It really was too easy.![You shall not hack???](https://cdn-images-1.medium.com/max/800/1*aAIqA8k9s-X3LiQw5WfdRw.png)
+
+It really was too easy.
+
+![You shall not hack???](https://cdn-images-1.medium.com/max/800/1*aAIqA8k9s-X3LiQw5WfdRw.png)
+
 You shall not hack???
 
 You shall not \*\*\*\*? You shall not hack?
@@ -107,6 +105,8 @@ I started my recon process for the endpoint.
 nmap -sV 159.65.204.68
 
 ![Lots of ports are open](https://cdn-images-1.medium.com/max/800/1*ds_gA3Mx5-5Xf5AlNu18GA.png)
+
+
 Lots of ports are open
 
 Got many open ports and I left them to see later and I tried to see if I can find something interesting via dirsearch.
@@ -139,7 +139,9 @@ I found objects folder interesting and decided to look into all of them.
 
 It’s time to find the object Ids. For that, I used **find** command
 
+```
 find -type f
+```
 
 I got the following result with all the object-ids.
 
@@ -151,11 +153,14 @@ I have to remove all the dots(.) and forward slashes from the above result using
 sed -e 's/\.//g'
 ```
 
+
 Saved all object id in an objectids.txt file.
 
 Now, I got all the Object IDs, its time to cat every file to see the contents.
 
+```
 git cat-file -p <object\_id>
+```
 
 But manually viewing the contents of the all the objects was time-consuming.
 
@@ -163,6 +168,7 @@ that’s why I tried to automate the process, I created a small ruby script to f
 
 Here is the sweet and small ruby script. — git.rb
 
+```
 require 'socket'  
 require 'colorize'
 
@@ -175,9 +181,12 @@ end
 file.each\_line do |objects|  
 puts    
 puts "Content of ObjectID --> #{objects}"   
-puts "+--------------------------------------------------------+"                          system("git cat-file -p #{objects}")   
+puts "+--------------------------------------------------------+"                          
+system("git cat-file -p #{objects}")   
 puts "Moving to next ObjectID"   
-puts  puts "+--------------------------------------------------+"  end
+puts  puts "+--------------------------------------------------+"
+end
+```
 
 After running the ruby script, I found the index.php source code in **37** Object Folder.
 
@@ -188,8 +197,10 @@ My credentials are my credentials none of your credentials !!!Pheww!!!
 
 Credentials for admin panel.
 
+```
 $username = ‘[admin@cup.hackenproof.com](mailto:admin@cup.hackenproof.com)’;  
 $password = ‘Qd79E0FL&R’;
+```
 
 Then, I quickly browse to [http://159.65.204.68/admin](http://159.65.204.68/admin) to see the credentials whether the credentials will work or not.
 
@@ -207,6 +218,8 @@ http://159.65.204.68/admin/index.php
 ![Admin File uploading endpoint.](https://cdn-images-1.medium.com/max/800/1*jvAkm0ly38FDs0NuVMdP7A.png)
 Admin File uploading endpoint.ALRIGHT!
 ![Index.php Source Code](https://cdn-images-1.medium.com/max/800/1*14reeCnGumQG9t2Lu3-cUQ.png)
+
+
 Index.php Source Code
 
 Reviewing the index.php file from the objects folder.
@@ -227,10 +240,14 @@ One of them is by using **php5** as  an  extension instead of **php** to bypass 
 
 ![](https://cdn-images-1.medium.com/max/600/1*w_nbJktLF28NszsjVWJvfg.png)
 ![file with .php extension is not uploading as expected.](https://cdn-images-1.medium.com/max/600/1*YOQT7dzVzcWH7dv4CIPK5A.png)
+
+
 file with .php extension is not uploading as expected.
 
 ![](https://cdn-images-1.medium.com/max/600/1*BX378IxAp7ezUWflg47hKg.png)
 ![Uploaded php file with .php5 extension and file was successfully uploaded.](https://cdn-images-1.medium.com/max/600/1*FLPU1_ETOfkK5WtHtSbzXQ.png)
+
+
 Uploaded php file with .php5 extension and file was successfully uploaded.
 
 Uploaded PHP file with “**1337.jpg.php5**” extension and content-type: **image/jpeg**
@@ -254,11 +271,16 @@ let’s see the content of the congrats.html
 **FINALLY**!! the Private Google docs form link to apply for HackenProof CUP 2018.
 
 ![cat congrats.html](https://cdn-images-1.medium.com/max/800/1*KpvMPcTMOe_fMXijZSVtpA.png)
+
+```
 cat congrats.html
+```
 
 Let’s Open the “congrats.html” in the browser.
 
 ![HackenProof you guys are Awesome too.](https://cdn-images-1.medium.com/max/800/1*UmGQ7gp4uBuwJO1q__h0mw.png)
+
+
 HackenProof you guys are Awesome too.
 
 AND…. Google form for Hacken Cup. 😍😍
@@ -268,10 +290,5 @@ AND…. Google form for Hacken Cup. 😍😍
 Thanks, **HackenProof and Hackit Team** for allowing me to participant in the **HackenProof** Cup 2018 Challenge.
 
 Publishing on 05-Sept-2018 at 3:55 AM Indian Standard Time (IST),
-
-**If you like my blog posts and my work, Please consider checking out my “Buy me a coffee” page**
-
-[**Buy Me A Coffee - Best Way for Creators to Receive Tips**  
-_Buy Me A Coffee help creators receive support from their audience in a friendly manner. Quickly accept donations and…_www.buymeacoffee.com](https://www.buymeacoffee.com/ehsahil "https://www.buymeacoffee.com/ehsahil")[](https://www.buymeacoffee.com/ehsahil)
 
 until next time.
