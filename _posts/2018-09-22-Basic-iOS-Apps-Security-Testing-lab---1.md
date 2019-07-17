@@ -62,7 +62,9 @@ I have used this guide to jailbreak my device.
 
 Checking your iOS version
 
-**Settings → General → About**
+```
+Settings → General → About
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*kEFz24wItGCv1-XZ-wQpPQ.png)
 
@@ -385,7 +387,9 @@ IP address of the device — 192.168.2.41
 
 3\. Connecting as mobile and getting root privileges.
 
-`**ssh** mobile@192.168.2.41`
+```
+ssh mobile@192.168.2.41
+```
 
 password=alpine // you should change it using passwd utility
 
@@ -393,7 +397,9 @@ password=alpine // you should change it using passwd utility
 
 Getting root privilege
 
-`**su**`
+```
+su
+```
 
 password = alpine (you should also change it)
 
@@ -401,7 +407,9 @@ password = alpine (you should also change it)
 
 Changing Default Password
 
-`**passwd**`
+```
+passwd
+```
 
 New password:<new-password>  
 Retype new password:<retype-new-password>
@@ -414,21 +422,30 @@ Class-dump — [https://github.com/ehsahil/Class-dump-z-backup](https://gith
 
 Note: NOT supported in iOS 11, If you guys found working one, please let me know.
 
-`**scp** -r class-dump-z.zip root@192.168.2.41:~`
-
+```
+scp -r class-dump-z.zip root@192.168.2.41:~
 password: alpine (default)
+```
 
-`**ssh** root@192.168.2.41`  
+```
+ssh root@192.168.2.41  
 password:alpine (default)
+```
 
-`**unzip** class-dump-z.zip`
+```
+unzip class-dump-z.zip
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*lpues5MS77KfkaiyKF8pFQ.png)
 
-`**cd** class-dump-z/iphone\_armv6`
+```
+cd class-dump-z/iphone\_armv6
+```
 
-`**cp** class-dump-z /usr/bin //copying class-dump-z to /usr/bin   
-class-dump-z`
+```
+cp class-dump-z /usr/bin //copying class-dump-z to /usr/bin   
+class-dump-z
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*wk_LAP-IkkCTlNnm-dBYAA.png)
 
@@ -450,28 +467,35 @@ Killall Xcode
 
 ![](https://cdn-images-1.medium.com/max/800/1*uehy1aVmwdO8LAWCwgivfA.png)
 
-`git clone [https://github.com/KJCracks/Clutch.git](https://github.com/KJCracks/Clutch.git)`  
-`cd Clutch` 
-`xcodebuild clean build`
+```
+git clone https://github.com/KJCracks/Clutch.git`  
+cd Clutch` 
+xcodebuild clean build
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*0T73vFsCXe9DMDZQa8aV_g.png)
 ![](https://cdn-images-1.medium.com/max/800/1*hHYq2GXx5FMNDU2_cIuxYw.png)
 
 run the following command under the build directory.
 
+```
 scp -r Clutch root@<Ip-address-of-ios-device>:~
   
-`scp -r Clutch root@192.168.2.41:~`
+scp -r Clutch root@192.168.2.41:~
 
-`ssh root@192.168.2.41`  
+ssh root@192.168.2.41  
 
 password:alpine
 
-`cp Clutch /usr/bin`
+cp Clutch /usr/bin
+
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*ZaYaogrXYSADJOJq2W01RA.png)
 
-`Clutch`
+```
+Clutch
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*7lc9XK7yPirbhRvt25dDBw.png)
 
@@ -485,13 +509,16 @@ Download the Debian package from the above repository.
 
 Copying the Debian file into the iOS device.
 
-`scp -r com.isecpartners.introspy-v0.5.1-iOS\_9.deb root@192.168.2.41:~`
-
+```
+scp -r com.isecpartners.introspy-v0.5.1-iOS\_9.deb root@192.168.2.41:~
 password:alpine
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*HiZHyVpoj-baI1fEnglQhA.png)
 
-`dpkg -i com.isecpartners.introspy-v0.5.1-iOS\_9.deb`
+```
+dpkg -i com.isecpartners.introspy-v0.5.1-iOS\_9.deb
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*YCG1_2uGITdeTOjJ9vA36Q.png)
 
@@ -503,11 +530,14 @@ Blackbox tool to disable SSL certificate validation — including certificat
 
 Github Repository — [https://github.com/nabla-c0d3/ssl-kill-switch2](https://github.com/nabla-c0d3/ssl-kill-switch2/releases)
 
-`**scp** -r com.nablac0d3.sslkillswitch2\_0.12.deb root@192.168.2.41:~`
+```
+scp -r com.nablac0d3.sslkillswitch2\_0.12.deb root@192.168.2.41:~
 
-`**ssh** root@192.168.2.4`1
+ssh root@192.168.2.4`1
 
-`**dpkg** -i com.nablac0d3.sslkillswitch2\_0.12.deb`
+dpkg -i com.nablac0d3.sslkillswitch2\_0.12.deb
+```
+
 
 ![](https://cdn-images-1.medium.com/max/800/1*JPpt_RbiAHMwy89gezzHXw.png)
 
@@ -515,8 +545,7 @@ Successfully installed.
 
 Let’s talk about Damn Vulnerable iOS Application (**DVIA**)
 
-[**DVIA (Damn Vulnerable iOS App) - A vulnerable iOS app for pentesting**  
-_Swift Version (April, 2018) - Download the IPA file from here Github - Here Make sure to read this for…_damnvulnerableiosapp.com](http://damnvulnerableiosapp.com/ "http://damnvulnerableiosapp.com/")[](http://damnvulnerableiosapp.com/)
+* [**DVIA (Damn Vulnerable iOS App) - A vulnerable iOS app for pentesting** ](http://damnvulnerableiosapp.com/ "http://damnvulnerableiosapp.com/")[](http://damnvulnerableiosapp.com/)
 
 Damn Vulnerable iOS App (DVIA) is an iOS application that is damn vulnerable. Its main goal is to provide a platform to mobile security enthusiasts/professionals or students to test their iOS penetration testing skills in a legal environment. Created By [Prateek Gianchandani](https://twitter.com/prateekg147) (@prateekg147).
 
@@ -538,7 +567,9 @@ We need to move this to the iOS device.
 
 /Users/sahil/Desktop
 
-`**scp** -r /Users/sahil/Desktop/DamnVulnerableIOSApp.app mobile@192.168.1.1:~`
+```
+scp -r /Users/sahil/Desktop/DamnVulnerableIOSApp.app mobile@192.168.1.1:~
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*Ix4kCkG9nhmO7I5orCyCxg.png)
 
@@ -546,37 +577,49 @@ Password : alpine (default)
 
 ![](https://cdn-images-1.medium.com/max/800/1*QIXHNg1EM5qsBspQLl9iHA.png)
 
-`**ssh** mobile@192.168.1.170`
+```
+ssh mobile@192.168.1.170
+```
 
 **Password**: alpine
 
 ![](https://cdn-images-1.medium.com/max/800/1*eWT2GFJt8OwEOVb4PiX5Gw.png)
 
-`**su**`
+```
+**su**
+```
 
 password: alpine
 
 **ls**
 
-`**mv** DamnVulnerableIOSApp.app /Applications/`
+```
+mv DamnVulnerableIOSApp.app /Applications/
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*hXmJftG7cH1AZFITbI2AIg.png)
 
-`**cd** /Applications`
+```
+cd /Applications
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*8whzLuXKy_8jXl3dbD1OXg.png)
 
-`**cd** /DamnVulnerableIOSApp.app`
+```
+cd /DamnVulnerableIOSApp.app
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*1e7r6KrfylSAIpCjPoyUwA.png)
 
 Giving root execution permission to DamnVulnerableIOSApp.
 
-`**chmod** +x DamnVulnerableIOSApp`
+```
+chmod +x DamnVulnerableIOSApp`
 
-`**exit** //changing from root to mobile`
+exit //changing from root to mobile`
 
-`**uicache**` 
+uicache
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*a2Kf5EMCxLVcwRvHICIYQw.png)
 
@@ -590,15 +633,17 @@ Github Repository: [https://github.com/prateek147/DVIA-v2](https://github.com/pr
 
 Installation of the version 2 is also same, I recommend doing it because you will be more familiar with the process.
 
-`scp -r DVIA-v2.app mobile@192.168.1.170:~`
+```
+scp -r DVIA-v2.app mobile@192.168.1.170:~
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*1RtY3w5bBSUZDnfqNtAbsw.png)
 
-`**ssh** mobile@192.168.1.170`
-
+```
+ssh mobile@192.168.1.170
 password: alpine
-
-**su**
+su
+```
 
 password: alpine
 
@@ -608,23 +653,31 @@ password: alpine
 
 moving the Damn-v2.app from root directory to /Applications.
 
-`**mv** DVIA-v2.app/ /Applications/`
+```
+mv DVIA-v2.app/ /Applications/
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*-aT74FtgvZIgrSmVmxIZLA.png)
 
-`**cd** /Applications/DVIA-v2`
+```
+cd /Applications/DVIA-v2
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*QzEgsM_j5jZIYul_3Siz2A.png)
 
 Changing the executable permissions.
 
-`**chmod** +x DVIA-v2`
+```
+chmod** +x DVIA-v2
+exit
 
-`exit`
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*0eDNxZfxfaSQrEodYkZv-Q.png)
 
-`**uicache**`
+```
+uicache
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*RkkSwR1OJfQuzzf8O9DamA.png)
 
@@ -642,24 +695,36 @@ Use the following iFile with your own risk, I don’t know it is from the truste
 
 * [**MEGA** ](https://mega.nz/#!QV1WXJzY!gIl_PimOwwdZGn1d87N2SryCEeo32DkudhKAC7-KGCc "https://mega.nz/#!QV1WXJzY!gIl_PimOwwdZGn1d87N2SryCEeo32DkudhKAC7-KGCc")[](https://mega.nz/#!QV1WXJzY!gIl_PimOwwdZGn1d87N2SryCEeo32DkudhKAC7-KGCc)
 
-`**scp** -r iFile.app mobile@192.168.170:~`
+```
+scp -r iFile.app mobile@192.168.170:~
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*UALGTOTyCF488JYR0YWZkQ.png)
 
-`**ssh** mobile@192.162.1.170`
+```
+ssh** mobile@192.162.1.170
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*-kG6wkP3IHZPra_QGdmstA.png)
 
-`**mv** iFile.app/ /Applications/`
+```
+mv** iFile.app/ /Applications/
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*knR6vHOSQkHrrEhNZjTT1A.png)
 
-`**chmod** +x iFile`
+
+```
+chmod** +x iFile
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*OHjiFFowdOIYC9yewFSd9g.png)
 
-`**exit**`  
-`**uicache**`
+```
+exit  
+uicache
+```
+
 
 ![](https://cdn-images-1.medium.com/max/800/1*C4Gi2lhdNZtjMNHQWnAE3g.png)
 ![](https://cdn-images-1.medium.com/max/800/1*96s7SLsDv8gfDwZxaM7JNQ.png)
