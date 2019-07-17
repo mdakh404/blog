@@ -9,7 +9,7 @@ This one is non-technical blog-post, here, I am sharing my time and experience d
 
 Blog post about the Hacken Cup from @[HackenProof](https://hackenproof.com/)
 
-[**Hacken Cup: How It Happened — HackenProof Blog ** ](https://blog.hackenproof.com/events/hacken-cup-how-it-happened)
+[Hacken Cup: How It Happened — HackenProof Blog](https://blog.hackenproof.com/events/hacken-cup-how-it-happened)
 
 **Disclaimer**: This one is long with lots of images and memes :v
 
