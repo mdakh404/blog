@@ -148,15 +148,11 @@ I use the previously generated wordlist from subdomian.rb for visual recon.
 
 I generally use the following two tools.
 
-*   [**WebScreenshot**](https://github.com/maaaaz/webscreenshot)
-
-[**maaaaz/webscreenshot** ](https://github.com/maaaaz/webscreenshot "https://github.com/maaaaz/webscreenshot")[](https://github.com/maaaaz/webscreenshot)
+*   [**maaaaz/webscreenshot** ](https://github.com/maaaaz/webscreenshot "https://github.com/maaaaz/webscreenshot")[](https://github.com/maaaaz/webscreenshot)
 
 ![](https://cdn-images-1.medium.com/max/800/1*k_HXhIWo8TvbADiM_Skw-g.png)
 
-*   [**Lazyshot**](https://github.com/mdhama/lazyshot)
-
-[**mdhama/lazyshot** ](https://github.com/mdhama/lazyshot "https://github.com/mdhama/lazyshot")[](https://github.com/mdhama/lazyshot)
+*   [**mdhama/lazyshot** ](https://github.com/mdhama/lazyshot "https://github.com/mdhama/lazyshot")[](https://github.com/mdhama/lazyshot)
 
 ![](https://cdn-images-1.medium.com/max/800/1*XnDnEykchL_PlM0Lt4146g.png)
 
@@ -168,7 +164,6 @@ I generally use the following two tools.
 
 I go for this section after reporting 2–3 issues in a particular program and wait for the response, if I find program interesting then I try to collect as much information as I can about the target using the following services.
 
-*   **Censys**
 
 [**Censys** ](https://censys.io/ "https://censys.io/")[](https://censys.io/)
 
@@ -176,13 +171,13 @@ I go for this section after reporting 2–3 issues in a particular program and w
 
 [**yamakira/censys-enumeration** ](https://github.com/yamakira/censys-enumeration "https://github.com/yamakira/censys-enumeration")[](https://github.com/yamakira/censys-enumeration)
 
-*   **Shodan**
+*  [**Shodan** ](https://www.shodan.io/ "https://www.shodan.io/")[](https://www.shodan.io/)
 
-[**Shodan** ](https://www.shodan.io/ "https://www.shodan.io/")[](https://www.shodan.io/)
 
-*   **ViewDNS** — Reverse Whois Lookup.
 
-[**ViewDNS.info — Your one source for DNS related tools!**  ](http://viewdns.info/ "http://viewdns.info/")[](http://viewdns.info/)
+*   [**ViewDNS.info — Your one source for DNS related tools!**  ](http://viewdns.info/ "http://viewdns.info/")[](http://viewdns.info/)
+
+
 
 Get the whois information of target using whois command or use an online tool.
 
@@ -193,16 +188,15 @@ If the company is not using Domain Privacy Service,
 you will find the host-masters email address then use that email to find other domains registered on same email address using Reverse Whois Lookup. Targets Registered legal name also can be used.
 
 ![Result for hackeone inc query](https://cdn-images-1.medium.com/max/800/1*Z5xCr_GbcYYx2cNYfzSEKA.png)
-Result for hackeone inc query
+
 
 *   [**IP range Crawl**](https://bgp.he.net/)
 
 ![IP range for hackerone.com](https://cdn-images-1.medium.com/max/800/1*TkfmlFDVAFbL4Mn9JFQEbg.png)
 IP range for hackerone.com
 
-*   **AltDNS**
+*   [**infosec-au/altdns** ](https://github.com/infosec-au/altdns "https://github.com/infosec-au/altdns")[](https://github.com/infosec-au/altdns)
 
-[**infosec-au/altdns** ](https://github.com/infosec-au/altdns "https://github.com/infosec-au/altdns")[](https://github.com/infosec-au/altdns)
 
 *   **Nmap Subdomain finding.**
 *   **Content-Security-Policy (CSP)**
@@ -213,54 +207,44 @@ Tools
 
 [**Analyse your HTTP response headers** ](https://securityheaders.com/ "https://securityheaders.com/")[](https://securityheaders.com/)
 
-*   **More targets with Burp Suite** by  [**Jason Haddix**](https://medium.com/u/1dfc5adea2d4)
 
-[Jason Haddix](https://medium.com/u/1dfc5adea2d4) Tweet about the method
+*   [**eldraco/domain\_analyzer** ](https://github.com/eldraco/domain_analyzer "https://github.com/eldraco/domain_analyzer")[](https://github.com/eldraco/domain_analyzer)
 
-*   **Domain Analyzer**
 
-[**eldraco/domain\_analyzer** ](https://github.com/eldraco/domain_analyzer "https://github.com/eldraco/domain_analyzer")[](https://github.com/eldraco/domain_analyzer)
 
-*   **Domain Profiler**
+*   [**jpf/domain-profiler**  ](https://github.com/jpf/domain-profiler "https://github.com/jpf/domain-profiler")[](https://github.com/jpf/domain-profiler)
 
-[**jpf/domain-profiler**  
-_domain-profiler — Given a domain, will tell you the decisions that the domain owner has made._github.com](https://github.com/jpf/domain-profiler "https://github.com/jpf/domain-profiler")[](https://github.com/jpf/domain-profiler)
 
-*   **VHost Scan**
+*   [**codingo/VHostScan** ](https://github.com/codingo/VHostScan "https://github.com/codingo/VHostScan")[](https://github.com/codingo/VHostScan)
 
-[**codingo/VHostScan** ](https://github.com/codingo/VHostScan "https://github.com/codingo/VHostScan")[](https://github.com/codingo/VHostScan)
 
-*   **ThreatCrowd**
+*  [**Visual Site Mapper — Create a visual map of your site** ](http://www.visualsitemapper.com/ "http://www.visualsitemapper.com/")[](http://www.visualsitemapper.com/)
 
-[**Threat Crowd | Threatcrowd.org Open Source Threat Intelligence** ](https://www.threatcrowd.org/ "https://www.threatcrowd.org/")[](https://www.threatcrowd.org/)
 
-*   **Visual Site Mapper**
-
-[**Visual Site Mapper — Create a visual map of your site** ](http://www.visualsitemapper.com/ "http://www.visualsitemapper.com/")[](http://www.visualsitemapper.com/)
 
 *   **Certificate Transparency**
-*   **Google Transparency Report**
 
 [**Google Transparency Report** ](https://transparencyreport.google.com/https/certificates "https://transparencyreport.google.com/https/certificates")[](https://transparencyreport.google.com/https/certificates)
 
-*   **Certsspotter**
+*   [https://certspotter.com/api/v0/certs?domain=hackerone.com](https://certspotter.com/api/v0/certs?domain=domain.com)
 
-[https://certspotter.com/api/v0/certs?domain=hackerone.com](https://certspotter.com/api/v0/certs?domain=domain.com)
 
-*   **CertDB**
+*   [**CertDB — SSL certificates search engine** ](https://certdb.com/ "https://certdb.com/")[](https://certdb.com/)
 
-[**CertDB — SSL certificates search engine** ](https://certdb.com/ "https://certdb.com/")[](https://certdb.com/)
 
-*   **Crt.sh** —
 
-[https://crt.sh/?q=%25domain.com](https://crt.sh/?q=%25domain.com)
+*   [https://crt.sh/?q=%25domain.com](https://crt.sh/?q=%25domain.com)
 
-*   **Facebook Certificate Transparency Monitoring Subscriptions.**
 
-[**Certificate Transparency Monitoring — Facebook for Developers** ](https://developers.facebook.com/tools/ct "https://developers.facebook.com/tools/ct")[](https://developers.facebook.com/tools/ct)
+
+*   [**Certificate Transparency Monitoring — Facebook for Developers** ](https://developers.facebook.com/tools/ct "https://developers.facebook.com/tools/ct")[](https://developers.facebook.com/tools/ct)
+
+
 
 ![Facebook Crt transparency monitoring subscriptions.](https://cdn-images-1.medium.com/max/800/1*KogNCTgMlSQmARkFplHBwA.png)
-Facebook Crt transparency monitoring subscriptions.![Typical notification from Facebook when new asset on the same crt is available.](https://cdn-images-1.medium.com/max/800/1*dcLY8QxDdE88CoUlF1tHSg.png)
+Facebook Crt transparency monitoring subscriptions.
+
+![Typical notification from Facebook when new asset on the same crt is available.](https://cdn-images-1.medium.com/max/800/1*dcLY8QxDdE88CoUlF1tHSg.png)
 Typical notification from Facebook when new asset on the same crt is available.
 
 **Interesting blog posts & tools taken from**
@@ -293,23 +277,21 @@ If you find the bucket like **upload-user-content-target-prod **— try to c
 
 *   [**AWS CLI**](https://aws.amazon.com/cli/) — AWS CLI is useful for verifying or testing the permissions of the AWS S3 buckets, Creating Buckets and Read other buckets data. AWS Account needed to use CLI.
 
-[**AWS Command Line Interface** ](https://aws.amazon.com/cli/ "https://aws.amazon.com/cli/")[](https://aws.amazon.com/cli/)
+*   [**Bucket Finder — DigiNinja** ](https://digi.ninja/projects/bucket_finder.php "https://digi.ninja/projects/bucket_finder.php")[](https://digi.ninja/projects/bucket_finder.php) — **Great Tool for finding buckets using subdomains wordlist, can be integrated into recon.rb script but I don’t always use it.
 
-*   **Bucket Finder — **Great Tool for finding buckets using subdomains wordlist, can be integrated into recon.rb script but I don’t always use it.
 
-[**Bucket Finder — DigiNinja** ](https://digi.ninja/projects/bucket_finder.php "https://digi.ninja/projects/bucket_finder.php")[](https://digi.ninja/projects/bucket_finder.php)
 
-*   **LazyS3** — LazyS3 is an another tool which I use almost frequently to find the staging, sandboxed, dev and production buckets.
+*   [**nahamsec/lazys3**  ](https://github.com/nahamsec/lazys3 "https://github.com/nahamsec/lazys3")[](https://github.com/nahamsec/lazys3) — LazyS3 is an another tool which I use almost frequently to find the staging, sandboxed, dev and production buckets.
 
-[**nahamsec/lazys3**  ](https://github.com/nahamsec/lazys3 "https://github.com/nahamsec/lazys3")[](https://github.com/nahamsec/lazys3)
 
-*   **Slurp**: Slurp great tool for AWS Buckets Recon. (Deleted After Microsoft Purchased Github I guess). Weird!
 
-[https://github.com/bbb31/slurp](https://github.com/bbb31/slurp)
+*   [https://github.com/bbb31/slurp](https://github.com/bbb31/slurp) - Slurp great tool for AWS Buckets Recon. (Deleted After Microsoft Purchased Github I guess). Weird!
 
-*   **S3 Bucket Finder** — Another good tool for AWS S3 buckets.
 
-[**gwen001/s3-buckets-finder**  ](https://github.com/gwen001/s3-buckets-finder "https://github.com/gwen001/s3-buckets-finder")[](https://github.com/gwen001/s3-buckets-finder)
+
+*   
+[**gwen001/s3-buckets-finder**  ](https://github.com/gwen001/s3-buckets-finder "https://github.com/gwen001/s3-buckets-finder")[](https://github.com/gwen001/s3-buckets-finder)— Another good tool for AWS S3 buckets.
+
 
 **Interesting blog post**
 
@@ -344,13 +326,12 @@ I generally like to read the javascript code manually with the help of JSBeautif
 
 The following tools are useful:
 
-**LinkFinder**
+* [**GerbenJavado/LinkFinder**  ](https://github.com/GerbenJavado/LinkFinder "https://github.com/GerbenJavado/LinkFinder")[](https://github.com/GerbenJavado/LinkFinder)
 
-[**GerbenJavado/LinkFinder**  ](https://github.com/GerbenJavado/LinkFinder "https://github.com/GerbenJavado/LinkFinder")[](https://github.com/GerbenJavado/LinkFinder)
 
-**JSParser** — Another great tool by [Behrouz Sadeghipour](https://medium.com/u/9a72584d6865)
 
-[**nahamsec/JSParser**  ](https://github.com/nahamsec/JSParser "https://github.com/nahamsec/JSParser")[](https://github.com/nahamsec/JSParser)
+* [**nahamsec/JSParser**  ](https://github.com/nahamsec/JSParser "https://github.com/nahamsec/JSParser")[](https://github.com/nahamsec/JSParser)
+
 
 **Interesting blog post**
 
@@ -388,11 +369,5 @@ Best of luck for all of your future infosec things.
 If you have questions and anything about the post you want to ask me, Please contact me via twitter/fb. I’ll have my DM open.
 
 Feedbacks and edits are welcome
-
-[Twitter](https://twitter.com/ehsahil) [Facebook](https://fb.com/ehsahil)
-
-Until next time!
-
-**If you like my blog posts and my work, Please consider checking out my “Buy me a coffee” page**
 
 [**Buy Me A Coffee - Best Way for Creators to Receive Tips** ](https://www.buymeacoffee.com/ehsahil "https://www.buymeacoffee.com/ehsahil")[](https://www.buymeacoffee.com/ehsahil)
