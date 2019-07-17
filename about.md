@@ -14,7 +14,9 @@ My constantly growing skill set presently consists of penetration testing, manua
 
 ### More Information
 
-I am currently working as Security Engineer II at Zomato | Bug bounty Hunter at HackerOne, Bugcrowd, Intigriti, Hackenproof and others | Previously Nykaa and Securityescape
+I am currently working as Security Engineer II at Zomato 
+Bug bounty Hunter at HackerOne, Bugcrowd, Intigriti, Hackenproof and others 
+Previously Nykaa and Securityescape
 
 More info: https://in.linkedin.com/in/ehsahil
 
