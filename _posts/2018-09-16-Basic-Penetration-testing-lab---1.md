@@ -1,12 +1,6 @@
 ---
+layout: post
 title: Basic Penetration testing lab — 1
-description: >-
-  I am setting up a new lab for me and thought to document the process, so
-  anyone wants to do the same can take references from this post. I…
-date: '2018-09-16T17:29:15.154Z'
-categories: []
-keywords: []
-slug: /@ehsahil/basic-penetration-testing-lab-1-7544969cb3ac
 ---
 
 I am setting up a new lab for me and thought to document the process, so anyone wants to do the same can take references from this post. I am writing this one from scratch and I will also add more parts as I move forward.
@@ -22,22 +16,19 @@ I am setting up a new lab for me and thought to document the process, so anyone 
 
 ### 1\. Downloading all the Things.
 
-**Vmware Fusion 10 **— I like the paid version of the Vmware fusion 10 but you guys also use the Virtual box, which is FREE but I highly recommend Vmware fusion 10.
+* **Vmware Fusion 10** — I like the paid version of the Vmware fusion 10 but you guys also use the Virtual box, which is FREE but I highly recommend Vmware fusion 10.
 
-[**Download VMware Fusion 10**  
-_Download VMware Fusion 10 and let your Mac run Windows, Linux or Mac OS X Server. Run the most demanding Mac and…_my.vmware.com](https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_fusion/10_0 "https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_fusion/10_0")[](https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_fusion/10_0)
+* [**Download VMware Fusion 10** ](https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_fusion/10_0 "https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_fusion/10_0")[](https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_fusion/10_0)
 
-[**Oracle VM VirtualBox**  
-_VirtualBox is being actively developed with frequent releases and has an ever growing list of features, supported guest…_www.virtualbox.org](https://www.virtualbox.org/ "https://www.virtualbox.org/")[](https://www.virtualbox.org/)
+* [ **Oracle VM VirtualBox** ](https://www.virtualbox.org/ "https://www.virtualbox.org/")[](https://www.virtualbox.org/)
 
-**Parrot OS **— I am using Kali Linux for a long time, I wanted to try parrot OS because it was recommended by many.
+* **Parrot OS** — I am using Kali Linux for a long time, I wanted to try parrot OS because it was recommended by many.
 
-[**The best choice for security experts, developers and crypto-addicted people.**  
-_Discover our awesome cyber security GNU/Linux environment. It includes a full portable laboratory for security and…_www.parrotsec.org](https://www.parrotsec.org/ "https://www.parrotsec.org/")[](https://www.parrotsec.org/)
+* [**The best choice for security experts, developers and crypto-addicted people.** ](https://www.parrotsec.org/ "https://www.parrotsec.org/")[](https://www.parrotsec.org/)
 
-[https://metasploit.help.rapid7.com/docs/metasploitable-2](https://metasploit.help.rapid7.com/docs/metasploitable-2)
+* [https://metasploit.help.rapid7.com/docs/metasploitable-2](https://metasploit.help.rapid7.com/docs/metasploitable-2)
 
-**Metasploitable-2** — Metasploitable-2 is vulnerable by birth, it is developed by the rapid7 for practicing on the vulnerable host. DO NOT expose this machine on any prod or sensitive server.
+* **Metasploitable-2** — Metasploitable-2 is vulnerable by birth, it is developed by the rapid7 for practicing on the vulnerable host. DO NOT expose this machine on any prod or sensitive server.
 
 ### 2\. Creating Virtual Machines.
 
@@ -204,8 +195,7 @@ Vulnerable Source code: [http://pastebin.com/AetT9sS5](http://pastebin.com/AetT9
 
 Detailed Source code review:
 
-[**Exploiting VSFTPD v2.3.4 on Metasploitable 2 - Hacking Tutorials**  
-_In the upcoming Metasploitable 2 exploitation tutorials we will be exploiting the vulnerabilities we have found in the…_www.hackingtutorials.org](https://www.hackingtutorials.org/metasploit-tutorials/exploiting-vsftpd-metasploitable/ "https://www.hackingtutorials.org/metasploit-tutorials/exploiting-vsftpd-metasploitable/")[](https://www.hackingtutorials.org/metasploit-tutorials/exploiting-vsftpd-metasploitable/)
+* [**Exploiting VSFTPD v2.3.4 on Metasploitable 2 - Hacking Tutorials** ](https://www.hackingtutorials.org/metasploit-tutorials/exploiting-vsftpd-metasploitable/ "https://www.hackingtutorials.org/metasploit-tutorials/exploiting-vsftpd-metasploitable/")[](https://www.hackingtutorials.org/metasploit-tutorials/exploiting-vsftpd-metasploitable/)
 
 #### 2\. Exploiting Vulnerable DISTCC — [CVE-2004–2687](http://cvedetails.com/cve/cve-2004-2687)
 
@@ -383,8 +373,7 @@ I will post more metasploitable2 common exploits as I practice them.
 
 **RWB NetSec**
 
-[**rwbnetsec**  
-_Hello! My goal for this channel is to publish video tutorials related to penetration testing. The videos will be geared…_www.youtube.com](https://www.youtube.com/channel/UCAJ8Clc3188ek9T_5XTVzZQ?pbjreload=10 "https://www.youtube.com/channel/UCAJ8Clc3188ek9T_5XTVzZQ?pbjreload=10")[](https://www.youtube.com/channel/UCAJ8Clc3188ek9T_5XTVzZQ?pbjreload=10)
+* [**rwbnetsec** ](https://www.youtube.com/channel/UCAJ8Clc3188ek9T_5XTVzZQ?pbjreload=10 "https://www.youtube.com/channel/UCAJ8Clc3188ek9T_5XTVzZQ?pbjreload=10")[](https://www.youtube.com/channel/UCAJ8Clc3188ek9T_5XTVzZQ?pbjreload=10)
 
 Feedback? hit me on twitter @[ehsahil](https://twitter.com/ehsahil)
 
