@@ -1,23 +1,15 @@
 ---
+layout: post
 title: Basic iOS Apps Security Testing lab — 1
-description: 'Hi Everyone,'
-date: '2018-09-22T15:06:09.425Z'
-categories: []
-keywords: []
-slug: /@ehsahil/basic-ios-apps-security-testing-lab-1-2bf37c2a7d15
 ---
 
 Hi Everyone,
-
 This is a continuous blog post for my — Basic security testing labs setup series.
-
 If you have not read those, I’ve embedded the link below.
 
-[**Basic Penetration testing lab — 1**  
-_I am setting up a new lab for me and thought to document the process, so anyone wants to do same can take references…_medium.com](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac "https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac")[](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac)
+* [**Basic Penetration testing lab — 1** ](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac "https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac")[](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac)
 
-[**Basic Android Security Testing lab — Part-1**  
-_Hi Everyone,_medium.com](https://medium.com/ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533 "https://medium.com/ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533")[](https://medium.com/ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533)
+* [**Basic Android Security Testing lab — Part-1**](https://medium.com/ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533 "https://medium.com/ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533")[](https://medium.com/ehsahil/basic-android-security-testing-lab-part-1-a2b87e667533)
 
 I have collected the resources from many blog posts and included the updated part only. So, That I can use them whenever I am in need. Everyone else also can take reference from it.
 
@@ -25,9 +17,9 @@ When I was setting up the lab, I’ve read many articles but most of them are ol
 
 I am writing this blog post using the following hardware.
 
-**iPhone 6 — iOS 11.2.6**
+* **iPhone 6 — iOS 11.2.6**
 
-**MacBook Pro — 10.13.6**
+* **MacBook Pro — 10.13.6**
 
 #### Preface.
 
@@ -175,7 +167,7 @@ fsck functions in two modes.
 
 **5\. Erica utilities —** A collection of command-line utilities for various purposes.
 
-**6\. File-cmds — **Install (chflags, compress, ipcrm, ipcs, pax)
+**6\. File-cmds — ** Install (chflags, compress, ipcrm, ipcs, pax)
 
 *   **chflags** — Change a file or folder’s flag.
 
@@ -192,9 +184,9 @@ fsck functions in two modes.
 
 *   **pax** — Short for portable archive interchange, the pax command read, writes, and write, and write the lists of members of the archive file and copy directory hierarchies.
 
-**7\. Gawk — **(GNU’s heavy-weight implementation of awk)
+**7\. Gawk — ** (GNU’s heavy-weight implementation of awk)
 
-**8\. IOkit tools — **(ioalloccount, ioclasscount,ioreg)
+**8\. IOkit tools — ** (ioalloccount, ioclasscount,ioreg)
 
 *   **ioalloccount** — ioalloccount displays some accounting of memory allocation by IOkit Tool's allocators, including object instances, in the kernel. useful for tracking leaks
 
@@ -224,9 +216,9 @@ Other Important Utilities and tools.
 
 **17\. OpenSSL** — SSL library and cryptographic tools.
 
-**18\. Apt 1.4 Strict **— The advanced packaging tool from Debian
+**18\. Apt 1.4 Strict ** — The advanced packaging tool from Debian
 
-**19\. Git **— Fast Content-addressable system
+**19\. Git ** — Fast Content-addressable system
 
 **20.** **PreferencesLoader** — PreferencesLoader is a MobileSubstrate based utility that allows developers to add entries to the settings up, Similar to the SettingsBundles that app store apps use.
 
@@ -277,6 +269,8 @@ Installing ipa applications in iPhone using Cydia Impactor.
 
 ![](https://cdn-images-1.medium.com/max/600/1*eJ3SJu65chdmWCLl4mNfQw.png)
 ![Enter your Apple id credentials.](https://cdn-images-1.medium.com/max/600/1*ePvy13Zfj9gFD7FuOouVAg.png)
+
+
 Enter your Apple id credentials.
 
 I am getting the following error because I don’t have developers account.
@@ -333,15 +327,13 @@ Now, You should be able to intercept the HTTP and HTTPs traffic from the iOS dev
 
 Hopper is an excellent modern disassembler, decompiler, and debugger. The control flow graph and pseudo code feature.
 
-[**Hopper**  
-_Hopper is an excellent modern disassembler, decompiler, and debugger. The control flow graph and pseudo code features…_www.hopperapp.com](https://www.hopperapp.com/ "https://www.hopperapp.com/")[](https://www.hopperapp.com/)
+* [**Hopper** ](https://www.hopperapp.com/ "https://www.hopperapp.com/")[](https://www.hopperapp.com/)
 
 #### Installing IDA
 
 IDA is a Windows, Linux or Mac OS X hosted multi-processor disassembler and debugger that offers so many features it is hard to describe them all. Just grab an [evaluation version](https://www.hex-rays.com/products/ida/support/download.shtml) if you want a test drive.
 
-[**IDA: About**  
-_The IDA Disassembler and debugger is a multi-processor disassembler and debugger hosted on the Windows, Linux and Mac…_www.hex-rays.com](https://www.hex-rays.com/products/ida/ "https://www.hex-rays.com/products/ida/")[](https://www.hex-rays.com/products/ida/)
+* [**IDA: About** ](https://www.hex-rays.com/products/ida/ "https://www.hex-rays.com/products/ida/")[](https://www.hex-rays.com/products/ida/)
 
 ### External Tools/Apps Installation for iOS devices.
 
@@ -393,7 +385,7 @@ IP address of the device — 192.168.2.41
 
 3\. Connecting as mobile and getting root privileges.
 
-**ssh** mobile@192.168.2.41
+`**ssh** mobile@192.168.2.41`
 
 password=alpine // you should change it using passwd utility
 
@@ -401,14 +393,16 @@ password=alpine // you should change it using passwd utility
 
 Getting root privilege
 
-**su**  
+`**su**`
+
 password = alpine (you should also change it)
 
 ![](https://cdn-images-1.medium.com/max/800/1*1y9as0yTd6ty-N6-Mx5Zwg.png)
 
 Changing Default Password
 
-**passwd**  
+`**passwd**`
+
 New password:<new-password>  
 Retype new password:<retype-new-password>
 
@@ -420,19 +414,21 @@ Class-dump — [https://github.com/ehsahil/Class-dump-z-backup](https://gith
 
 Note: NOT supported in iOS 11, If you guys found working one, please let me know.
 
-**scp** -r class-dump-z.zip root@192.168.2.41:~  
+`**scp** -r class-dump-z.zip root@192.168.2.41:~`
+
 password: alpine (default)
 
-**ssh** root@192.168.2.41  
+`**ssh** root@192.168.2.41`  
 password:alpine (default)
 
-**unzip** class-dump-z.zip
+`**unzip** class-dump-z.zip`
 
 ![](https://cdn-images-1.medium.com/max/800/1*lpues5MS77KfkaiyKF8pFQ.png)
 
-**cd** class-dump-z/iphone\_armv6  
-**cp** class-dump-z /usr/bin //copying class-dump-z to /usr/bin   
-class-dump-z
+`**cd** class-dump-z/iphone\_armv6`
+
+`**cp** class-dump-z /usr/bin //copying class-dump-z to /usr/bin   
+class-dump-z`
 
 ![](https://cdn-images-1.medium.com/max/800/1*wk_LAP-IkkCTlNnm-dBYAA.png)
 
@@ -454,26 +450,28 @@ Killall Xcode
 
 ![](https://cdn-images-1.medium.com/max/800/1*uehy1aVmwdO8LAWCwgivfA.png)
 
-git Clone [https://github.com/KJCracks/Clutch.git](https://github.com/KJCracks/Clutch.git)  
-cd Clutch  
-xcodebuild clean build
+`git clone [https://github.com/KJCracks/Clutch.git](https://github.com/KJCracks/Clutch.git)`  
+`cd Clutch` 
+`xcodebuild clean build`
 
 ![](https://cdn-images-1.medium.com/max/800/1*0T73vFsCXe9DMDZQa8aV_g.png)
 ![](https://cdn-images-1.medium.com/max/800/1*hHYq2GXx5FMNDU2_cIuxYw.png)
 
 run the following command under the build directory.
 
-scp -r Clutch root@<Ip-address-of-ios-device>:~  
-scp -r Clutch root@192.168.2.41
+scp -r Clutch root@<Ip-address-of-ios-device>:~
+  
+`scp -r Clutch root@192.168.2.41:~`
 
-ssh root@192.168.2.41  
+`ssh root@192.168.2.41`  
+
 password:alpine
 
-cp Clutch /usr/bin
+`cp Clutch /usr/bin`
 
 ![](https://cdn-images-1.medium.com/max/800/1*ZaYaogrXYSADJOJq2W01RA.png)
 
-Clutch
+`Clutch`
 
 ![](https://cdn-images-1.medium.com/max/800/1*7lc9XK7yPirbhRvt25dDBw.png)
 
@@ -487,12 +485,13 @@ Download the Debian package from the above repository.
 
 Copying the Debian file into the iOS device.
 
-scp -r com.isecpartners.introspy-v0.5.1-iOS\_9.deb root@192.168.2.41:~  
+`scp -r com.isecpartners.introspy-v0.5.1-iOS\_9.deb root@192.168.2.41:~`
+
 password:alpine
 
 ![](https://cdn-images-1.medium.com/max/800/1*HiZHyVpoj-baI1fEnglQhA.png)
 
-dpkg -i com.isecpartners.introspy-v0.5.1-iOS\_9.deb
+`dpkg -i com.isecpartners.introspy-v0.5.1-iOS\_9.deb`
 
 ![](https://cdn-images-1.medium.com/max/800/1*YCG1_2uGITdeTOjJ9vA36Q.png)
 
@@ -504,11 +503,11 @@ Blackbox tool to disable SSL certificate validation — including certificat
 
 Github Repository — [https://github.com/nabla-c0d3/ssl-kill-switch2](https://github.com/nabla-c0d3/ssl-kill-switch2/releases)
 
-**scp** -r com.nablac0d3.sslkillswitch2\_0.12.deb root@192.168.2.41:~
+`**scp** -r com.nablac0d3.sslkillswitch2\_0.12.deb root@192.168.2.41:~`
 
-**ssh** root@192.168.2.41
+`**ssh** root@192.168.2.4`1
 
-**dpkg** -i com.nablac0d3.sslkillswitch2\_0.12.deb
+`**dpkg** -i com.nablac0d3.sslkillswitch2\_0.12.deb`
 
 ![](https://cdn-images-1.medium.com/max/800/1*JPpt_RbiAHMwy89gezzHXw.png)
 
@@ -539,7 +538,7 @@ We need to move this to the iOS device.
 
 /Users/sahil/Desktop
 
-**scp** -r /Users/sahil/Desktop/DamnVulnerableIOSApp.app mobile@192.168.1.1:~
+`**scp** -r /Users/sahil/Desktop/DamnVulnerableIOSApp.app mobile@192.168.1.1:~`
 
 ![](https://cdn-images-1.medium.com/max/800/1*Ix4kCkG9nhmO7I5orCyCxg.png)
 
@@ -547,37 +546,37 @@ Password : alpine (default)
 
 ![](https://cdn-images-1.medium.com/max/800/1*QIXHNg1EM5qsBspQLl9iHA.png)
 
-**ssh** mobile@192.168.1.170
+`**ssh** mobile@192.168.1.170`
 
 **Password**: alpine
 
 ![](https://cdn-images-1.medium.com/max/800/1*eWT2GFJt8OwEOVb4PiX5Gw.png)
 
-**su**
+`**su**`
 
 password: alpine
 
 **ls**
 
-**mv** DamnVulnerableIOSApp.app /Applications/
+`**mv** DamnVulnerableIOSApp.app /Applications/`
 
 ![](https://cdn-images-1.medium.com/max/800/1*hXmJftG7cH1AZFITbI2AIg.png)
 
-**cd** /Applications
+`**cd** /Applications`
 
 ![](https://cdn-images-1.medium.com/max/800/1*8whzLuXKy_8jXl3dbD1OXg.png)
 
-**cd** /DamnVulnerableIOSApp.app
+`**cd** /DamnVulnerableIOSApp.app`
 
 ![](https://cdn-images-1.medium.com/max/800/1*1e7r6KrfylSAIpCjPoyUwA.png)
 
 Giving root execution permission to DamnVulnerableIOSApp.
 
-**chmod** +x DamnVulnerableIOSApp
+`**chmod** +x DamnVulnerableIOSApp`
 
-**exit** //changing from root to mobile
+`**exit** //changing from root to mobile`
 
-**uicache** 
+`**uicache**` 
 
 ![](https://cdn-images-1.medium.com/max/800/1*a2Kf5EMCxLVcwRvHICIYQw.png)
 
@@ -591,11 +590,11 @@ Github Repository: [https://github.com/prateek147/DVIA-v2](https://github.com/pr
 
 Installation of the version 2 is also same, I recommend doing it because you will be more familiar with the process.
 
-scp -r DVIA-v2.app mobile@192.168.1.170:~
+`scp -r DVIA-v2.app mobile@192.168.1.170:~`
 
 ![](https://cdn-images-1.medium.com/max/800/1*1RtY3w5bBSUZDnfqNtAbsw.png)
 
-**ssh** mobile@192.168.1.170
+`**ssh** mobile@192.168.1.170`
 
 password: alpine
 
@@ -609,23 +608,23 @@ password: alpine
 
 moving the Damn-v2.app from root directory to /Applications.
 
-**mv** DVIA-v2.app/ /Applications/
+`**mv** DVIA-v2.app/ /Applications/`
 
 ![](https://cdn-images-1.medium.com/max/800/1*-aT74FtgvZIgrSmVmxIZLA.png)
 
-**cd** /Applications/DVIA-v2
+`**cd** /Applications/DVIA-v2`
 
 ![](https://cdn-images-1.medium.com/max/800/1*QzEgsM_j5jZIYul_3Siz2A.png)
 
 Changing the executable permissions.
 
-**chmod** +x DVIA-v2
+`**chmod** +x DVIA-v2`
 
-exit
+`exit`
 
 ![](https://cdn-images-1.medium.com/max/800/1*0eDNxZfxfaSQrEodYkZv-Q.png)
 
-**uicache**
+`**uicache**`
 
 ![](https://cdn-images-1.medium.com/max/800/1*RkkSwR1OJfQuzzf8O9DamA.png)
 
@@ -637,32 +636,30 @@ After finishing “uicache”, You should be able to see the DVIA version-1 in y
 
 I got the iFile from the mega link provided in the following blog post.
 
-[**Download iFile IPA on iOS 12/11+(iPhone/iPad) Without Jailbreak 2018**  
-_iFile supports all of the iOS devices which offers the facility of managing your iOS device with very great ease…_igeeksradar.com](https://igeeksradar.com/ifile-ios/ "https://igeeksradar.com/ifile-ios/")[](https://igeeksradar.com/ifile-ios/)
+* [**Download iFile IPA on iOS 12/11+(iPhone/iPad) Without Jailbreak 2018**  ](https://igeeksradar.com/ifile-ios/ "https://igeeksradar.com/ifile-ios/")[](https://igeeksradar.com/ifile-ios/)
 
 Use the following iFile with your own risk, I don’t know it is from the trusted source or not.
 
-[**MEGA**  
-_MEGA provides free cloud storage with convenient and powerful always-on privacy. Claim your free 50GB now_mega.nz](https://mega.nz/#!QV1WXJzY!gIl_PimOwwdZGn1d87N2SryCEeo32DkudhKAC7-KGCc "https://mega.nz/#!QV1WXJzY!gIl_PimOwwdZGn1d87N2SryCEeo32DkudhKAC7-KGCc")[](https://mega.nz/#!QV1WXJzY!gIl_PimOwwdZGn1d87N2SryCEeo32DkudhKAC7-KGCc)
+* [**MEGA** ](https://mega.nz/#!QV1WXJzY!gIl_PimOwwdZGn1d87N2SryCEeo32DkudhKAC7-KGCc "https://mega.nz/#!QV1WXJzY!gIl_PimOwwdZGn1d87N2SryCEeo32DkudhKAC7-KGCc")[](https://mega.nz/#!QV1WXJzY!gIl_PimOwwdZGn1d87N2SryCEeo32DkudhKAC7-KGCc)
 
-**scp** -r iFile.app mobile@192.168.170:~
+`**scp** -r iFile.app mobile@192.168.170:~`
 
 ![](https://cdn-images-1.medium.com/max/800/1*UALGTOTyCF488JYR0YWZkQ.png)
 
-**ssh** mobile@192.162.1.170
+`**ssh** mobile@192.162.1.170`
 
 ![](https://cdn-images-1.medium.com/max/800/1*-kG6wkP3IHZPra_QGdmstA.png)
 
-**mv** iFile.app/ /Applications/
+`**mv** iFile.app/ /Applications/`
 
 ![](https://cdn-images-1.medium.com/max/800/1*knR6vHOSQkHrrEhNZjTT1A.png)
 
-**chmod** +x iFile
+`**chmod** +x iFile`
 
 ![](https://cdn-images-1.medium.com/max/800/1*OHjiFFowdOIYC9yewFSd9g.png)
 
-**exit**  
-**uicache**
+`**exit**`  
+`**uicache**`
 
 ![](https://cdn-images-1.medium.com/max/800/1*C4Gi2lhdNZtjMNHQWnAE3g.png)
 ![](https://cdn-images-1.medium.com/max/800/1*96s7SLsDv8gfDwZxaM7JNQ.png)
@@ -678,8 +675,7 @@ This post is getting too long and there many things to be added.
 
 In the mean time you can learn from the intensive iOS security guide.
 
-[**iOS Application security Part 1 - Setting up a mobile pentesting platform - Prateek Gianchandani**  
-_In this article series, we will be learning about the tools and techniques required to perform penetration testing and…_highaltitudehacks.com](http://highaltitudehacks.com/2013/06/16/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/ "http://highaltitudehacks.com/2013/06/16/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/")[](http://highaltitudehacks.com/2013/06/16/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/)
+* [**iOS Application security Part 1 - Setting up a mobile pentesting platform - Prateek Gianchandani**](http://highaltitudehacks.com/2013/06/16/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/ "http://highaltitudehacks.com/2013/06/16/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/")[](http://highaltitudehacks.com/2013/06/16/ios-application-security-part-1-setting-up-a-mobile-pentesting-platform/)
 
 **I’m planning to cover the following things in up coming posts.**
 
@@ -724,19 +720,13 @@ _In this article series, we will be learning about the tools and techniques requ
 15.  Sensitive Information is Memory
 16.  Data Leakage to Third parties
 
-**If you like my blog posts and my work, Please consider checking out my “Buy me a coffee” page**
-
-[**Buy Me A Coffee - Best Way for Creators to Receive Tips**  
-_Buy Me A Coffee help creators receive support from their audience in a friendly manner. Quickly accept donations and…_www.buymeacoffee.com](https://www.buymeacoffee.com/ehsahil "https://www.buymeacoffee.com/ehsahil")[](https://www.buymeacoffee.com/ehsahil)
-
 #### Credits and References.
 
 I do not own any tools and Utilities listed in this blogpost. Every tool belongs to their respective owners.
 
 [Prateek Gianchandani](https://twitter.com/prateekg147)
 
-[**DVIA (Damn Vulnerable iOS App) - A vulnerable iOS app for pentesting**  
-_Swift Version (April, 2018) - Download the IPA file from here here Github - Here Make sure to read this for…_damnvulnerableiosapp.com](http://damnvulnerableiosapp.com/#downloads "http://damnvulnerableiosapp.com/#downloads")[](http://damnvulnerableiosapp.com/#downloads)
+[**DVIA (Damn Vulnerable iOS App) - A vulnerable iOS app for pentesting**](http://damnvulnerableiosapp.com/#downloads "http://damnvulnerableiosapp.com/#downloads")[](http://damnvulnerableiosapp.com/#downloads)
 
 [SecurityInnovation.com](https://web.securityinnovation.com/hubfs/iOS%20Hacking%20Guide.pdf)
 
