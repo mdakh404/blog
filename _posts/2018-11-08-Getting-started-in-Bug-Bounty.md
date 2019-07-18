@@ -3,9 +3,7 @@ layout: post
 title: Getting started in Bug Bounty
 ---
 
-Hi Guys!
-
-While I write this up, it’s already **09–Nov–2018**, Here in India, Today I’ve completed 5 good years on [**HackerOne**](https://hackerone.com) ❤
+Hi Guys! While I write this up, it’s already **09–Nov–2018**, Here in India, Today I’ve completed 5 good years on [**HackerOne**](https://hackerone.com) ❤
 
 ![[https://hackerone.com/ehsahil](https://hackerone.com/ehsahil) — A proud member since November 9th 2013](https://cdn-images-1.medium.com/max/800/1*4GKH-Q-an0LFM3kjbJhFVA.png)
 [https://hackerone.com/ehsahil](https://hackerone.com/ehsahil) — A proud member since November 9th 2013
@@ -114,13 +112,11 @@ As you get more experience you are free to switch between anything you like :)
 
 Mobile Security Wiki by  [**Aditya Agrawal**](https://twitter.com/exploitprotocol)
 
-[**Mobile Security Wiki**  
-_AppMon - AppMon is a runtime security testing & profiling framework for macOS, iOS and android apps. It is useful for…_mobilesecuritywiki.com](https://mobilesecuritywiki.com/ "https://mobilesecuritywiki.com/")[](https://mobilesecuritywiki.com/)
+[**Mobile Security Wiki** ](https://mobilesecuritywiki.com/ "https://mobilesecuritywiki.com/")[](https://mobilesecuritywiki.com/)
 
 Application security Wiki also by [**Aditya Agrawal**](https://twitter.com/exploitprotocol)
 
-[**Application Security Wiki**  
-_Application Security Wiki is an initiative to provide all Application security related resources to Security…_appsecwiki.com](https://appsecwiki.com/#/ "https://appsecwiki.com/#/")[](https://appsecwiki.com/#/)
+[**Application Security Wiki** ](https://appsecwiki.com/#/ "https://appsecwiki.com/#/")[](https://appsecwiki.com/#/)
 
 #### **4\. Books — I regularly take references from**
 
@@ -133,14 +129,11 @@ _Application Security Wiki is an initiative to provide all Application security 
 
 #### 5\. Youtube Channels And Playlist.
 
-[**IppSec**  
-_You probably know about my channel. Here's a bunch of other content I enjoy. Patreon Pages of Cool People…_www.youtube.com](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA "https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA")[](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)
+[**IppSec** ](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA "https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA")[](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)
 
-[**LiveOverflow**  
-_just a wannabe hacker..._www.youtube.com](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w")[](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
+[**LiveOverflow** ](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w")[](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w)
 
-[**Web Development Tutorials**  
-_Hi, I'm Pete. I develop video tutorials about the various things I'm learning related to web development and hacking…_www.youtube.com](https://www.youtube.com/channel/UCS0y5e-AMsZO8GEFtKBAzkA "https://www.youtube.com/channel/UCS0y5e-AMsZO8GEFtKBAzkA")[](https://www.youtube.com/channel/UCS0y5e-AMsZO8GEFtKBAzkA)
+[**Web Development Tutorials** ](https://www.youtube.com/channel/UCS0y5e-AMsZO8GEFtKBAzkA "https://www.youtube.com/channel/UCS0y5e-AMsZO8GEFtKBAzkA")[](https://www.youtube.com/channel/UCS0y5e-AMsZO8GEFtKBAzkA)
 
 #### Security Conference talks you should watch
 
@@ -171,8 +164,7 @@ _Hi Everyone,_medium.com](https://medium.com/ehsahil/basic-android-security-test
 [**Basic iOS Apps Security Testing lab — 1**  
 _Hi Everyone,_medium.com](https://medium.com/ehsahil/basic-ios-apps-security-testing-lab-1-2bf37c2a7d15 "https://medium.com/ehsahil/basic-ios-apps-security-testing-lab-1-2bf37c2a7d15")[](https://medium.com/ehsahil/basic-ios-apps-security-testing-lab-1-2bf37c2a7d15)
 
-[**Basic Penetration testing lab — 1**  
-_I am setting up a new lab for me and thought to document the process, so anyone wants to do same can take references…_medium.com](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac "https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac")[](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac)
+[**Basic Penetration testing lab — 1** ](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac "https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac")[](https://medium.com/ehsahil/basic-penetration-testing-lab-1-7544969cb3ac)
 
 **Bug Bounty Platforms** — These are the great places to test your skill.Do not get discouraged if you haven’t found anything — you still have learned the reward of Experience, that is more important.
 
@@ -210,8 +202,7 @@ There are too many free resources out there to learn more about Burp Suite pro b
 
 For information gathering or reconnaissance — I’ve Written a detailed blog post on the same topic. you can find it below:
 
-[**Recon — my way.**  
-_A detailed blog post on my reconnaissance processes for web applications security testing. I always wanted to write…_medium.com](https://medium.com/ehsahil/recon-my-way-82b7e5f62e21 "https://medium.com/ehsahil/recon-my-way-82b7e5f62e21")[](https://medium.com/ehsahil/recon-my-way-82b7e5f62e21)
+[**Recon — my way.** ](https://medium.com/ehsahil/recon-my-way-82b7e5f62e21 "https://medium.com/ehsahil/recon-my-way-82b7e5f62e21")[](https://medium.com/ehsahil/recon-my-way-82b7e5f62e21)
 
 #### **8\. Bug bounties and Mental health.**
 
@@ -224,205 +215,144 @@ _In this post I want to discuss hunting for bugs, the effect on a hacker’s men
 
 #### 9\. Blogs you should follow —
 
-[**Detectify Labs**  
-_How I made LastPass give me all your passwords " Hacking Slack using postMessage and WebSocket-reconnect to steal your…_labs.detectify.com](https://labs.detectify.com/ "https://labs.detectify.com/")[](https://labs.detectify.com/)
+[**Detectify Labs** ](https://labs.detectify.com/ "https://labs.detectify.com/")[](https://labs.detectify.com/)
 
-[**InfoSec Write-ups**  
-_A collection of write-ups from the best hackers in the world on topics ranging from bug bounties and CTFs to vulnhub…_medium.com](https://medium.com/bugbountywriteup "https://medium.com/bugbountywriteup")[](https://medium.com/bugbountywriteup)
+[**InfoSec Write-ups** ](https://medium.com/bugbountywriteup "https://medium.com/bugbountywriteup")[](https://medium.com/bugbountywriteup)
 
-[**Appsecco**  
-_Making sense of application security for everyone. Follow us to get a pragmatic view of the landscape including hacks…_blog.appsecco.com](https://blog.appsecco.com "https://blog.appsecco.com")[](https://blog.appsecco.com)
+[**Appsecco** ](https://blog.appsecco.com "https://blog.appsecco.com")[](https://blog.appsecco.com)
 
-[**These aren't the access\_tokens you're looking for - ☃**  
-_Edit description_philippeharewood.com](https://philippeharewood.com "https://philippeharewood.com")[](https://philippeharewood.com)
+[**These aren't the access\_tokens you're looking for - ☃** ](https://philippeharewood.com "https://philippeharewood.com")[](https://philippeharewood.com)
 
-[**Geekboy | Security Researcher**  
-_Edit description_geekboy.ninja](http://geekboy.ninja/ "http://geekboy.ninja/")[](http://geekboy.ninja/)
+[**Geekboy | Security Researcher** ](http://geekboy.ninja/ "http://geekboy.ninja/")[](http://geekboy.ninja/)
 
-[**Learn | Think | Hack**  
-_Describe this nonsense._somdev.me](https://somdev.me/ "https://somdev.me/")[](https://somdev.me/)
+[**Learn | Think | Hack** ](https://somdev.me/ "https://somdev.me/")[](https://somdev.me/)
 
-[**BUG BOUNTY HUNTING (METHODOLOGY , TOOLKIT , TIPS & TRICKS , Blogs)**  
-_A bug bounty program is a deal offered by many websites and software developers by which individuals can receive…_medium.com](https://medium.com/@infosecsanyam/bug-bounty-hunting-methodology-toolkit-tips-tricks-blogs-ef6542301c65 "https://medium.com/@infosecsanyam/bug-bounty-hunting-methodology-toolkit-tips-tricks-blogs-ef6542301c65")[](https://medium.com/@infosecsanyam/bug-bounty-hunting-methodology-toolkit-tips-tricks-blogs-ef6542301c65)
+[**BUG BOUNTY HUNTING (METHODOLOGY , TOOLKIT , TIPS & TRICKS , Blogs)**  ](https://medium.com/@infosecsanyam/bug-bounty-hunting-methodology-toolkit-tips-tricks-blogs-ef6542301c65 "https://medium.com/@infosecsanyam/bug-bounty-hunting-methodology-toolkit-tips-tricks-blogs-ef6542301c65")[](https://medium.com/@infosecsanyam/bug-bounty-hunting-methodology-toolkit-tips-tricks-blogs-ef6542301c65)
 
 There are other great blogs out there, I can’t list them all, you need to find them according to your need.
 
 #### 10\. Follow cool guys on Github.
 
-[**· GitHub**  
-_Security engineer, internet sleuth and builder of tools. - michenriksen_github.com](https://github.com/michenriksen "https://github.com/michenriksen")[](https://github.com/michenriksen)
+[**· GitHub** ](https://github.com/michenriksen "https://github.com/michenriksen")[](https://github.com/michenriksen)
 
-[**· GitHub**  
-_Penetration tester from Australia. Current maintainer of NoSQLMap, VHostScan, Reconnoitre. Co-contributor to subfinder…_github.com](https://github.com/codingo "https://github.com/codingo")[](https://github.com/codingo)
+[**· GitHub**  ](https://github.com/codingo "https://github.com/codingo")[](https://github.com/codingo)
 
 [**· GitHub**  
 _Doing security stuff! Automating things because of my laziness to the fullest. - Ice3man543_github.com](https://github.com/Ice3man543 "https://github.com/Ice3man543")[](https://github.com/Ice3man543)
 
-[**· GitHub**  
-_nahamsec has 11 repositories available. Follow their code on GitHub._github.com](https://github.com/nahamsec "https://github.com/nahamsec")[](https://github.com/nahamsec)
+[**· GitHub**  ](https://github.com/nahamsec "https://github.com/nahamsec")[](https://github.com/nahamsec)
 
-[**· GitHub**  
-_Fixaholic, problem solver, coder, Go lover, car modifier, hedonist, AV nerd, knife enthusiast, foodie, not really a…_github.com](https://github.com/tomnomnom "https://github.com/tomnomnom")[](https://github.com/tomnomnom)
+[**· GitHub**  ](https://github.com/tomnomnom "https://github.com/tomnomnom")[](https://github.com/tomnomnom)
 
-[**· GitHub**  
-_aboul3la has 2 repositories available. Follow their code on GitHub._github.com](https://github.com/aboul3la "https://github.com/aboul3la")[](https://github.com/aboul3la)
+[**· GitHub**  ](https://github.com/aboul3la "https://github.com/aboul3la")[](https://github.com/aboul3la)
 
-[**· GitHub**  
-_maurosoria has 2 repositories available. Follow their code on GitHub._github.com](https://github.com/maurosoria "https://github.com/maurosoria")[](https://github.com/maurosoria)
+[**· GitHub**  ](https://github.com/maurosoria "https://github.com/maurosoria")[](https://github.com/maurosoria)
 
 [**· GitHub**  
 _guelfoweb has 12 repositories available. Follow their code on GitHub._github.com](https://github.com/guelfoweb "https://github.com/guelfoweb")[](https://github.com/guelfoweb)
 
-[**· GitHub**  
-_Security Researcher, Red Team Manager, Gopher, Founder and Project Lead of OWASP Amass - caffix_github.com](https://github.com/caffix/ "https://github.com/caffix/")[](https://github.com/caffix/)
+[**· GitHub** ](https://github.com/caffix/ "https://github.com/caffix/")[](https://github.com/caffix/)
 
-[**· GitHub**  
-_Web developer reconverted to security researcher, playing bug bounty sometimes :) - gwen001_github.com](https://github.com/gwen001/ "https://github.com/gwen001/")[](https://github.com/gwen001/)
+[**· GitHub**  ](https://github.com/gwen001/ "https://github.com/gwen001/")[](https://github.com/gwen001/)
 
 Consider donating small part of your bounties to them to support their open source contribution or you can contribute in other ways too. Only If they accept donation.
 
 #### 11\. Follow Active Bug Bounty Hunters on Twitter (But not limited to this list)
 
-[**Frans Rosén (@fransrosen) | Twitter**  
-_The latest Tweets from Frans Rosén (@fransrosen). Dev/Security/Founder at @centrahq/@detectify/@shipwallet. Stockholm…_twitter.com](https://twitter.com/fransrosen "https://twitter.com/fransrosen")[](https://twitter.com/fransrosen)
+[**Frans Rosén (@fransrosen) | Twitter**  ](https://twitter.com/fransrosen "https://twitter.com/fransrosen")[](https://twitter.com/fransrosen)
 
-[**­Mathias Karlsson (@avlidienbrunn) | Twitter**  
-_The latest Tweets from ­Mathias Karlsson (@avlidienbrunn). Web security fiddler. Bug bounty bastard. CTF with…_twitter.com](https://twitter.com/avlidienbrunn "https://twitter.com/avlidienbrunn")[](https://twitter.com/avlidienbrunn)
+[**­Mathias Karlsson (@avlidienbrunn) | Twitter** ](https://twitter.com/avlidienbrunn "https://twitter.com/avlidienbrunn")[](https://twitter.com/avlidienbrunn)
 
-[**dawgyg@Home (@thedawgyg) | Twitter**  
-_The latest Tweets from dawgyg@Home (@thedawgyg). Wall of Fame: Yahoo, Mail.Ru, Mapbox, Imgur, GM, Adobe, AOL, Zynga…_twitter.com](https://twitter.com/thedawgyg "https://twitter.com/thedawgyg")[](https://twitter.com/thedawgyg)
+[**dawgyg@Home (@thedawgyg) | Twitter**  ](https://twitter.com/thedawgyg "https://twitter.com/thedawgyg")[](https://twitter.com/thedawgyg)
 
-[**Olivier Beg (@smiegles) | Twitter**  
-_The latest Tweets from Olivier Beg (@smiegles). Head of researchers at @zerocopter, Co-founder @bugbountyforum…_twitter.com](https://twitter.com/smiegles "https://twitter.com/smiegles")[](https://twitter.com/smiegles)
+[**Olivier Beg (@smiegles) | Twitter**  ](https://twitter.com/smiegles "https://twitter.com/smiegles")[](https://twitter.com/smiegles)
 
-[**Jobert Abma (@jobertabma) | Twitter**  
-_The latest Tweets from Jobert Abma (@jobertabma). I tweet about security and my experience as a hacker. Co-founder of…_twitter.com](https://twitter.com/jobertabma "https://twitter.com/jobertabma")[](https://twitter.com/jobertabma)
+[**Jobert Abma (@jobertabma) | Twitter**  ](https://twitter.com/jobertabma "https://twitter.com/jobertabma")[](https://twitter.com/jobertabma)
 
-[**STÖK (@stokfredrik) | Twitter**  
-_The latest Tweets from STÖK (@stokfredrik). Hacker - Creative - Red Team Lead - Advisor - Conscious Fashion store owner…_twitter.com](https://twitter.com/stokfredrik "https://twitter.com/stokfredrik")[](https://twitter.com/stokfredrik)
+[**STÖK (@stokfredrik) | Twitter**  ](https://twitter.com/stokfredrik "https://twitter.com/stokfredrik")[](https://twitter.com/stokfredrik)
 
-[**Gerben Javado (@gerben\_javado) | Twitter**  
-_The latest Tweets from Gerben Javado (@gerben\_javado). Security Engineer @Facebook. Into bug bounties. Personal…_twitter.com](https://twitter.com/gerben_javado "https://twitter.com/gerben_javado")[](https://twitter.com/gerben_javado)
+[**Gerben Javado (@gerben\_javado) | Twitter**  ](https://twitter.com/gerben_javado "https://twitter.com/gerben_javado")[](https://twitter.com/gerben_javado)
 
-[**Tanner (@itscachemoney) | Twitter**  
-_The latest Tweets from Tanner (@itscachemoney). Somewhere between a builder and a breaker. San Francisco, CA_twitter.com](https://twitter.com/itscachemoney "https://twitter.com/itscachemoney")[](https://twitter.com/itscachemoney)
+[**Tanner (@itscachemoney) | Twitter**  ](https://twitter.com/itscachemoney "https://twitter.com/itscachemoney")[](https://twitter.com/itscachemoney)
 
-[**Ben Sadeghipour (@NahamSec) | Twitter**  
-_The latest Tweets from Ben Sadeghipour (@NahamSec). Hacker | Co-founder @bugbountyforum | Hacker Operations Lead…_twitter.com](https://twitter.com/NahamSec "https://twitter.com/NahamSec")[](https://twitter.com/NahamSec)
+[**Ben Sadeghipour (@NahamSec) | Twitter**  ](https://twitter.com/NahamSec "https://twitter.com/NahamSec")[](https://twitter.com/NahamSec)
 
-[**Yassine Aboukir (@Yassineaboukir) | Twitter**  
-_The latest Tweets from Yassine Aboukir (@Yassineaboukir). Wearing my security analyst hat @Hacker0x01 by day and put on…_twitter.com](https://twitter.com/Yassineaboukir "https://twitter.com/Yassineaboukir")[](https://twitter.com/Yassineaboukir)
+[**Yassine Aboukir (@Yassineaboukir) | Twitter** ](https://twitter.com/Yassineaboukir "https://twitter.com/Yassineaboukir")[](https://twitter.com/Yassineaboukir)
 
-[**Geekboy (@emgeekboy) | Twitter**  
-_The latest Tweets from Geekboy (@emgeekboy). Full time bug bounty hunter 💥💥. India_twitter.com](https://twitter.com/emgeekboy "https://twitter.com/emgeekboy")[](https://twitter.com/emgeekboy)
+[**Geekboy (@emgeekboy) | Twitter**  ](https://twitter.com/emgeekboy "https://twitter.com/emgeekboy")[](https://twitter.com/emgeekboy)
 
-[**Patrik Fehrenbach🤖 (@ITSecurityguard) | Twitter**  
-_The latest Tweets from Patrik Fehrenbach🤖 (@ITSecurityguard): "I recently scored a 4000$ bounty by using visual recon…_twitter.com](https://twitter.com/ITSecurityguard "https://twitter.com/ITSecurityguard")[](https://twitter.com/ITSecurityguard)
+[**Patrik Fehrenbach🤖 (@ITSecurityguard) | Twitter**  ](https://twitter.com/ITSecurityguard "https://twitter.com/ITSecurityguard")[](https://twitter.com/ITSecurityguard)
 
-[**Ed (@EdOverflow) | Twitter**  
-_The latest Tweets from Ed (@EdOverflow). Web developer & security researcher. | FA98 07A5 F836 9C61 A8C2 AC3B A4A3 3C72…_twitter.com](https://twitter.com/EdOverflow "https://twitter.com/EdOverflow")[](https://twitter.com/EdOverflow)
+[**Ed (@EdOverflow) | Twitter**  ](https://twitter.com/EdOverflow "https://twitter.com/EdOverflow")[](https://twitter.com/EdOverflow)
 
-[**x1m (@x1m\_martijn) | Twitter**  
-_The latest Tweets from x1m (@x1m\_martijn). Ethical Hacker_twitter.com](https://twitter.com/x1m_martijn "https://twitter.com/x1m_martijn")[](https://twitter.com/x1m_martijn)
+[**x1m (@x1m\_martijn) | Twitter**  ](https://twitter.com/x1m_martijn "https://twitter.com/x1m_martijn")[](https://twitter.com/x1m_martijn)
 
-[**Nathan (@NathOnSecurity) | Twitter**  
-_The latest Tweets from Nathan (@NathOnSecurity). Infosec and such. "Confront the culture of power with the power of…_twitter.com](https://twitter.com/NathOnSecurity "https://twitter.com/NathOnSecurity")[](https://twitter.com/NathOnSecurity)
+[**Nathan (@NathOnSecurity) | Twitter**  ](https://twitter.com/NathOnSecurity "https://twitter.com/NathOnSecurity")[](https://twitter.com/NathOnSecurity)
 
-[**Th3G3nt3lman (@Th3G3nt3lman) | Twitter**  
-_The latest Tweets from Th3G3nt3lman (@Th3G3nt3lman). Security Researcher / Bug Bounty Hunter / Red Devil. Hashemite…_twitter.com](https://twitter.com/Th3G3nt3lman "https://twitter.com/Th3G3nt3lman")[](https://twitter.com/Th3G3nt3lman)
+[**Th3G3nt3lman (@Th3G3nt3lman) | Twitter**  ](https://twitter.com/Th3G3nt3lman "https://twitter.com/Th3G3nt3lman")[](https://twitter.com/Th3G3nt3lman)
 
-[**Uranium238 (@uraniumhacker) | Twitter**  
-_The latest Tweets from Uranium238 (@uraniumhacker). Tweets does not mean endorsement and does not represent employers'…_twitter.com](https://twitter.com/uraniumhacker "https://twitter.com/uraniumhacker")[](https://twitter.com/uraniumhacker)
+[**Uranium238 (@uraniumhacker) | Twitter** ](https://twitter.com/uraniumhacker "https://twitter.com/uraniumhacker")[](https://twitter.com/uraniumhacker)
 
-[**Santiago Lopez (@santi\_lopezz99) | Twitter**  
-_The latest Tweets from Santiago Lopez (@santi\_lopezz99). 1# researcher on @Hacker0x01 #bugbounty. Insta…_twitter.com](https://twitter.com/santi_lopezz99 "https://twitter.com/santi_lopezz99")[](https://twitter.com/santi_lopezz99)
+[**Santiago Lopez (@santi\_lopezz99) | Twitter**  ](https://twitter.com/santi_lopezz99 "https://twitter.com/santi_lopezz99")[](https://twitter.com/santi_lopezz99)
 
-[**Rahul Maini (@iamnoooob) | Twitter**  
-_The latest Tweets from Rahul Maini (@iamnoooob). https://t.co/F8Xu6Nh4Wb | https://t.co/ZCLtc0QXbx |…_twitter.com](https://twitter.com/iamnoooob "https://twitter.com/iamnoooob")[](https://twitter.com/iamnoooob)
+[**Rahul Maini (@iamnoooob) | Twitter**  ](https://twitter.com/iamnoooob "https://twitter.com/iamnoooob")[](https://twitter.com/iamnoooob)
 
-[**Brett Buerhaus (@bbuerhaus) | Twitter**  
-_The latest Tweets from Brett Buerhaus (@bbuerhaus). Blizzard Entertainment. Digital bounty hunter. Co9.io. 26-9-15-20…_twitter.com](https://twitter.com/bbuerhaus "https://twitter.com/bbuerhaus")[](https://twitter.com/bbuerhaus)
+[**Brett Buerhaus (@bbuerhaus) | Twitter** ](https://twitter.com/bbuerhaus "https://twitter.com/bbuerhaus")[](https://twitter.com/bbuerhaus)
 
 [**Harsh Jaiswal (@rootxharsh) | Twitter**  
 _The latest Tweets from Harsh Jaiswal (@rootxharsh). You know. Indore, India_twitter.com](https://twitter.com/rootxharsh "https://twitter.com/rootxharsh")[](https://twitter.com/rootxharsh)
 
-[**Paresh (@Paresh\_parmar1) | Twitter**  
-_The latest Tweets from Paresh (@Paresh\_parmar1). bugbounty hunter/ gamer /. Ahmedabad_twitter.com](https://twitter.com/Paresh_parmar1 "https://twitter.com/Paresh_parmar1")[](https://twitter.com/Paresh_parmar1)
+[**Paresh (@Paresh\_parmar1) | Twitter**  ](https://twitter.com/Paresh_parmar1 "https://twitter.com/Paresh_parmar1")[](https://twitter.com/Paresh_parmar1)
 
-[**Joel Margolis (@0xteknogeek) | Twitter**  
-_The latest Tweets from Joel Margolis (@0xteknogeek). Mobile security researcher, bug bounty hunter. RIT dropout. AppSec…_twitter.com](https://twitter.com/0xteknogeek "https://twitter.com/0xteknogeek")[](https://twitter.com/0xteknogeek)
+[**Joel Margolis (@0xteknogeek) | Twitter**  ](https://twitter.com/0xteknogeek "https://twitter.com/0xteknogeek")[](https://twitter.com/0xteknogeek)
 
-[**Abdullah Hussam (@Abdulahhusam) | Twitter**  
-_The latest Tweets from Abdullah Hussam (@Abdulahhusam). I don't trust bio. Iraq_twitter.com](https://twitter.com/Abdulahhusam "https://twitter.com/Abdulahhusam")[](https://twitter.com/Abdulahhusam)
+[**Abdullah Hussam (@Abdulahhusam) | Twitter**  ](https://twitter.com/Abdulahhusam "https://twitter.com/Abdulahhusam")[](https://twitter.com/Abdulahhusam)
 
-[**zseano💫 (@zseano) | Twitter**  
-_The latest Tweets from zseano💫 (@zseano). WebApp Security Researcher with a focus on bugbounties which lead me to…_twitter.com](https://twitter.com/zseano "https://twitter.com/zseano")[](https://twitter.com/zseano)
+[**zseano💫 (@zseano) | Twitter**  ](https://twitter.com/zseano "https://twitter.com/zseano")[](https://twitter.com/zseano)
 
-[**Ron Chan (@ngalongc) | Twitter**  
-_The latest Tweets from Ron Chan (@ngalongc)_twitter.com](https://twitter.com/ngalongc "https://twitter.com/ngalongc")[](https://twitter.com/ngalongc)
+[**Ron Chan (@ngalongc) | Twitter**  ](https://twitter.com/ngalongc "https://twitter.com/ngalongc")[](https://twitter.com/ngalongc)
 
-[**Parth Malhotra (@Parth\_Malhotra) | Twitter**  
-_The latest Tweets from Parth Malhotra (@Parth\_Malhotra): "Yay, I was awarded $18,000 in bounties on @Hacker0x01 from…_twitter.com](https://twitter.com/Parth_Malhotra "https://twitter.com/Parth_Malhotra")[](https://twitter.com/Parth_Malhotra)
+[**Parth Malhotra (@Parth\_Malhotra) | Twitter** ](https://twitter.com/Parth_Malhotra "https://twitter.com/Parth_Malhotra")[](https://twitter.com/Parth_Malhotra)
 
-[**Prateek Tiwari (@prateek\_0490) | Twitter**  
-_The latest Tweets from Prateek Tiwari (@prateek\_0490). Security @Zomato | Security Nerd | I do nothing but eat, drink &…_twitter.com](https://twitter.com/prateek_0490 "https://twitter.com/prateek_0490")[](https://twitter.com/prateek_0490)
+[**Prateek Tiwari (@prateek\_0490) | Twitter** ](https://twitter.com/prateek_0490 "https://twitter.com/prateek_0490")[](https://twitter.com/prateek_0490)
 
-[**Pranav Hivarekar (@HivarekarPranav) | Twitter**  
-_The latest Tweets from Pranav Hivarekar (@HivarekarPranav). REST-API Lover | Loves #bugbounty | Proud INDIAN 😎 Runs…_twitter.com](https://twitter.com/HivarekarPranav "https://twitter.com/HivarekarPranav")[](https://twitter.com/HivarekarPranav)
+[**Pranav Hivarekar (@HivarekarPranav) | Twitter** ](https://twitter.com/HivarekarPranav "https://twitter.com/HivarekarPranav")[](https://twitter.com/HivarekarPranav)
 
-[**Jigar Thakkar (@jigarthakkar39) | Twitter**  
-_The latest Tweets from Jigar Thakkar (@jigarthakkar39). Security Researcher | Pentester | Logical Thinker | Application…_twitter.com](https://twitter.com/jigarthakkar39 "https://twitter.com/jigarthakkar39")[](https://twitter.com/jigarthakkar39)
+[**Jigar Thakkar (@jigarthakkar39) | Twitter** ](https://twitter.com/jigarthakkar39 "https://twitter.com/jigarthakkar39")[](https://twitter.com/jigarthakkar39)
 
-[**nikhil (@niksthehacker) | Twitter**  
-_The latest Tweets from nikhil (@niksthehacker). SRT member at @SynackRedTeam , Bug Bounty Hunter at @Hacker0x01 …_twitter.com](https://twitter.com/niksthehacker "https://twitter.com/niksthehacker")[](https://twitter.com/niksthehacker)
+[**nikhil (@niksthehacker) | Twitter** ](https://twitter.com/niksthehacker "https://twitter.com/niksthehacker")[](https://twitter.com/niksthehacker)
 
-[**Rishiraj Sharma (@ehrishiraj) | Twitter**  
-_The latest Tweets from Rishiraj Sharma (@ehrishiraj). Application Security Engineer at SecurityEscape. India_twitter.com](https://twitter.com/ehrishiraj "https://twitter.com/ehrishiraj")[](https://twitter.com/ehrishiraj)
+[**Rishiraj Sharma (@ehrishiraj) | Twitter** ](https://twitter.com/ehrishiraj "https://twitter.com/ehrishiraj")[](https://twitter.com/ehrishiraj)
 
-[**pwnmachine 👾 (@princechaddha) | Twitter**  
-_The latest Tweets from pwnmachine 👾 (@princechaddha). OSCP | Synack Red Team | Eat Sleep Pwn Repeat…_twitter.com](https://twitter.com/princechaddha "https://twitter.com/princechaddha")[](https://twitter.com/princechaddha)
+[**pwnmachine 👾 (@princechaddha) | Twitter**  ](https://twitter.com/princechaddha "https://twitter.com/princechaddha")[](https://twitter.com/princechaddha)
 
-[**Bull (@v0sx9b) | Twitter**  
-_The latest Tweets from Bull (@v0sx9b). Because i had to.....| https://t.co/bkoGpbvpqP | https://t.co/jBwjU1nqnv |…_twitter.com](https://twitter.com/v0sx9b "https://twitter.com/v0sx9b")[](https://twitter.com/v0sx9b)
+[**Bull (@v0sx9b) | Twitter**  ](https://twitter.com/v0sx9b "https://twitter.com/v0sx9b")[](https://twitter.com/v0sx9b)
 
-[**naffy (@nnwakelam) | Twitter**  
-_The latest Tweets from naffy (@nnwakelam). CEO of Hackers Helping Hackers. My tweets are my own. STC is the greatest…_twitter.com](https://twitter.com/nnwakelam "https://twitter.com/nnwakelam")[](https://twitter.com/nnwakelam)
+[**naffy (@nnwakelam) | Twitter** ](https://twitter.com/nnwakelam "https://twitter.com/nnwakelam")[](https://twitter.com/nnwakelam)
 
-[**shubs (@infosec\_au) | Twitter**  
-_The latest Tweets from shubs (@infosec\_au). continuous security, @assetnote hack the planet, @hackershelping. halcyon_twitter.com](https://twitter.com/infosec_au "https://twitter.com/infosec_au")[](https://twitter.com/infosec_au)
+[**shubs (@infosec\_au) | Twitter**  ](https://twitter.com/infosec_au "https://twitter.com/infosec_au")[](https://twitter.com/infosec_au)
 
-[**Inti De Ceukelaire (@securinti) | Twitter**  
-_The latest Tweets from Inti De Ceukelaire (@securinti). Ethical hacker and bug bounty hunter. Founder of…_twitter.com](https://twitter.com/securinti "https://twitter.com/securinti")[](https://twitter.com/securinti)
+[**Inti De Ceukelaire (@securinti) | Twitter** ](https://twitter.com/securinti "https://twitter.com/securinti")[](https://twitter.com/securinti)
 
-[**Artem (@mskwsky) | Twitter**  
-_The latest Tweets from Artem (@mskwsky): "That feeling when you do not want to leave Kiev. Thank you @HackenProof for…_twitter.com](https://twitter.com/mskwsky "https://twitter.com/mskwsky")[](https://twitter.com/mskwsky)
+[**Artem (@mskwsky) | Twitter**  ](https://twitter.com/mskwsky "https://twitter.com/mskwsky")[](https://twitter.com/mskwsky)
 
-[**Bhavuk Jain (@bhavukjain1) | Twitter**  
-_The latest Tweets from Bhavuk Jain (@bhavukjain1). Programmer https://t.co/St09FSu3Dw. Delhi, India_twitter.com](https://twitter.com/bhavukjain1 "https://twitter.com/bhavukjain1")[](https://twitter.com/bhavukjain1)
+[**Bhavuk Jain (@bhavukjain1) | Twitter** ](https://twitter.com/bhavukjain1 "https://twitter.com/bhavukjain1")[](https://twitter.com/bhavukjain1)
 
-[**Avinash Jain (@logicbomb\_1) | Twitter**  
-_The latest Tweets from Avinash Jain (@logicbomb\_1). Lead Infrastructure Security Engineer @groferseng | DevSecops |…_twitter.com](https://twitter.com/logicbomb_1 "https://twitter.com/logicbomb_1")[](https://twitter.com/logicbomb_1)
+[**Avinash Jain (@logicbomb\_1) | Twitter** ](https://twitter.com/logicbomb_1 "https://twitter.com/logicbomb_1")[](https://twitter.com/logicbomb_1)
 
-[**Emad Shanab (@Alra3ees) | Twitter**  
-_The latest Tweets from Emad Shanab (@Alra3ees). Lawyer & Ethical Hacker & Every Law has its own Bugs…_twitter.com](https://twitter.com/Alra3ees "https://twitter.com/Alra3ees")[](https://twitter.com/Alra3ees)
+[**Emad Shanab (@Alra3ees) | Twitter** ](https://twitter.com/Alra3ees "https://twitter.com/Alra3ees")[](https://twitter.com/Alra3ees)
 
-[**Ebrahim Hegazy (@Zigoo0) | Twitter**  
-_The latest Tweets from Ebrahim Hegazy (@Zigoo0). #H1\_Triage team member & Vulnerabilities Hunter since 2013. Egypt_twitter.com](https://twitter.com/Zigoo0 "https://twitter.com/Zigoo0")[](https://twitter.com/Zigoo0)
+[**Ebrahim Hegazy (@Zigoo0) | Twitter**  ](https://twitter.com/Zigoo0 "https://twitter.com/Zigoo0")[](https://twitter.com/Zigoo0)
 
-[**Yasser Ali (@garagosy) | Twitter**  
-_The latest Tweets from Yasser Ali (@garagosy). Someone who adores Information Security!. Dubai, United Arab Emirates_twitter.com](https://twitter.com/garagosy "https://twitter.com/garagosy")[](https://twitter.com/garagosy)
+[**Yasser Ali (@garagosy) | Twitter** ](https://twitter.com/garagosy "https://twitter.com/garagosy")[](https://twitter.com/garagosy)
 
-[**Akhil Reni (@akhilreni\_hs) | Twitter**  
-_The latest Tweets from Akhil Reni (@akhilreni\_hs). I TWEET AS AKHIL RENI !_twitter.com](https://twitter.com/akhilreni_hs "https://twitter.com/akhilreni_hs")[](https://twitter.com/akhilreni_hs)
+[**Akhil Reni (@akhilreni\_hs) | Twitter** ](https://twitter.com/akhilreni_hs "https://twitter.com/akhilreni_hs")[](https://twitter.com/akhilreni_hs)
 
-[**ak1t4 🇦🇷 (@akita\_zen) | Twitter**  
-_The latest Tweets from ak1t4 🇦🇷 (@akita\_zen). \[ Bug Bounty Hunter - Zen Monk\] "Beautiful things don't ask for…_twitter.com](https://twitter.com/akita_zen "https://twitter.com/akita_zen")[](https://twitter.com/akita_zen)
+[**ak1t4 🇦🇷 (@akita\_zen) | Twitter**  ](https://twitter.com/akita_zen "https://twitter.com/akita_zen")[](https://twitter.com/akita_zen)
 
-[**mongo (@mongobug) | Twitter**  
-_The latest Tweets from mongo (@mongobug). I like bug bounty programs and breaking things other people built. ::1_twitter.com](https://twitter.com/mongobug "https://twitter.com/mongobug")[](https://twitter.com/mongobug)
+[**mongo (@mongobug) | Twitter**  ](https://twitter.com/mongobug "https://twitter.com/mongobug")[](https://twitter.com/mongobug)
 
-[**Arbaz Hussain🐛 (@ArbazKiraak) | Twitter**  
-_The latest Tweets from Arbaz Hussain🐛 (@ArbazKiraak). cat /etc/arbaz | grep Machine Learning && Bug Hunter 👨‍🏭…_twitter.com](https://twitter.com/ArbazKiraak "https://twitter.com/ArbazKiraak")[](https://twitter.com/ArbazKiraak)
+[**Arbaz Hussain🐛 (@ArbazKiraak) | Twitter**  ](https://twitter.com/ArbazKiraak "https://twitter.com/ArbazKiraak")[](https://twitter.com/ArbazKiraak)
 
 and others ❤ can’t add everyone here.
 
