@@ -1,10 +1,6 @@
 ---
+layout: post
 title: Getting started in Bug Bounty
-description: Hi Guys!
-date: '2018-11-08T22:02:10.223Z'
-categories: []
-keywords: []
-slug: /@ehsahil/getting-started-in-bug-bounty-7052da28445a
 ---
 
 Hi Guys!
