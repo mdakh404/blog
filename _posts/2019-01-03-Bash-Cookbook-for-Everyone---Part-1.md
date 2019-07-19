@@ -318,7 +318,6 @@ The more you practice bash and use it for day to day work, the more you will bec
 
 #### Yea !! — Part-2
 
-[**Bash Cookbook for Everyone — Part 2**  
-_Part-1_medium.com](https://medium.com/ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025 "https://medium.com/ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025")[](https://medium.com/ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025)
+[**Bash Cookbook for Everyone — Part 2**  ](https://medium.com/ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025 "https://medium.com/ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025")[](https://medium.com/ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025)
 
 Good read, If interested : —
