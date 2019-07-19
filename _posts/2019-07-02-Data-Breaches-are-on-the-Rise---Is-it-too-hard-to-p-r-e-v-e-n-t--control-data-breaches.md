@@ -1,6 +1,6 @@
 ---
 layout: post
-title: >- Data Breaches are on the Rise — Is it too hard to p̶r̶e̶v̶e̶n̶t̶ control data breaches?
+title: Data Breaches are on the Rise — Is it too hard to p̶r̶e̶v̶e̶n̶t̶ control data breaches?
 ---
 
 Recent widely publicized data breaches have exposed the personal information of hundreds of millions of people. Some reports point to alarming increases in both the size and frequency of data breaches. Also, there are two types of breaches:-
