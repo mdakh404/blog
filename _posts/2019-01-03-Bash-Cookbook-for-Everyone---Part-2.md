@@ -1,10 +1,6 @@
 ---
+layout: post
 title: Bash Cookbook for Everyone — Part 2
-description: Part-1
-date: '2019-01-03T10:29:37.687Z'
-categories: []
-keywords: []
-slug: /@ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025
 ---
 
 #### Part-1
@@ -35,48 +31,62 @@ slug: /@ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025
 
 > **type** — Display’s commands type
 
+```
 man type //Type Command manual page
 
 type commands
+```
 
 > **which** — Display which program will be executed.
 
+```
 man which //Which command manual p  
 which ls
+```
 
 > **help** — Get help
 
+```
 help
 
 help cd
 
 mkdir --help
+```
 
 > **man** — Display manual pages
 
 > **info** — Display commands info entry
 
+```
 man info
+```
 
 **info coreutils**
 
 > **whatis** — very brief description of the command.
 
+```
 man whatis
 
 whatis ls
 
+```
+
 > **alias **— Create an alias for a command.
 
+``
 alias l.='ls -d .\* --color=tty'  
 alias ll='ls -l --color=tty'  
 alias ls='ls --color=tty'  
 unalias which //removing alias
+``
 
 #### Exploring the file system Commands.
 
 > **ls** — list directory contents
 
+```
 man ls
 
 Useful **ls** Commands
@@ -92,6 +102,7 @@ ls -l
 LC\_ALL=C ls
 
 ls -l "some\_file"
+```
 
 [**exa · a modern replacement for ls**  
 _Edit description_the.exa.website](https://the.exa.website "https://the.exa.website")[](https://the.exa.website)
@@ -100,17 +111,17 @@ _Edit description_the.exa.website](https://the.exa.website "https://the.exa.webs
 
 > **pwd** — Return working directory name.
 
-man pwd
+`man pwd`
 
 > **file** — Determine file types
 
-man file
+`man file`
 
 file filename
 
 > **more** — file perusal filter for crt viewing
 
-man more
+`man more`
 
 > **less** — View file content
 
@@ -118,31 +129,40 @@ man more
 
 > **cp** — copy files and directories.
 
-[**Clément Chastagnol ~ Moving efficiently in the CLI**  
-_A cheatsheet for moving efficiently in the CLI!_clementc.github.io](https://clementc.github.io/blog/2018/01/25/moving_cli/ "https://clementc.github.io/blog/2018/01/25/moving_cli/")[](https://clementc.github.io/blog/2018/01/25/moving_cli/)
+[**Clément Chastagnol ~ Moving efficiently in the CLI** ](https://clementc.github.io/blog/2018/01/25/moving_cli/ "https://clementc.github.io/blog/2018/01/25/moving_cli/")[](https://clementc.github.io/blog/2018/01/25/moving_cli/)
 
+```
 man cp
 
 cp file.html /usr/local/bin
+```
 
 > **mv** — move and rename files and directories.
 
+```
 man mv
 
 mv file.html /usr/localbin //moving files
 
 mv file.html file2.html //renaming files.
 
+```
+
 > **mkdir** — create directories
 
+```
 man mkdir
 
 mkdir somedirectory  
 mkdir dir1 dir2 dir3
 
+```
+
 > **rm** — remove files and directories
 
 **Caution**: Be careful with rm
+
+```
 
 man rm
 
@@ -157,14 +177,18 @@ rm -f //force delete.
 rm -v //Display informative messages.
 
 rm -rf file1 dir1 //if nither file1 or dir1 exists rm will countinue silently.
+```
 
 #### Redirection Commands
 
 Redirection makes it possible to control where the output of command goes to, and where the input of command comes from.
 
+```
 stdin - standard input stream (eg- keyboard)  
 stdout - standard output stream (eg- monitor)  
 stderr - standard error output.
+
+```
 
 \# Below cat-command will execute and redirect its error to (stderr) #to the bit bucket
 
@@ -176,28 +200,32 @@ echo "there was an error" 1>&2
 
 > **cat** — concatenate files
 
-[**The Source History of Cat**  
-_A tour of the many historical implementations of the Unix cat utility._twobithistory.org](https://twobithistory.org/2018/11/12/cat.html "https://twobithistory.org/2018/11/12/cat.html")[](https://twobithistory.org/2018/11/12/cat.html)
+[**The Source History of Cat** ](https://twobithistory.org/2018/11/12/cat.html "https://twobithistory.org/2018/11/12/cat.html")[](https://twobithistory.org/2018/11/12/cat.html)
 
 man cat #Manual page
 
+```
 cat 1.txt 2.txt > new.txt  
 cat >new.txt 1.txt 2.txt  
 \>new.txt cat 1.txt 2.txt
-
+```
 > **sort** — Sort or merge records (lines) of text and binary files.
 
+```
 man sort
 
 cat -n file.txt // file cat with no of lines.
 
 cat company\_ip | sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n ipaddr.list
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*49EwA0uKsvZACjic5_DvCg.png)
 
 Wow, that’s ugly. Here it is in the old format:
 
+```
 cat company\_ip | sort -t. +0n -1 +1n -2 +2n -3 +3n -
+```
 
 > **uniq** — report or omit repeated lines
 
@@ -205,9 +233,9 @@ man uniq
 
 > **grep** — print matching a pattern
 
-[**find, grep, sed, and awk.**  
-_I gave a lunchtime presentation on find, grep, sed, and awk. After the jump you’ll find the slides, and a bunch of…_wilsonericn.wordpress.com](https://wilsonericn.wordpress.com/2011/08/25/find-grep-sed-and-awk/ "https://wilsonericn.wordpress.com/2011/08/25/find-grep-sed-and-awk/")[](https://wilsonericn.wordpress.com/2011/08/25/find-grep-sed-and-awk/)
+[**find, grep, sed, and awk.**  ](https://wilsonericn.wordpress.com/2011/08/25/find-grep-sed-and-awk/ "https://wilsonericn.wordpress.com/2011/08/25/find-grep-sed-and-awk/")[](https://wilsonericn.wordpress.com/2011/08/25/find-grep-sed-and-awk/)
 
+```
 man grep
 
 grep root /etc/passwd
@@ -219,6 +247,7 @@ grep -v bash /etc/passwd | grep -v nologin
 grep -c false /etc/passwd
 
 grep -i ps ~/.bash\* | grep -v history
+```
 
 > **wc** — print newline, word, and byte count for each file
 
@@ -236,11 +265,13 @@ man id
 
 > **chmod** — change a file’s mode
 
+```
 man chmod
 
 chmod u+x script.sh
 
 chmod +x script.sh
+```
 
 > **su** — Substitute user identity or run the shell as another user
 
@@ -258,11 +289,13 @@ man passwd
 
 > **ps** — Report current processes
 
+```
 ps x
 
 ps aux
 
 ps -ef
+``` 
 
 **ps -ef | grep _stuck\_process_**
 
@@ -320,28 +353,28 @@ o - The line below the current line.
 
 O - The line above the current line.
 
-[**The Vim Learning Curve is a Myth**  
-_I’ve been speaking about and teaching people vim for several years now, and I’ve noticed a surprising pattern: people…_robots.thoughtbot.com](https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth "https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth")[](https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth)
+[**The Vim Learning Curve is a Myth** ](https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth "https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth")[](https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth)
 
-[**Upcase : Onramp to Vim | Online Tutorial by thoughtbot**  
-_Explore thoughtbot’s video tutorials, exercises, and forum discussions on Onramp to Vim_thoughtbot.com](https://thoughtbot.com/upcase/onramp-to-vim "https://thoughtbot.com/upcase/onramp-to-vim")[](https://thoughtbot.com/upcase/onramp-to-vim)
+[**Upcase : Onramp to Vim | Online Tutorial by thoughtbot** ](https://thoughtbot.com/upcase/onramp-to-vim "https://thoughtbot.com/upcase/onramp-to-vim")[](https://thoughtbot.com/upcase/onramp-to-vim)
 
-[**Vim for humans**  
-_I’m convinced that everybody should be able to learn Vim and that it’s just a problem of documentation. With this ebook…_vimebook.com](https://vimebook.com/en "https://vimebook.com/en")[](https://vimebook.com/en)
+[**Vim for humans** ](https://vimebook.com/en "https://vimebook.com/en")[](https://vimebook.com/en)
 
 if interested. good read
 
-[**Where Vim Came From**  
-_I recently stumbled across a file format known as Intel HEX. As far as I can gather, Intel HEX files (which use the…_twobithistory.org](https://twobithistory.org/2018/08/05/where-vim-came-from.html "https://twobithistory.org/2018/08/05/where-vim-came-from.html")[](https://twobithistory.org/2018/08/05/where-vim-came-from.html)
+[**Where Vim Came From**  ](https://twobithistory.org/2018/08/05/where-vim-came-from.html "https://twobithistory.org/2018/08/05/where-vim-came-from.html")[](https://twobithistory.org/2018/08/05/where-vim-came-from.html)
 
 #### Networking Commands —
 
 Important networking files within the local machine.
 
+```
+
 *   /etc/hosts — Name to the Ip address
 *   /etc/networks — Network name to the IP address
 *   /etc/protocol — Protocol name to the Protocol number.
 *   /etc/services — TCP/UDP names to the port number.
+
+```
 
 > **ping** — Send an ICMP ECHO\_REQUEST to network hosts
 
@@ -369,8 +402,7 @@ netstat -r
 
 > **SSH** — Secure Shell
 
-[**22 SSH Examples, Practical Tips & Tunnels | HackerTarget.com**  
-_Practical SSH examples to take your remote system admin game to the next level. Commands and tips to not only use SSH…_hackertarget.com](https://hackertarget.com/ssh-examples-tunnels/ "https://hackertarget.com/ssh-examples-tunnels/")[](https://hackertarget.com/ssh-examples-tunnels/)
+[**22 SSH Examples, Practical Tips & Tunnels | HackerTarget.com**  ](https://hackertarget.com/ssh-examples-tunnels/ "https://hackertarget.com/ssh-examples-tunnels/")[](https://hackertarget.com/ssh-examples-tunnels/)
 
 > **wget** — The non-interactive network downloader.
 
@@ -382,7 +414,10 @@ man curl
 
 Getting subdomains from curl using certspotter.com
 
+```
 **curl -s** [**https://certspotter.com/api/v0/certs\\?domain\\=deliveroo.co.uk**](https://certspotter.com/api/v0/certs%5C?domain%5C=deliveroo.co.uk) **| jq '.\[\].dns\_names\[\]' | sed 's/\\\*\\.//g' | tr -d "\\"" | sort -u**
+
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*8a17hAK2K_IgHkwizctFwg.png)
 
@@ -408,15 +443,16 @@ locate zip | grep bin
 
 > **find** — search for filesman find
 
-[**Find is a beautiful tool**  
-_I have blogged before that knowledge of command-line tools is essential to take the next step in programming…_www.eriwen.com](https://www.eriwen.com/productivity/find-is-a-beautiful-tool/ "https://www.eriwen.com/productivity/find-is-a-beautiful-tool/")[](https://www.eriwen.com/productivity/find-is-a-beautiful-tool/)
+[**Find is a beautiful tool**  ](https://www.eriwen.com/productivity/find-is-a-beautiful-tool/ "https://www.eriwen.com/productivity/find-is-a-beautiful-tool/")[](https://www.eriwen.com/productivity/find-is-a-beautiful-tool/)
 
+```
 find ~  
 find ~ | wc -l  
 find ~ -type d | wc -l
 
 find ~ -type f | wc -l  
 find ~ -type f -name "\*.JPG" -size +1M | wc -l 840
+```
 
 #### text processing commands,
 
@@ -440,7 +476,9 @@ The variables $1, $2, $3, …, $N hold the values of the first, second, third u
 
 man awk
 
+```
 **ls -l | awk _'{ print $5 $9 }'_**
+```
 
 **history | awk 'BEGIN {FS="\[ \\t\]+|\\\\|"} {print $3}' | sort | uniq -c | sort -nr | head**
 
@@ -483,11 +521,9 @@ Git is a fast, scalable, distributed revision control system with an unusually r
 
 high-level operations and full access to internals.
 
-[**Upcase : Mastering Git | Online Tutorial by thoughtbot**  
-_Explore thoughtbot’s video tutorials, exercises, and forum discussions on Mastering Git_thoughtbot.com](https://thoughtbot.com/upcase/mastering-git "https://thoughtbot.com/upcase/mastering-git")[](https://thoughtbot.com/upcase/mastering-git)
+[**Upcase : Mastering Git | Online Tutorial by thoughtbot** ](https://thoughtbot.com/upcase/mastering-git "https://thoughtbot.com/upcase/mastering-git")[](https://thoughtbot.com/upcase/mastering-git)
 
-[**Learn Git Branching**  
-_An interactive Git visualization tool to educate and challenge!_learngitbranching.js.org](https://learngitbranching.js.org/ "https://learngitbranching.js.org/")[](https://learngitbranching.js.org/)
+[**Learn Git Branching**  ](https://learngitbranching.js.org/ "https://learngitbranching.js.org/")[](https://learngitbranching.js.org/)
 
 ### One-Liners
 
@@ -521,13 +557,17 @@ nmap -sL 104.36.192.0/24 | grep "Nmap scan report" | awk '{print $NF}'
 
 Finding Up hosts using NMAP.
 
+```
 nmap -sP 104.36.192.0/21 -oG uber-ips.txt
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*s05oTMn8R4jrG22fSAH-rw.png)
 
 **Grep fro UP hosts only.**
 
+```
 cat uber-ips.txt | grep Up | cut -d" " -f2
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*Gqu9dN4ItV19cCQmZkDThQ.png)
 
@@ -541,85 +581,104 @@ masscan -iL uber-up-hosts.txt -p80,443,8080,8000,9000,8888,9999 --rate 10000 --o
 
 **Find your IP address using the command line:**
 
+```
 **/sbin/ifconfig -a | awk '/(cast)/ { print $2 }' | cut -d':' -f2 | head -1**
+```
 
 **Pulling IP address from a file.**
 
+```
 **grep -E -o '\[0-9\]{1,3}\\.\[0-9\]{1,3}\\.\[0-9\]{1,3}\\.\[0-9\]{1,3}'**
+```
 
 **Subdomains from hacker target**
 
+```
 **curl -s** [**https://api.hackertarget.com/hostsearch/?q=deliveroo.com**](https://api.hackertarget.com/hostsearch/?q=deliveroo.com) **| cut -d',' -f1 | sort -u**
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*mat02ZzKufaMhExcP1bn5A.png)
 
 **Subdomains from Threatcrowd**
 
+```
 **curl -s** [**https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=deliveroo.com**](https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=deliveroo.com) **| jq -r '.subdomains | .\[\]' | sort -u**
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*4UMTp3lu1-2oLuuIEKFDpg.png)
 
 **Subdomains from Certspotter**
 
+```
 curl -s [https://certspotter.com/api/v0/certs\\?domain\\=deliveroo.co.uk](https://certspotter.com/api/v0/certs%5C?domain%5C=deliveroo.co.uk) | jq '.\[\].dns\_names\[\]' | sed 's/\\\*\\.//g' | tr -d "\\"" | sort -u
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*VsoaF-4Ibdr0C5AcgbwWzg.png)
 
 **Subdomain from crt.sh**
 
+```
 **curl -s https://crt.sh/?q=%.hackerone.com | sed '/crt/d' | sed 's/<\\/\\?\[^>\]\\+>//g' | tr -d ' ' | sed 's/  \*/ /g' | sed 's/\\\*\\.//g' | sed 's/\\%\\.//g' | sed -e '1,2d' | sort -u | uniq | grep hackerone | sed '/IdentityLIKE/d'**
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*JIXC14sMidgEUc07lmwhQA.png)
 
 **subdomains from Archive.**
 
+```
 **curl -s "http://web.archive.org/cdx/search/cdx?url=\*.hackerone.com/\*&output=text&fl=original&collapse=urlkey" |sort| sed -e 's\_https\*://\_\_' -e "s/\\/.\*//" -e 's/:.\*//' -e 's/^www\\.//' | sort -u**
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*JIXC14sMidgEUc07lmwhQA.png)
 
+```
 **cat deliveroo-domains.txt | filter-resolved > deliveroo-domains-resolved.txt**
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*K4MvBTRRhtNIo7cr1htzsg.png)
 
 fetch titles of the subdomains from a list using `httprobe`and `get-title`
 
-  
+```
 cat deliveroo-domains.txt | httprobe | get-title
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*jZncrFuL90S983ZzDQysHw.png)
 
 **Fetching interesting URL from** `**waybackmachine**`
 
+```
 **echo hackerone.com | waybackurls | tee test.txt | urinteresting**
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*8lrJOJrjjNsmmf0DB5twaw.png)
 
 Subdomain from SSL certificates.
 
+```
 true | openssl s\_client -connect hackerone.com:443 2> /dev/null | openssl x509 -noout -text 2> /dev/null | grep DNS: | sed 's/ DNS://g' | sed 's/ //g' | sed 's/,/\\'$'\\n/g'  
+```
   
 
 ![](https://cdn-images-1.medium.com/max/800/1*4wh2_kSuA3P8kQmuZfUNrQ.png)
 
-[**bash,pentesting one-liners and stuff**  
-_Basics grep case insensitive# Sort by IP Addresses sort -n -t._bloggins-sec.blogspot.com](https://bloggins-sec.blogspot.com/2013/01/bashpentesting-one-liners-and-stuff.html "https://bloggins-sec.blogspot.com/2013/01/bashpentesting-one-liners-and-stuff.html")[](https://bloggins-sec.blogspot.com/2013/01/bashpentesting-one-liners-and-stuff.html)
+[**bash,pentesting one-liners and stuff**  ](https://bloggins-sec.blogspot.com/2013/01/bashpentesting-one-liners-and-stuff.html "https://bloggins-sec.blogspot.com/2013/01/bashpentesting-one-liners-and-stuff.html")[](https://bloggins-sec.blogspot.com/2013/01/bashpentesting-one-liners-and-stuff.html)
 
-[**Command Line for the 21. Century: The Low Hanging Fruit**  
-_UPDATE (19-Nov-2018): Added information about the Pipe Viewer utility. People who use Unix since 1980s, or GNU/Linux…_ileriseviye.wordpress.com](https://ileriseviye.wordpress.com/2018/10/30/command-line-for-the-21-century-the-low-hanging-fruit/ "https://ileriseviye.wordpress.com/2018/10/30/command-line-for-the-21-century-the-low-hanging-fruit/")[](https://ileriseviye.wordpress.com/2018/10/30/command-line-for-the-21-century-the-low-hanging-fruit/)
+[**Command Line for the 21. Century: The Low Hanging Fruit**  ](https://ileriseviye.wordpress.com/2018/10/30/command-line-for-the-21-century-the-low-hanging-fruit/ "https://ileriseviye.wordpress.com/2018/10/30/command-line-for-the-21-century-the-low-hanging-fruit/")[](https://ileriseviye.wordpress.com/2018/10/30/command-line-for-the-21-century-the-low-hanging-fruit/)
 
-[**10 Linux Commands That Will Save Your Time — Azer Koçulu’s Journal**  
-_In this blog post, I’ll share the Linux commands that saved a lot of my time when getting complicated tasks done. This…_azer.bike](https://azer.bike/journal/10-linux-commands-that-will-save-your-time/ "https://azer.bike/journal/10-linux-commands-that-will-save-your-time/")[](https://azer.bike/journal/10-linux-commands-that-will-save-your-time/)
+[**10 Linux Commands That Will Save Your Time — Azer Koçulu’s Journal** ](https://azer.bike/journal/10-linux-commands-that-will-save-your-time/ "https://azer.bike/journal/10-linux-commands-that-will-save-your-time/")[](https://azer.bike/journal/10-linux-commands-that-will-save-your-time/)
 
 #### Command line basic shortcuts
 
+```
 ctrl + a - move cursor to the begining of the line  
 ctrl + e - move cursor to the end of the line.   
 Alt+f - move one word forward  
 Alt+b Move cursor one work backword  
 ctrl+l- clear the clean (clear command alternative)
+```
 
-[**Become a Command Line Ninja With These Time-Saving Shortcuts**  
-_The command line can be quite powerful, but typing in long commands and file paths gets tedious pretty quickly. Here…_lifehacker.com](https://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts "https://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts")[](https://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts)
+[**Become a Command Line Ninja With These Time-Saving Shortcuts** ](https://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts "https://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts")[](https://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts)
 
 #### Personal Aliases —
 
@@ -639,47 +698,33 @@ Thanks to all of the following peoples for creating awesome content.
 
 **Penetration Testing with the Bash Shell** by Keith Makan
 
-[**Bash tips for everyday at the command line**  
-_As the default shell for many of the Linux and Unix variants, Bash includes a wide variety of underused features, so it…_opensource.com](https://opensource.com/article/18/5/bash-tricks "https://opensource.com/article/18/5/bash-tricks")[](https://opensource.com/article/18/5/bash-tricks)
+[**Bash tips for everyday at the command line**  ](https://opensource.com/article/18/5/bash-tricks "https://opensource.com/article/18/5/bash-tricks")[](https://opensource.com/article/18/5/bash-tricks)
 
-[**We all ❤ Terminals. — Terminals Are Sexy**  
-_A curated list of sexy Terminal frameworks, extensions & resources for CLI lovers._terminalsare.sexy](https://terminalsare.sexy/ "https://terminalsare.sexy/")[](https://terminalsare.sexy/)
+[**We all ❤ Terminals. — Terminals Are Sexy** ](https://terminalsare.sexy/ "https://terminalsare.sexy/")[](https://terminalsare.sexy/)
 
-[**Bash Scripting 101 for Pen Testers Hack3rcon 3 (Hacking Illustrated Series InfoSec Tutorial Videos)**  
-_Irongeek’s Information Security site with tutorials, articles and other information._www.irongeek.com](http://www.irongeek.com/i.php?page=videos/hack3rcon3/09-bash-scripting-101-for-pen-testers-lee-baird "http://www.irongeek.com/i.php?page=videos/hack3rcon3/09-bash-scripting-101-for-pen-testers-lee-baird")[](http://www.irongeek.com/i.php?page=videos/hack3rcon3/09-bash-scripting-101-for-pen-testers-lee-baird)
+[**Bash Scripting 101 for Pen Testers Hack3rcon 3 (Hacking Illustrated Series InfoSec Tutorial Videos)** ](http://www.irongeek.com/i.php?page=videos/hack3rcon3/09-bash-scripting-101-for-pen-testers-lee-baird "http://www.irongeek.com/i.php?page=videos/hack3rcon3/09-bash-scripting-101-for-pen-testers-lee-baird")[](http://www.irongeek.com/i.php?page=videos/hack3rcon3/09-bash-scripting-101-for-pen-testers-lee-baird)
 
-[**Shell startup scripts — flowblok’s blog**  
-_Fortunately, I’ve read the man pages for you, and drawn a pretty diagram. To read it, pick your shell, whether it’s a…_blog.flowblok.id.au](https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html "https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html")[](https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html)
+[**Shell startup scripts — flowblok’s blog**  ](https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html "https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html")[](https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html)
 
-[**Unix tool tip (@UnixToolTip) | Twitter**  
-_The latest Tweets from Unix tool tip (@UnixToolTip). Tips on Unix utilities and related topics from @JohnDCook_twitter.com](https://twitter.com/UnixToolTip "https://twitter.com/UnixToolTip")[](https://twitter.com/UnixToolTip)
+[**Unix tool tip (@UnixToolTip) | Twitter**  ](https://twitter.com/UnixToolTip "https://twitter.com/UnixToolTip")[](https://twitter.com/UnixToolTip)
 
-[**Penetration Testing with the Bash shell**  
-_An easy-to-understand, step-by-step practical guide that shows you how to use the Linux Bash terminal tools to solve…_www.amazon.in](https://www.amazon.in/Penetration-Testing-shell-Keith-Makan/dp/1849695105 "https://www.amazon.in/Penetration-Testing-shell-Keith-Makan/dp/1849695105")[](https://www.amazon.in/Penetration-Testing-shell-Keith-Makan/dp/1849695105)
+[**Penetration Testing with the Bash shell** ](https://www.amazon.in/Penetration-Testing-shell-Keith-Makan/dp/1849695105 "https://www.amazon.in/Penetration-Testing-shell-Keith-Makan/dp/1849695105")[](https://www.amazon.in/Penetration-Testing-shell-Keith-Makan/dp/1849695105)
 
-[**Bash-it/bash-it**  
-_A community Bash framework. Contribute to Bash-it/bash-it development by creating an account on GitHub._github.com](https://github.com/Bash-it/bash-it "https://github.com/Bash-it/bash-it")[](https://github.com/Bash-it/bash-it)
+[**Bash-it/bash-it**  ](https://github.com/Bash-it/bash-it "https://github.com/Bash-it/bash-it")[](https://github.com/Bash-it/bash-it)
 
-[**The Bash Hackers Wiki \[Bash Hackers Wiki\]**  
-_This wiki is intended to hold documentation of any kind about GNU Bash. The main motivation was to provide…_wiki.bash-hackers.org](http://wiki.bash-hackers.org/ "http://wiki.bash-hackers.org/")[](http://wiki.bash-hackers.org/)
+[**The Bash Hackers Wiki \[Bash Hackers Wiki\]**  ](http://wiki.bash-hackers.org/ "http://wiki.bash-hackers.org/")[](http://wiki.bash-hackers.org/)
 
-[**Advanced Bash-Scripting Guide**  
-_This tutorial assumes no previous knowledge of scripting or programming, yet progresses rapidly toward an…_tldp.org](http://tldp.org/LDP/abs/html/ "http://tldp.org/LDP/abs/html/")[](http://tldp.org/LDP/abs/html/)
+[**Advanced Bash-Scripting Guide**  ](http://tldp.org/LDP/abs/html/ "http://tldp.org/LDP/abs/html/")[](http://tldp.org/LDP/abs/html/)
 
-[**Bash Guide for Beginners**  
-_Edit description_tldp.org](http://tldp.org/LDP/Bash-Beginners-Guide/html/ "http://tldp.org/LDP/Bash-Beginners-Guide/html/")[](http://tldp.org/LDP/Bash-Beginners-Guide/html/)
+[**Bash Guide for Beginners** ] (http://tldp.org/LDP/Bash-Beginners-Guide/html/ "http://tldp.org/LDP/Bash-Beginners-Guide/html/")[](http://tldp.org/LDP/Bash-Beginners-Guide/html/)
 
-[**uno: a uniq like CLI tool for log data | Unomaly**  
-_Authored by: Emil Stenqvist Due to the volume and repetitive nature of log data it’s hard to actually review it and…_unomaly.com](https://unomaly.com/blog/its-in-the-anomalies/ "https://unomaly.com/blog/its-in-the-anomalies/")[](https://unomaly.com/blog/its-in-the-anomalies/)
+[**uno: a uniq like CLI tool for log data | Unomaly**  ](https://unomaly.com/blog/its-in-the-anomalies/ "https://unomaly.com/blog/its-in-the-anomalies/")[](https://unomaly.com/blog/its-in-the-anomalies/)
 
-[**Learn Bash the Hard Way**  
-_This book will train you to be a master in bash, a technology that&#39;s more often used than understood. It uses the…_leanpub.com](https://leanpub.com/learnbashthehardway "https://leanpub.com/learnbashthehardway")[](https://leanpub.com/learnbashthehardway)
+[**Learn Bash the Hard Way**  ](https://leanpub.com/learnbashthehardway "https://leanpub.com/learnbashthehardway")[](https://leanpub.com/learnbashthehardway)
 
-[**zwischenzugs**  
-_In this article I want to explain a few things about enterprises and their software, based on my experiences, and also…_zwischenzugs.com](https://zwischenzugs.com "https://zwischenzugs.com")[](https://zwischenzugs.com)
+[**zwischenzugs**  ](https://zwischenzugs.com "https://zwischenzugs.com")[](https://zwischenzugs.com)
 
-[**offensive Infosec Blog**  
-_I have been running into the issue of getting the airport wifi card to properly bridge with my vmware guests. This blog…_offensiveinfosec.wordpress.com](https://offensiveinfosec.wordpress.com/ "https://offensiveinfosec.wordpress.com/")[](https://offensiveinfosec.wordpress.com/)
+[**offensive Infosec Blog**  ](https://offensiveinfosec.wordpress.com/ "https://offensiveinfosec.wordpress.com/")[](https://offensiveinfosec.wordpress.com/)
 
 #### Closing Gifs.
 
