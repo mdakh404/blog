@@ -332,7 +332,7 @@ Consider donating small part of your bounties to them to support their open sour
 
 * [Bhavuk Jain (@bhavukjain1) ](https://twitter.com/bhavukjain1 "https://twitter.com/bhavukjain1")[](https://twitter.com/bhavukjain1)
 
- [Avinash Jain (@logicbomb\_1) ](https://twitter.com/logicbomb_1 "https://twitter.com/logicbomb_1")[](https://twitter.com/logicbomb_1)
+ * [Avinash Jain (@logicbomb\_1) ](https://twitter.com/logicbomb_1 "https://twitter.com/logicbomb_1")[](https://twitter.com/logicbomb_1)
 
 * [ Emad Shanab (@Alra3ees) ](https://twitter.com/Alra3ees "https://twitter.com/Alra3ees")[](https://twitter.com/Alra3ees)
 
@@ -342,11 +342,11 @@ Consider donating small part of your bounties to them to support their open sour
 
 * [ Akhil Reni (@akhilreni\_hs) ](https://twitter.com/akhilreni_hs "https://twitter.com/akhilreni_hs")[](https://twitter.com/akhilreni_hs)
 
-* [**ak1t4 🇦🇷 (@akita\_zen) **  ](https://twitter.com/akita_zen "https://twitter.com/akita_zen")[](https://twitter.com/akita_zen)
+* [ ak1t4 🇦🇷 (@akita\_zen)   ](https://twitter.com/akita_zen "https://twitter.com/akita_zen")[](https://twitter.com/akita_zen)
 
-* [**mongo (@mongobug) **  ](https://twitter.com/mongobug "https://twitter.com/mongobug")[](https://twitter.com/mongobug)
+* [ mongo (@mongobug)   ](https://twitter.com/mongobug "https://twitter.com/mongobug")[](https://twitter.com/mongobug)
 
-* [**Arbaz Hussain🐛 (@ArbazKiraak) **  ](https://twitter.com/ArbazKiraak "https://twitter.com/ArbazKiraak")[](https://twitter.com/ArbazKiraak)
+* [ Arbaz Hussain🐛 (@ArbazKiraak)   ](https://twitter.com/ArbazKiraak "https://twitter.com/ArbazKiraak")[](https://twitter.com/ArbazKiraak)
 
 and others ❤ can’t add everyone here.
 
