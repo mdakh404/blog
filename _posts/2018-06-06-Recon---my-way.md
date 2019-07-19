@@ -425,5 +425,3 @@ Best of luck for all of your future infosec things.
 If you have questions and anything about the post you want to ask me, Please contact me via twitter/fb. I’ll have my DM open.
 
 Feedbacks and edits are welcome
-
-[**Buy Me A Coffee - Best Way for Creators to Receive Tips** ](https://www.buymeacoffee.com/ehsahil "https://www.buymeacoffee.com/ehsahil")[](https://www.buymeacoffee.com/ehsahil)
