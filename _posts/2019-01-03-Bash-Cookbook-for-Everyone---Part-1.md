@@ -30,16 +30,19 @@ Types of shells.
 
 Shell Startup Process — BASH/SH/ZSH Startup Process.
 
-![Shell Startup — Sh/Bash/zsh | Source — zwischenzugs.com](https://cdn-images-1.medium.com/max/800/1*xgmeKpaKRNBtTLcfnlwL1Q.png)
+![Shell Startup — Sh/Bash/zsh - Source — zwischenzugs.com](https://cdn-images-1.medium.com/max/800/1*xgmeKpaKRNBtTLcfnlwL1Q.png)
+
 Shell Startup — Sh/Bash/zsh | Source — zwischenzugs.com
 
 Valid Login shell for my machine —
 
-cat /etc/shells
+**cat /etc/shell**
 
 ![](https://cdn-images-1.medium.com/max/800/1*qMG0UX7_Y5zcuwP6OApgrQ.png)
 
 **Type of shell.**
+
+```
 
 *   /bin/bash — Bourne Again shell
 *   /bin/csh — C shell
@@ -47,12 +50,18 @@ cat /etc/shells
 *   /bin/sh — Bourne Shell, The original shell still used in UNIX.
 *   /bin/tcsh — TENEX C Shell, a superset of the common C shell.
 
+```
+
 When the shell is started, it read the configuration files, The most commons are.
+
+```
 
 *   /etc/profile
 *   ~/.bash\_profile
 *   ~/.bashrc
 *   ~/.bash\_logout — Contains the instructions for logout procedure. (don’t f\*ck with it)
+
+```
 
 **Usefulness of shell scripting**
 
@@ -61,7 +70,7 @@ When the shell is started, it read the configuration files, The most commons are
 *   they let you edit the command.
 *   Shells are highly programmable.
 
-[**Upcase : Mastering the Shell Course | Upcase Tutorials** ](https://thoughtbot.com/upcase/mastering-the-shell "https://thoughtbot.com/upcase/mastering-the-shell")[](https://thoughtbot.com/upcase/mastering-the-shell)
+[** Upcase : Mastering the Shell Course ** ](https://thoughtbot.com/upcase/mastering-the-shell "https://thoughtbot.com/upcase/mastering-the-shell")[](https://thoughtbot.com/upcase/mastering-the-shell)
 
 #### Pipelines
 
@@ -69,7 +78,9 @@ Pipelines are one or more [**simple commands**](http://wiki.bash-hackers.org/syn
 
 [**Simple, Fast, Easy Parallelism in Shell Pipelines** ](https://catern.com/posts/pipes.html "https://catern.com/posts/pipes.html")[](https://catern.com/posts/pipes.html)
 
-**ls -l /usr/bin | less | sort | uniq | wc -l**
+```
+ls -l /usr/bin | less | sort | uniq | wc -l
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*mc1baaDaEa1SkrWa8w_HYQ.png)
 
@@ -91,7 +102,7 @@ bash --version
 
 You can update the bash using the following command.
 
-**apt-get update && apt-get install bash bash3 bash-builtins bash-doc bash3-doc**
+`apt-get update && apt-get install bash bash3 bash-builtins bash-doc bash3-doc`
 
 ### Compound commands —
 
@@ -103,7 +114,6 @@ You can update the bash using the following command.
 *   User Selection
 *   The Case statement
 *   The If-clause
-*   The while loop
 *   The until loop
 
 Compound commands have the following characteristics:
@@ -235,16 +245,18 @@ select x in 1 2 3
 
 > **The while loop **— The while-loop is relatively simple in what it does: it executes the [command list](http://wiki.bash-hackers.org/syntax/basicgrammar#lists "syntax:basicgrammar") `_<LIST1>_` and if the exit code of it was 0 (TRUE) it executes `_<LIST2>_`. This happens again and again until `_<LIST1>_` returns FALSE.
 
+```
 while <LIST1> ; do  
   <LIST2>  
 done
-
+```
 > **The until loop **— The until-loop is relatively simple in what it does: it executes the [command list](http://wiki.bash-hackers.org/syntax/basicgrammar#lists "syntax:basicgrammar") `_<LIST1>_` and if the exit code of it was **not** 0 (FALSE) it executes `_<LIST2>_`. This happens again and again until `_<LIST1>_` returns TRUE.
 
+```
 until <LIST1> ; do  
   <LIST2>  
 done
-
+```
 ### Running Bash Scripts
 
 The script should have execute permission for the correct owner for running. we can change the permission using `chmod`
@@ -273,21 +285,6 @@ Convert domain list to resolved IP address list.
 
 Checking for zone transfer.
 
-```
-#!/bin/bash
-```
-
-```
-for
-```
-
-```
-do
-```
-
-```
-done
-```
 
 Give proper permission.
 
