@@ -1,10 +1,6 @@
 ---
+layout: post
 title: Bash Cookbook for Everyone — Part 1
-description: 'Hi Guys,'
-date: '2019-01-03T10:37:40.110Z'
-categories: []
-keywords: []
-slug: /@ehsahil/bash-cookbook-for-everyone-part-1-cc98251e2887
 ---
 
 **Hi Guys,**
@@ -65,15 +61,13 @@ When the shell is started, it read the configuration files, The most commons are
 *   they let you edit the command.
 *   Shells are highly programmable.
 
-[**Upcase : Mastering the Shell Course | Upcase Tutorials**  
-_Regardless of language, learning the building blocks of the command line can improve your development experience in so…_thoughtbot.com](https://thoughtbot.com/upcase/mastering-the-shell "https://thoughtbot.com/upcase/mastering-the-shell")[](https://thoughtbot.com/upcase/mastering-the-shell)
+[**Upcase : Mastering the Shell Course | Upcase Tutorials** ](https://thoughtbot.com/upcase/mastering-the-shell "https://thoughtbot.com/upcase/mastering-the-shell")[](https://thoughtbot.com/upcase/mastering-the-shell)
 
 #### Pipelines
 
 Pipelines are one or more [**simple commands**](http://wiki.bash-hackers.org/syntax/basicgrammar#simple_commands "syntax:basicgrammar") (separated by the `_|_` symbol connects their input and output),
 
-[**Simple, Fast, Easy Parallelism in Shell Pipelines**  
-_Usually src will output lines of data, and worker acts as a filter, processing each line and sending some transformed…_catern.com](https://catern.com/posts/pipes.html "https://catern.com/posts/pipes.html")[](https://catern.com/posts/pipes.html)
+[**Simple, Fast, Easy Parallelism in Shell Pipelines** ](https://catern.com/posts/pipes.html "https://catern.com/posts/pipes.html")[](https://catern.com/posts/pipes.html)
 
 **ls -l /usr/bin | less | sort | uniq | wc -l**
 
@@ -139,6 +133,7 @@ In the above script, if you type 1 \`**Your choice is TRUE**\` will return and i
 
 > **The conditional Expression \[\[<expression>\]\] **— The conditional expression is meant for use as a conditional command like.
 
+```
 <expression1> && <expression2>
 
 <expression1> || <expression2>
@@ -148,6 +143,8 @@ In the above script, if you type 1 \`**Your choice is TRUE**\` will return and i
 <expression1> = <expression2>
 
 <expression1> != <expression2>
+
+```
 
 Example script —
 
@@ -186,6 +183,8 @@ Extracting multiple files in one command.
 
 > **The C-style for-loop** —
 
+```
+
 for ((<Expr1>;<expr2>;<expr3>;)); do <list> ;done
 
 Example: —
@@ -200,6 +199,7 @@ Simple Counter:
 for ((x = 0 ; x <= 100 ; x++)); do  
   echo "Counter: $x"  
 done
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*GfcKGLgbZMkxrr7nN7bp3g.png)
 
@@ -213,12 +213,15 @@ done
 
 > **User Selection** —
 
+```
+
 select <NAME> in <WORDS> ; do <LIST> ; done
 
 select x in 1 2 3  
 {  
   echo $x  
 }
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*zbo83vf3jhmvgOSA95s-RA.png)
 
@@ -256,11 +259,9 @@ We need to give the proper permission to the script before running it.
 
 **Understanding permissions within Unix.**
 
-[**Creating a bash completion script**  
-_I recently worked on creating a bash completion script for one of my toy projects and I enjoyed it very much. In this…_iridakos.com](https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial "https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial")[](https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial)
+[**Creating a bash completion script** ](https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial "https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial")[](https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial)
 
-[**Ten Things I Wish I’d Known About bash**  
-_Intro Recently I wanted to deepen my understanding of bash by researching as much of it as possible. Because I felt…_zwischenzugs.com](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/ "https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/")[](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/)
+[**Ten Things I Wish I’d Known About bash** ](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/ "https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/")[](https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/)
 
 **bash is all you need.**
 
@@ -296,6 +297,8 @@ chmod +x zonetransfer.sh
 
 **Reverse lookup for each IP in a subnet.**
 
+```
+
 #!/bin/bash  
    
 i="1"  
@@ -306,6 +309,7 @@ read subnet
         host -l "$subnet"."$i"  
         i=$(( $i + 1))  
         done
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*JfdIQt35i2pPmpZ7ZzLhAw.png)
 
