@@ -96,8 +96,7 @@ I’ve seen companies do not even have the proper information about all the serv
 
 #### If You’re Not Doing Continuous Asset Management You’re Not Doing Security — Daniel Miessler
 
-[**If You’re Not Doing Continuous Asset Management You’re Not Doing Security | Daniel Miessler**  
-_The more a company can tell me about their assets the better their security is, and the more comprehensive and realtime…_danielmiessler.com](https://danielmiessler.com/blog/continuous-asset-management-security/ "https://danielmiessler.com/blog/continuous-asset-management-security/")[](https://danielmiessler.com/blog/continuous-asset-management-security/)
+[**If You’re Not Doing Continuous Asset Management You’re Not Doing Security | Daniel Miessler** ](https://danielmiessler.com/blog/continuous-asset-management-security/ "https://danielmiessler.com/blog/continuous-asset-management-security/")[](https://danielmiessler.com/blog/continuous-asset-management-security/)
 
 Continuous Monitoring of your External Surface is very important than you think.
 
@@ -105,13 +104,13 @@ Continuous Monitoring of your External Surface is very important than you think.
 
 **OSINT** — Collecting data regarding your company using Open source intelligence tools. OSINT plays a very important role in giving whole insight into the companies at a relatively lower cost. OSINT uses publicly available sources together with the important data related to your organization.
 
-[**Recon — my way.**  ](https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21 "https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21")[](https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21)
+* [**Recon — my way.**  ](https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21 "https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21")[](https://medium.com/@ehsahil/recon-my-way-82b7e5f62e21)
 
-[**Subdomain Enumeration: 2019 Workflow** ](https://0xpatrik.com/subdomain-enumeration-2019/ "https://0xpatrik.com/subdomain-enumeration-2019/")[](https://0xpatrik.com/subdomain-enumeration-2019/)
+* [**Subdomain Enumeration: 2019 Workflow** ](https://0xpatrik.com/subdomain-enumeration-2019/ "https://0xpatrik.com/subdomain-enumeration-2019/")[](https://0xpatrik.com/subdomain-enumeration-2019/)
 
-[**jivoi/awesome-osint** ](https://github.com/jivoi/awesome-osint "https://github.com/jivoi/awesome-osint")[](https://github.com/jivoi/awesome-osint)
+* [**jivoi/awesome-osint** ](https://github.com/jivoi/awesome-osint "https://github.com/jivoi/awesome-osint")[](https://github.com/jivoi/awesome-osint)
 
-[**Ph055a/OSINT-Collection**  ](https://github.com/Ph055a/OSINT-Collection "https://github.com/Ph055a/OSINT-Collection")[](https://github.com/Ph055a/OSINT-Collection)
+* [**Ph055a/OSINT-Collection**  ](https://github.com/Ph055a/OSINT-Collection "https://github.com/Ph055a/OSINT-Collection")[](https://github.com/Ph055a/OSINT-Collection)
 
 [**Shodan**](https://shodan.io) — Shodan is a search engine that lets the user find specific types of computers connected to the internet using a variety of filters.
 
@@ -131,13 +130,13 @@ The security strength is determined by the security of the weakest part of the a
 
 The part of the application exposed to the public is the weakest part, the external surface should always be on priority.
 
-[**An Expert Guide to Securing Sensitive Data: 34 Experts Reveal the Biggest Mistakes Companies Make…** ](https://digitalguardian.com/blog/expert-guide-securing-sensitive-data-34-experts-reveal-biggest-mistakes-companies-make-data "https://digitalguardian.com/blog/expert-guide-securing-sensitive-data-34-experts-reveal-biggest-mistakes-companies-make-data")[](https://digitalguardian.com/blog/expert-guide-securing-sensitive-data-34-experts-reveal-biggest-mistakes-companies-make-data)
+* [**An Expert Guide to Securing Sensitive Data: 34 Experts Reveal the Biggest Mistakes Companies Make…** ](https://digitalguardian.com/blog/expert-guide-securing-sensitive-data-34-experts-reveal-biggest-mistakes-companies-make-data "https://digitalguardian.com/blog/expert-guide-securing-sensitive-data-34-experts-reveal-biggest-mistakes-companies-make-data")[](https://digitalguardian.com/blog/expert-guide-securing-sensitive-data-34-experts-reveal-biggest-mistakes-companies-make-data)
 
 #### **1.3 — Continuous monitoring of your External surface.**
 
-[**Continuous Asset Management and Cybersecurity: How We Got Here and Where We’re Going** ](https://medium.com/axonius/continuous-asset-management-and-cybersecurity-how-we-got-here-and-where-were-going-6d0856001058 "https://medium.com/axonius/continuous-asset-management-and-cybersecurity-how-we-got-here-and-where-were-going-6d0856001058")[](https://medium.com/axonius/continuous-asset-management-and-cybersecurity-how-we-got-here-and-where-were-going-6d0856001058)
+* [**Continuous Asset Management and Cybersecurity: How We Got Here and Where We’re Going** ](https://medium.com/axonius/continuous-asset-management-and-cybersecurity-how-we-got-here-and-where-were-going-6d0856001058 "https://medium.com/axonius/continuous-asset-management-and-cybersecurity-how-we-got-here-and-where-were-going-6d0856001058")[](https://medium.com/axonius/continuous-asset-management-and-cybersecurity-how-we-got-here-and-where-were-going-6d0856001058)
 
-[**yassineaboukir/sublert**  ](https://github.com/yassineaboukir/sublert "https://github.com/yassineaboukir/sublert")[](https://github.com/yassineaboukir/sublert)
+* [**yassineaboukir/sublert**  ](https://github.com/yassineaboukir/sublert "https://github.com/yassineaboukir/sublert")[](https://github.com/yassineaboukir/sublert)
 
 You can create your own slack bots to notify you whenever new subdomain popup in added public sources. uses of slack bots are limitless.
 
@@ -199,7 +198,7 @@ Subscribe on Have I been Pwned using your [security@company.com](mailto:security
 
 **‘; — have I been pwned?**
 
-[https://haveibeenpwned.co](https://haveibeenpwned.com/)m
+[https://haveibeenpwned.com](https://haveibeenpwned.com/)
 
 ![](https://cdn-images-1.medium.com/max/800/1*55aMa4q_P8N2qKfT9GZg-A.png)
 
@@ -240,14 +239,13 @@ Companies often do a good job of monitoring and controlling employees tech use o
 
 Remove their access to the Internal systems ASAP and rotate credentials they might have access to.
 
-[**Management**  ](https://www.intermedia.net/it-challenges/management/best-practices-onboarding-offboarding-employees "https://www.intermedia.net/it-challenges/management/best-practices-onboarding-offboarding-employees")[](https://www.intermedia.net/it-challenges/management/best-practices-onboarding-offboarding-employees)
+[**Management** ](https://www.intermedia.net/it-challenges/management/best-practices-onboarding-offboarding-employees "https://www.intermedia.net/it-challenges/management/best-practices-onboarding-offboarding-employees")[](https://www.intermedia.net/it-challenges/management/best-practices-onboarding-offboarding-employees)
 
 #### **4.3 — Employee Security Training**
 
 Security Training for everyone in the organization.
 
-[**For Everyone - PagerDuty Security Training**  
-_This is an open-source version of 'Security Training for Everyone', PagerDuty's internal employee security training…_sudo.pagerduty.com](https://sudo.pagerduty.com/for_everyone/ "https://sudo.pagerduty.com/for_everyone/")[](https://sudo.pagerduty.com/for_everyone/)
+[**For Everyone - PagerDuty Security Training** ](https://sudo.pagerduty.com/for_everyone/ "https://sudo.pagerduty.com/for_everyone/")[](https://sudo.pagerduty.com/for_everyone/)
 
 Security training for Engineers.
 
@@ -257,7 +255,7 @@ Setting up Guidelines for Engineers for secure software development, you can tak
 
 [**alulsh/intro-to-security-for-developers**  ](https://github.com/alulsh/intro-to-security-for-developers "https://github.com/alulsh/intro-to-security-for-developers")[](https://github.com/alulsh/intro-to-security-for-developers)
 
-[**Security Resources for Software Teams | Sqreen**  ](https://www.sqreen.com/resources "https://www.sqreen.com/resources")[](https://www.sqreen.com/resources)
+[**Security Resources for Software Teams - Sqreen**  ](https://www.sqreen.com/resources "https://www.sqreen.com/resources")[](https://www.sqreen.com/resources)
 
 #### 4.4 — Employee’s Personal Security Checklist
 
@@ -294,7 +292,7 @@ Cloud provider provided all the options and features to secure themselves but du
 
 [**Cloud security: The essential checklist**  ](https://www.infoworld.com/article/3321757/cloud-security-the-essential-checklist.html "https://www.infoworld.com/article/3321757/cloud-security-the-essential-checklist.html")[](https://www.infoworld.com/article/3321757/cloud-security-the-essential-checklist.html)
 
-[**2016 Data Security Incident | Uber Newsroom US**  ](https://www.uber.com/newsroom/2016-data-incident/ "https://www.uber.com/newsroom/2016-data-incident/")[](https://www.uber.com/newsroom/2016-data-incident/)
+[**2016 Data Security Incident - Uber Newsroom US**  ](https://www.uber.com/newsroom/2016-data-incident/ "https://www.uber.com/newsroom/2016-data-incident/")[](https://www.uber.com/newsroom/2016-data-incident/)
 
 [**How DJI fumbled its bug bounty program and created a PR nightmare**  ](https://www.cyberscoop.com/dji-bug-bounty-drone-technology-sean-melia-kevin-finisterre/ "https://www.cyberscoop.com/dji-bug-bounty-drone-technology-sean-melia-kevin-finisterre/")[](https://www.cyberscoop.com/dji-bug-bounty-drone-technology-sean-melia-kevin-finisterre/)
 
@@ -322,7 +320,7 @@ Currently, lack of Logging and monitoring is the #10 vulnerability in latest OWA
 
 **Kibana** — Kibana lets you visualize your Elasticsearch data and navigate the Elastic Stack, so you can do anything from learning why you’re getting paged at 2:00 a.m. to understanding the impact rain might have on your quarterly numbers.
 
-[**Kibana: Explore, Visualize, Discover Data | Elastic**  ](https://www.elastic.co/products/kibana "https://www.elastic.co/products/kibana")[](https://www.elastic.co/products/kibana)
+[**Kibana: Explore, Visualize, Discover Data - Elastic**  ](https://www.elastic.co/products/kibana "https://www.elastic.co/products/kibana")[](https://www.elastic.co/products/kibana)
 
 [**Logging and Monitoring**  ](https://resources.infosecinstitute.com/category/certifications-training/cissp/domains/security-operations/logging-and-monitoring/#gref "https://resources.infosecinstitute.com/category/certifications-training/cissp/domains/security-operations/logging-and-monitoring/#gref")[](https://resources.infosecinstitute.com/category/certifications-training/cissp/domains/security-operations/logging-and-monitoring/#gref)
 
@@ -342,7 +340,7 @@ Having a responsible disclosure program is a must. It’s not always necessary t
 
 [**Vulnerability Disclosure Policy Basics: 5 Critical Components**  ](https://www.hackerone.com/blog/Vulnerability-Disclosure-Policy-Basics-5-Critical-Components "https://www.hackerone.com/blog/Vulnerability-Disclosure-Policy-Basics-5-Critical-Components")[](https://www.hackerone.com/blog/Vulnerability-Disclosure-Policy-Basics-5-Critical-Components)
 
-[**What is Responsible Disclosure? | Bugcrowd**  ](https://www.bugcrowd.com/resource/what-is-responsible-disclosure/ "https://www.bugcrowd.com/resource/what-is-responsible-disclosure/")[](https://www.bugcrowd.com/resource/what-is-responsible-disclosure/)
+[**What is Responsible Disclosure? - Bugcrowd**  ](https://www.bugcrowd.com/resource/what-is-responsible-disclosure/ "https://www.bugcrowd.com/resource/what-is-responsible-disclosure/")[](https://www.bugcrowd.com/resource/what-is-responsible-disclosure/)
 
 ### 6 — Last but not least…..
 
@@ -360,15 +358,15 @@ Having a responsible disclosure program is a must. It’s not always necessary t
 
 **6.3 — Best Security Checklists out there.**
 
-[**SaaS CTO Security Checklist | Sqreen**  ](https://www.sqreen.com/checklists/saas-cto-security-checklist "https://www.sqreen.com/checklists/saas-cto-security-checklist")[](https://www.sqreen.com/checklists/saas-cto-security-checklist)
+[**SaaS CTO Security Checklist - Sqreen**  ](https://www.sqreen.com/checklists/saas-cto-security-checklist "https://www.sqreen.com/checklists/saas-cto-security-checklist")[](https://www.sqreen.com/checklists/saas-cto-security-checklist)
 
-[**Pentest Best Practices Checklist | Sqreen**  ](https://www.sqreen.com/checklists/pentest-checklist "https://www.sqreen.com/checklists/pentest-checklist")[](https://www.sqreen.com/checklists/pentest-checklist)
+[**Pentest Best Practices Checklist - Sqreen**  ](https://www.sqreen.com/checklists/pentest-checklist "https://www.sqreen.com/checklists/pentest-checklist")[](https://www.sqreen.com/checklists/pentest-checklist)
 
-[**The First Security Engineer's 100-day Checklist | Sqreen**  ](https://www.sqreen.com/checklists/security-engineer-checklist "https://www.sqreen.com/checklists/security-engineer-checklist")[](https://www.sqreen.com/checklists/security-engineer-checklist)
+[**The First Security Engineer's 100-day Checklist - Sqreen**  ](https://www.sqreen.com/checklists/security-engineer-checklist "https://www.sqreen.com/checklists/security-engineer-checklist")[](https://www.sqreen.com/checklists/security-engineer-checklist)
 
-[**Devops Security Checklist | Sqreen**  ](https://www.sqreen.com/checklists/devops-security-checklist "https://www.sqreen.com/checklists/devops-security-checklist")[](https://www.sqreen.com/checklists/devops-security-checklist)
+[**Devops Security Checklist - Sqreen**  ](https://www.sqreen.com/checklists/devops-security-checklist "https://www.sqreen.com/checklists/devops-security-checklist")[](https://www.sqreen.com/checklists/devops-security-checklist)
 
-[**DevSecOps Security Checklist | Sqreen**  ](https://www.sqreen.com/checklists/devsecops-security-checklist "https://www.sqreen.com/checklists/devsecops-security-checklist")[](https://www.sqreen.com/checklists/devsecops-security-checklist)
+[**DevSecOps Security Checklist - Sqreen**  ](https://www.sqreen.com/checklists/devsecops-security-checklist "https://www.sqreen.com/checklists/devsecops-security-checklist")[](https://www.sqreen.com/checklists/devsecops-security-checklist)
 
 [**AWS Security Best Practices**  ](https://www.sqreen.com/resources/aws-security "https://www.sqreen.com/resources/aws-security")[](https://www.sqreen.com/resources/aws-security)
 
