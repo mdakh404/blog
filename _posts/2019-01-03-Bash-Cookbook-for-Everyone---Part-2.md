@@ -751,7 +751,7 @@ Thanks to all of the following peoples for creating awesome content.
 
 [**Shell startup scripts — flowblok’s blog**  ](https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html "https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html")[](https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html)
 
-[**Unix tool tip (@UnixToolTip) | Twitter**  ](https://twitter.com/UnixToolTip "https://twitter.com/UnixToolTip")[](https://twitter.com/UnixToolTip)
+[**Unix tool tip (@UnixToolTip) - Twitter**  ](https://twitter.com/UnixToolTip "https://twitter.com/UnixToolTip")[](https://twitter.com/UnixToolTip)
 
 [**Penetration Testing with the Bash shell** ](https://www.amazon.in/Penetration-Testing-shell-Keith-Makan/dp/1849695105 "https://www.amazon.in/Penetration-Testing-shell-Keith-Makan/dp/1849695105")[](https://www.amazon.in/Penetration-Testing-shell-Keith-Makan/dp/1849695105)
 
@@ -761,7 +761,7 @@ Thanks to all of the following peoples for creating awesome content.
 
 [**Advanced Bash-Scripting Guide**  ](http://tldp.org/LDP/abs/html/ "http://tldp.org/LDP/abs/html/")[](http://tldp.org/LDP/abs/html/)
 
-[ **Bash Guide for Beginners** ] (http://tldp.org/LDP/Bash-Beginners-Guide/html/ "http://tldp.org/LDP/Bash-Beginners-Guide/html/")[](http://tldp.org/LDP/Bash-Beginners-Guide/html/)
+[ **Bash Guide for Beginners** ](http://tldp.org/LDP/Bash-Beginners-Guide/html/ "http://tldp.org/LDP/Bash-Beginners-Guide/html/")[](http://tldp.org/LDP/Bash-Beginners-Guide/html/)
 
 [**uno: a uniq like CLI tool for log data - Unomaly**  ](https://unomaly.com/blog/its-in-the-anomalies/ "https://unomaly.com/blog/its-in-the-anomalies/")[](https://unomaly.com/blog/its-in-the-anomalies/)
 
