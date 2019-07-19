@@ -70,5 +70,3 @@ Report closed as Resolved: **25–10–2017**
 
 Final **1200$** Awarded: **26–10–2017**
 
-
-[**Buy Me A Coffee - Best Way for Creators to Receive Tips**](https://www.buymeacoffee.com/ZTExwKcRW "https://www.buymeacoffee.com/ZTExwKcRW")[](https://www.buymeacoffee.com/ZTExwKcRW)
