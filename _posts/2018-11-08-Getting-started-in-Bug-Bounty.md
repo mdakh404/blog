@@ -230,117 +230,117 @@ There are other great blogs out there, I can’t list them all, you need to find
 
 #### 10\. Follow cool guys on Github.
 
-* [**· michenriksen  ** ](https://github.com/michenriksen "https://github.com/michenriksen")[](https://github.com/michenriksen)
+* [ michenriksen   ](https://github.com/michenriksen "https://github.com/michenriksen")[](https://github.com/michenriksen)
 
-* [**· codingo **  ](https://github.com/codingo "https://github.com/codingo")[](https://github.com/codingo)
+* [ codingo ](https://github.com/codingo "https://github.com/codingo")[](https://github.com/codingo)
 
-* [**· Ice3man543 ** ](https://github.com/Ice3man543 "https://github.com/Ice3man543")[](https://github.com/Ice3man543)
+* [ Ice3man543 ](https://github.com/Ice3man543 "https://github.com/Ice3man543")[](https://github.com/Ice3man543)
 
-* [**· nahamsec **  ](https://github.com/nahamsec "https://github.com/nahamsec")[](https://github.com/nahamsec)
+* [ nahamsec ](https://github.com/nahamsec "https://github.com/nahamsec")[](https://github.com/nahamsec)
 
-* [**· tomnomnom **  ](https://github.com/tomnomnom "https://github.com/tomnomnom")[](https://github.com/tomnomnom)
+* [ tomnomnom   ](https://github.com/tomnomnom "https://github.com/tomnomnom")[](https://github.com/tomnomnom)
 
-* [**· aboul3la **  ](https://github.com/aboul3la "https://github.com/aboul3la")[](https://github.com/aboul3la)
+* [ aboul3la   ](https://github.com/aboul3la "https://github.com/aboul3la")[](https://github.com/aboul3la)
 
-* [**· maurosoria **  ](https://github.com/maurosoria "https://github.com/maurosoria")[](https://github.com/maurosoria)
+* [ maurosoria  ](https://github.com/maurosoria "https://github.com/maurosoria")[](https://github.com/maurosoria)
 
-* [**· guelfoweb ** ](https://github.com/guelfoweb "https://github.com/guelfoweb")[](https://github.com/guelfoweb)
+* [ guelfoweb ](https://github.com/guelfoweb "https://github.com/guelfoweb")[](https://github.com/guelfoweb)
 
-* [**· caffix ** ](https://github.com/caffix/ "https://github.com/caffix/")[](https://github.com/caffix/)
+* [ caffix  ](https://github.com/caffix/ "https://github.com/caffix/")[](https://github.com/caffix/)
 
-* [**· gwen001 **  ](https://github.com/gwen001/ "https://github.com/gwen001/")[](https://github.com/gwen001/)
+* [ gwen001  ](https://github.com/gwen001/ "https://github.com/gwen001/")[](https://github.com/gwen001/)
 
 Consider donating small part of your bounties to them to support their open source contribution or you can contribute in other ways too. Only If they accept donation.
 
 #### 11\. Follow Active Bug Bounty Hunters on Twitter (But not limited to this list)
 
-* [**Frans Rosén (@fransrosen)**  ](https://twitter.com/fransrosen "https://twitter.com/fransrosen")[](https://twitter.com/fransrosen)
+* [Frans Rosén (@fransrosen)  ](https://twitter.com/fransrosen "https://twitter.com/fransrosen")[](https://twitter.com/fransrosen)
 
-* [**­Mathias Karlsson (@avlidienbrunn) ** ](https://twitter.com/avlidienbrunn "https://twitter.com/avlidienbrunn")[](https://twitter.com/avlidienbrunn)
+* [ ­Mathias Karlsson (@avlidienbrunn)  ](https://twitter.com/avlidienbrunn "https://twitter.com/avlidienbrunn")[](https://twitter.com/avlidienbrunn)
 
-* [**dawgyg@Home (@thedawgyg) **  ](https://twitter.com/thedawgyg "https://twitter.com/thedawgyg")[](https://twitter.com/thedawgyg)
+* [ dawgyg@Home (@thedawgyg)   ](https://twitter.com/thedawgyg "https://twitter.com/thedawgyg")[](https://twitter.com/thedawgyg)
 
-* [**Olivier Beg (@smiegles) **  ](https://twitter.com/smiegles "https://twitter.com/smiegles")[](https://twitter.com/smiegles)
+* [ Olivier Beg (@smiegles)   ](https://twitter.com/smiegles "https://twitter.com/smiegles")[](https://twitter.com/smiegles)
 
-* [**Jobert Abma (@jobertabma) **  ](https://twitter.com/jobertabma "https://twitter.com/jobertabma")[](https://twitter.com/jobertabma)
+* [ Jobert Abma (@jobertabma)   ](https://twitter.com/jobertabma "https://twitter.com/jobertabma")[](https://twitter.com/jobertabma)
 
-* [**STÖK (@stokfredrik) **  ](https://twitter.com/stokfredrik "https://twitter.com/stokfredrik")[](https://twitter.com/stokfredrik)
+* [ STÖK (@stokfredrik)   ](https://twitter.com/stokfredrik "https://twitter.com/stokfredrik")[](https://twitter.com/stokfredrik)
 
-* [**Gerben Javado (@gerben\_javado) **  ](https://twitter.com/gerben_javado "https://twitter.com/gerben_javado")[](https://twitter.com/gerben_javado)
+* [ Gerben Javado (@gerben\_javado)   ](https://twitter.com/gerben_javado "https://twitter.com/gerben_javado")[](https://twitter.com/gerben_javado)
 
-* [**Tanner (@itscachemoney) **  ](https://twitter.com/itscachemoney "https://twitter.com/itscachemoney")[](https://twitter.com/itscachemoney)
+* [ Tanner (@itscachemoney)   ](https://twitter.com/itscachemoney "https://twitter.com/itscachemoney")[](https://twitter.com/itscachemoney)
 
-* [**Ben Sadeghipour (@NahamSec) **  ](https://twitter.com/NahamSec "https://twitter.com/NahamSec")[](https://twitter.com/NahamSec)
+* [ Ben Sadeghipour (@NahamSec)   ](https://twitter.com/NahamSec "https://twitter.com/NahamSec")[](https://twitter.com/NahamSec)
 
-* [**Yassine Aboukir (@Yassineaboukir) ** ](https://twitter.com/Yassineaboukir "https://twitter.com/Yassineaboukir")[](https://twitter.com/Yassineaboukir)
+* [ Yassine Aboukir (@Yassineaboukir)  ](https://twitter.com/Yassineaboukir "https://twitter.com/Yassineaboukir")[](https://twitter.com/Yassineaboukir)
 
-* [**Geekboy (@emgeekboy) **  ](https://twitter.com/emgeekboy "https://twitter.com/emgeekboy")[](https://twitter.com/emgeekboy)
+* [ Geekboy (@emgeekboy)   ](https://twitter.com/emgeekboy "https://twitter.com/emgeekboy")[](https://twitter.com/emgeekboy)
 
-* [**Patrik Fehrenbach🤖 (@ITSecurityguard) **  ](https://twitter.com/ITSecurityguard "https://twitter.com/ITSecurityguard")[](https://twitter.com/ITSecurityguard)
+* [ Patrik Fehrenbach🤖 (@ITSecurityguard)   ](https://twitter.com/ITSecurityguard "https://twitter.com/ITSecurityguard")[](https://twitter.com/ITSecurityguard)
 
-* [**Ed (@EdOverflow) **  ](https://twitter.com/EdOverflow "https://twitter.com/EdOverflow")[](https://twitter.com/EdOverflow)
+* [ Ed (@EdOverflow)   ](https://twitter.com/EdOverflow "https://twitter.com/EdOverflow")[](https://twitter.com/EdOverflow)
 
-* [**x1m (@x1m\_martijn) **  ](https://twitter.com/x1m_martijn "https://twitter.com/x1m_martijn")[](https://twitter.com/x1m_martijn)
+* [ x1m (@x1m\_martijn)   ](https://twitter.com/x1m_martijn "https://twitter.com/x1m_martijn")[](https://twitter.com/x1m_martijn)
 
-* [**Nathan (@NathOnSecurity) **  ](https://twitter.com/NathOnSecurity "https://twitter.com/NathOnSecurity")[](https://twitter.com/NathOnSecurity)
+* [ Nathan (@NathOnSecurity)   ](https://twitter.com/NathOnSecurity "https://twitter.com/NathOnSecurity")[](https://twitter.com/NathOnSecurity)
 
-* [**Th3G3nt3lman (@Th3G3nt3lman) **  ](https://twitter.com/Th3G3nt3lman "https://twitter.com/Th3G3nt3lman")[](https://twitter.com/Th3G3nt3lman)
+* [ Th3G3nt3lman (@Th3G3nt3lman)   ](https://twitter.com/Th3G3nt3lman "https://twitter.com/Th3G3nt3lman")[](https://twitter.com/Th3G3nt3lman)
 
-* [**Uranium238 (@uraniumhacker) ** ](https://twitter.com/uraniumhacker "https://twitter.com/uraniumhacker")[](https://twitter.com/uraniumhacker)
+* [ Uranium238 (@uraniumhacker)  ](https://twitter.com/uraniumhacker "https://twitter.com/uraniumhacker")[](https://twitter.com/uraniumhacker)
 
-* [**Santiago Lopez (@santi\_lopezz99) **  ](https://twitter.com/santi_lopezz99 "https://twitter.com/santi_lopezz99")[](https://twitter.com/santi_lopezz99)
+* [ Santiago Lopez (@santi\_lopezz99)   ](https://twitter.com/santi_lopezz99 "https://twitter.com/santi_lopezz99")[](https://twitter.com/santi_lopezz99)
 
-* [**Rahul Maini (@iamnoooob) **  ](https://twitter.com/iamnoooob "https://twitter.com/iamnoooob")[](https://twitter.com/iamnoooob)
+* [ Rahul Maini (@iamnoooob)   ](https://twitter.com/iamnoooob "https://twitter.com/iamnoooob")[](https://twitter.com/iamnoooob)
 
-* [**Brett Buerhaus (@bbuerhaus) ** ](https://twitter.com/bbuerhaus "https://twitter.com/bbuerhaus")[](https://twitter.com/bbuerhaus)
+* [ Brett Buerhaus (@bbuerhaus)  ](https://twitter.com/bbuerhaus "https://twitter.com/bbuerhaus")[](https://twitter.com/bbuerhaus)
 
-* [**Harsh Jaiswal (@rootxharsh) **](https://twitter.com/rootxharsh "https://twitter.com/rootxharsh")[](https://twitter.com/rootxharsh)
+* [ Harsh Jaiswal (@rootxharsh) ](https://twitter.com/rootxharsh "https://twitter.com/rootxharsh")[](https://twitter.com/rootxharsh)
 
-* [**Paresh (@Paresh\_parmar1) **  ](https://twitter.com/Paresh_parmar1 "https://twitter.com/Paresh_parmar1")[](https://twitter.com/Paresh_parmar1)
+* [ Paresh (@Paresh\_parmar1)   ](https://twitter.com/Paresh_parmar1 "https://twitter.com/Paresh_parmar1")[](https://twitter.com/Paresh_parmar1)
 
-* [**Joel Margolis (@0xteknogeek) **  ](https://twitter.com/0xteknogeek "https://twitter.com/0xteknogeek")[](https://twitter.com/0xteknogeek)
+* [ Joel Margolis (@0xteknogeek)   ](https://twitter.com/0xteknogeek "https://twitter.com/0xteknogeek")[](https://twitter.com/0xteknogeek)
 
-* [**Abdullah Hussam (@Abdulahhusam) **  ](https://twitter.com/Abdulahhusam "https://twitter.com/Abdulahhusam")[](https://twitter.com/Abdulahhusam)
+* [ Abdullah Hussam (@Abdulahhusam) ](https://twitter.com/Abdulahhusam "https://twitter.com/Abdulahhusam")[](https://twitter.com/Abdulahhusam)
 
-* [**zseano💫 (@zseano) **  ](https://twitter.com/zseano "https://twitter.com/zseano")[](https://twitter.com/zseano)
+* [ zseano💫 (@zseano)   ](https://twitter.com/zseano "https://twitter.com/zseano")[](https://twitter.com/zseano)
 
-* [**Ron Chan (@ngalongc) **  ](https://twitter.com/ngalongc "https://twitter.com/ngalongc")[](https://twitter.com/ngalongc)
+* [ Ron Chan (@ngalongc)   ](https://twitter.com/ngalongc "https://twitter.com/ngalongc")[](https://twitter.com/ngalongc)
 
-* [**Parth Malhotra (@Parth\_Malhotra) ** ](https://twitter.com/Parth_Malhotra "https://twitter.com/Parth_Malhotra")[](https://twitter.com/Parth_Malhotra)
+* [ Parth Malhotra (@Parth\_Malhotra)  ](https://twitter.com/Parth_Malhotra "https://twitter.com/Parth_Malhotra")[](https://twitter.com/Parth_Malhotra)
 
-* [**Prateek Tiwari (@prateek\_0490) ** ](https://twitter.com/prateek_0490 "https://twitter.com/prateek_0490")[](https://twitter.com/prateek_0490)
+* [ Prateek Tiwari (@prateek\_0490)  ](https://twitter.com/prateek_0490 "https://twitter.com/prateek_0490")[](https://twitter.com/prateek_0490)
 
-* [**Pranav Hivarekar (@HivarekarPranav) ** ](https://twitter.com/HivarekarPranav "https://twitter.com/HivarekarPranav")[](https://twitter.com/HivarekarPranav)
+* [ Pranav Hivarekar (@HivarekarPranav)  ](https://twitter.com/HivarekarPranav "https://twitter.com/HivarekarPranav")[](https://twitter.com/HivarekarPranav)
 
-* [**Jigar Thakkar (@jigarthakkar39) ** ](https://twitter.com/jigarthakkar39 "https://twitter.com/jigarthakkar39")[](https://twitter.com/jigarthakkar39)
+* [ Jigar Thakkar (@jigarthakkar39)  ](https://twitter.com/jigarthakkar39 "https://twitter.com/jigarthakkar39")[](https://twitter.com/jigarthakkar39)
 
-* [**nikhil (@niksthehacker) ** ](https://twitter.com/niksthehacker "https://twitter.com/niksthehacker")[](https://twitter.com/niksthehacker)
+* [ nikhil (@niksthehacker)  ](https://twitter.com/niksthehacker "https://twitter.com/niksthehacker")[](https://twitter.com/niksthehacker)
 
-* [**Rishiraj Sharma (@ehrishiraj) ** ](https://twitter.com/ehrishiraj "https://twitter.com/ehrishiraj")[](https://twitter.com/ehrishiraj)
+* [ Rishiraj Sharma (@ehrishiraj)  ](https://twitter.com/ehrishiraj "https://twitter.com/ehrishiraj")[](https://twitter.com/ehrishiraj)
 
-* [**pwnmachine 👾 (@princechaddha) **  ](https://twitter.com/princechaddha "https://twitter.com/princechaddha")[](https://twitter.com/princechaddha)
+* [ pwnmachine 👾 (@princechaddha)   ](https://twitter.com/princechaddha "https://twitter.com/princechaddha")[](https://twitter.com/princechaddha)
 
-* [**Bull (@v0sx9b) **  ](https://twitter.com/v0sx9b "https://twitter.com/v0sx9b")[](https://twitter.com/v0sx9b)
+* [ Bull (@v0sx9b)   ](https://twitter.com/v0sx9b "https://twitter.com/v0sx9b")[](https://twitter.com/v0sx9b)
 
-* [**naffy (@nnwakelam) ** ](https://twitter.com/nnwakelam "https://twitter.com/nnwakelam")[](https://twitter.com/nnwakelam)
+* [ naffy (@nnwakelam)  ](https://twitter.com/nnwakelam "https://twitter.com/nnwakelam")[](https://twitter.com/nnwakelam)
 
-* [**shubs (@infosec\_au) **  ](https://twitter.com/infosec_au "https://twitter.com/infosec_au")[](https://twitter.com/infosec_au)
+* [ shubs (@infosec\_au) ](https://twitter.com/infosec_au "https://twitter.com/infosec_au")[](https://twitter.com/infosec_au)
 
-* [**Inti De Ceukelaire (@securinti) ** ](https://twitter.com/securinti "https://twitter.com/securinti")[](https://twitter.com/securinti)
+* [ Inti De Ceukelaire (@securinti) ](https://twitter.com/securinti "https://twitter.com/securinti")[](https://twitter.com/securinti)
 
-* [**Artem (@mskwsky) **  ](https://twitter.com/mskwsky "https://twitter.com/mskwsky")[](https://twitter.com/mskwsky)
+* [ Artem (@mskwsky)   ](https://twitter.com/mskwsky "https://twitter.com/mskwsky")[](https://twitter.com/mskwsky)
 
-* [**Bhavuk Jain (@bhavukjain1) ** ](https://twitter.com/bhavukjain1 "https://twitter.com/bhavukjain1")[](https://twitter.com/bhavukjain1)
+* [Bhavuk Jain (@bhavukjain1) ](https://twitter.com/bhavukjain1 "https://twitter.com/bhavukjain1")[](https://twitter.com/bhavukjain1)
 
- [**Avinash Jain (@logicbomb\_1) ** ](https://twitter.com/logicbomb_1 "https://twitter.com/logicbomb_1")[](https://twitter.com/logicbomb_1)
+ [Avinash Jain (@logicbomb\_1) ](https://twitter.com/logicbomb_1 "https://twitter.com/logicbomb_1")[](https://twitter.com/logicbomb_1)
 
-* [**Emad Shanab (@Alra3ees) ** ](https://twitter.com/Alra3ees "https://twitter.com/Alra3ees")[](https://twitter.com/Alra3ees)
+* [ Emad Shanab (@Alra3ees) ](https://twitter.com/Alra3ees "https://twitter.com/Alra3ees")[](https://twitter.com/Alra3ees)
 
-* [**Ebrahim Hegazy (@Zigoo0) **  ](https://twitter.com/Zigoo0 "https://twitter.com/Zigoo0")[](https://twitter.com/Zigoo0)
+* [ Ebrahim Hegazy (@Zigoo0) ](https://twitter.com/Zigoo0 "https://twitter.com/Zigoo0")[](https://twitter.com/Zigoo0)
 
-* [**Yasser Ali (@garagosy) ** ](https://twitter.com/garagosy "https://twitter.com/garagosy")[](https://twitter.com/garagosy)
+* [ Yasser Ali (@garagosy) ](https://twitter.com/garagosy "https://twitter.com/garagosy")[](https://twitter.com/garagosy)
 
-* [**Akhil Reni (@akhilreni\_hs) ** ](https://twitter.com/akhilreni_hs "https://twitter.com/akhilreni_hs")[](https://twitter.com/akhilreni_hs)
+* [ Akhil Reni (@akhilreni\_hs) ](https://twitter.com/akhilreni_hs "https://twitter.com/akhilreni_hs")[](https://twitter.com/akhilreni_hs)
 
 * [**ak1t4 🇦🇷 (@akita\_zen) **  ](https://twitter.com/akita_zen "https://twitter.com/akita_zen")[](https://twitter.com/akita_zen)
 
