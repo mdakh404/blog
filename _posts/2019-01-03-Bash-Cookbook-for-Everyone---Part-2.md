@@ -3,7 +3,7 @@ layout: post
 title: Bash Cookbook for Everyone — Part 2
 ---
 
-#### Part-1
+#### [Part-1] (https://ehsahil.com/Bash-Cookbook-for-Everyone-Part-1)
 
 **Part-2 — Learn Core Unix Commands.**
 
@@ -22,8 +22,6 @@ title: Bash Cookbook for Everyone — Part 2
 3\. [**One-liners**](https://medium.com/p/b70d40610025#37fe)
 
 4\. [**References**](https://medium.com/p/b70d40610025#387a)
-
-5\. [**Closing gifs!**](https://medium.com/p/b70d40610025#fc43)
 
 ### Learn Basic Unix Commands.
 
@@ -75,12 +73,12 @@ whatis ls
 
 > **alias **— Create an alias for a command.
 
-``
+```
 alias l.='ls -d .\* --color=tty'  
 alias ll='ls -l --color=tty'  
 alias ls='ls --color=tty'  
 unalias which //removing alias
-``
+```
 
 #### Exploring the file system Commands.
 
@@ -104,24 +102,29 @@ LC\_ALL=C ls
 ls -l "some\_file"
 ```
 
-[**exa · a modern replacement for ls**  
-_Edit description_the.exa.website](https://the.exa.website "https://the.exa.website")[](https://the.exa.website)
+[**exa modern replacement for ls** ](https://the.exa.website "https://the.exa.website")[](https://the.exa.website)
 
 > **lsof** — list open files
 
 > **pwd** — Return working directory name.
 
-`man pwd`
+```
+man pwd
+```
 
 > **file** — Determine file types
 
-`man file`
+```
+man file
+```
 
 file filename
 
 > **more** — file perusal filter for crt viewing
 
-`man more`
+```
+man more
+```
 
 > **less** — View file content
 
@@ -275,15 +278,22 @@ chmod +x script.sh
 
 > **su** — Substitute user identity or run the shell as another user
 
+
+```
 man su
+```
 
 > **sudo** — Execute a shell as another user
 
+```
 man sudo
+```
 
 > **passwd** — Modify a user’s password
 
+```
 man passwd
+```
 
 #### Processes Commands
 
@@ -295,11 +305,11 @@ ps x
 ps aux
 
 ps -ef
-``` 
 
 **ps -ef | grep _stuck\_process_**
 
 **kill -9 _5607_**
+```
 
 When a process starts up several instances, **killall** might be easier. It takes the same option as the **kill** command but applies on all instances of a given process.
 
@@ -329,18 +339,23 @@ printenv USER
 
 > **set** — set shell options
 
+```
 set | less
 
 set -o // display all shell options
+```
 
 > **Vim — **Vi IMproved. a programmer’s text editor.
 
+```
 man vim
+```
 
 **Benefits of using vim**
 
 vim is always available & vim is lightweight and fast
 
+```
 vi filname-txt
 
 Enter "i" to edit
@@ -352,6 +367,7 @@ Enter "i" to edit
 o - The line below the current line.
 
 O - The line above the current line.
+```
 
 [**The Vim Learning Curve is a Myth** ](https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth "https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth")[](https://robots.thoughtbot.com/the-vim-learning-curve-is-a-myth)
 
@@ -378,21 +394,27 @@ Important networking files within the local machine.
 
 > **ping** — Send an ICMP ECHO\_REQUEST to network hosts
 
+```
 man ping
+```
 
 > **traceroute** — Print the route packets trace to a network host, Route taken by packets to a specific Ip Address.
 
-man traceroute
+```
+man traceroute`
+```
 
 > **Dig** — DNS lookuup Utility
 
 > **netstat** — Show network status, what connection is active between the local machine and another network machine.
 
+```
 man netstat
 
 netstat -ie
 
 netstat -r
+```
 
 > **netcat** — Netcat is a simple Unix utility which reads and writes data across network connections,
 
@@ -406,11 +428,15 @@ netstat -r
 
 > **wget** — The non-interactive network downloader.
 
+```
 man wget
+```
 
 > **curl — **tranfer a URL
 
+```
 man curl
+```
 
 Getting subdomains from curl using certspotter.com
 
@@ -436,10 +462,12 @@ you can also customize it according to your need.
 
 > **locate** — locate the file by name
 
+```
 man locate
 
 locate bin/zip  
 locate zip | grep bin
+```
 
 > **find** — search for filesman find
 
@@ -458,7 +486,9 @@ find ~ -type f -name "\*.JPG" -size +1M | wc -l 840
 
 **cut — **cut out a selected portion of each line of a file.
 
+```
 man cut
+```
 
 > **sed — **Stream Editor is used to perform basic transformation on read text from a file or a pipe. sed is also sometimes known as bash editor.
 
@@ -474,13 +504,18 @@ the basic function of awk is to search files for lines or other text unit text c
 
 The variables $1, $2, $3, …, $N hold the values of the first, second, third until the last field of an input line. The variable $0 (zero) holds the value of the entire line.
 
+```
 man awk
+```
 
 ```
 **ls -l | awk _'{ print $5 $9 }'_**
 ```
 
+
+```
 **history | awk 'BEGIN {FS="\[ \\t\]+|\\\\|"} {print $3}' | sort | uniq -c | sort -nr | head**
+```
 
 Remove duplicate lines: **awk '!a\[$0\]++'**
 
@@ -501,11 +536,15 @@ Thanks to Bharat from Appsecco.
 
 > **clear** — clear the terminal screen.
 
+```
 man clear
+```
 
 > **History** — Display the content of the history list
 
+```
 histroy | less
+```
 
 **!88** - bash will expand “!88” into the contents of the 88th line in the history list
 
@@ -521,7 +560,7 @@ Git is a fast, scalable, distributed revision control system with an unusually r
 
 high-level operations and full access to internals.
 
-[**Upcase : Mastering Git | Online Tutorial by thoughtbot** ](https://thoughtbot.com/upcase/mastering-git "https://thoughtbot.com/upcase/mastering-git")[](https://thoughtbot.com/upcase/mastering-git)
+[**Upcase : Mastering Git - Online Tutorial by thoughtbot** ](https://thoughtbot.com/upcase/mastering-git "https://thoughtbot.com/upcase/mastering-git")[](https://thoughtbot.com/upcase/mastering-git)
 
 [**Learn Git Branching**  ](https://learngitbranching.js.org/ "https://learngitbranching.js.org/")[](https://learngitbranching.js.org/)
 
@@ -543,7 +582,9 @@ A CIDR network address looks like this under IPv4:
 
 Get CIDR from ASN numbers.
 
+```
 whois -h whois.radb.net -- '-i origin AS63086' | grep -Eo "(\[0-9.\]+){4}/\[0-9\]+" | head
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*xsXAqYujMjw00zbMCgIc6w.png)
 
@@ -602,7 +643,7 @@ masscan -iL uber-up-hosts.txt -p80,443,8080,8000,9000,8888,9999 --rate 10000 --o
 **Subdomains from Threatcrowd**
 
 ```
-**curl -s** [**https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=deliveroo.com**](https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=deliveroo.com) **| jq -r '.subdomains | .\[\]' | sort -u**
+curl -s https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=deliveroo.com  | jq -r '.subdomains | .\[\]' | sort -u
 ```
 
 ![](https://cdn-images-1.medium.com/max/800/1*4UMTp3lu1-2oLuuIEKFDpg.png)
@@ -618,7 +659,7 @@ curl -s [https://certspotter.com/api/v0/certs\\?domain\\=deliveroo.co.uk](https:
 **Subdomain from crt.sh**
 
 ```
-**curl -s https://crt.sh/?q=%.hackerone.com | sed '/crt/d' | sed 's/<\\/\\?\[^>\]\\+>//g' | tr -d ' ' | sed 's/  \*/ /g' | sed 's/\\\*\\.//g' | sed 's/\\%\\.//g' | sed -e '1,2d' | sort -u | uniq | grep hackerone | sed '/IdentityLIKE/d'**
+curl -s https://crt.sh/?q=%.hackerone.com | sed '/crt/d' | sed 's/<\\/\\?\[^>\]\\+>//g' | tr -d ' ' | sed 's/  \*/ /g' | sed 's/\\\*\\.//g' | sed 's/\\%\\.//g' | sed -e '1,2d' | sort -u | uniq | grep hackerone | sed '/IdentityLIKE/d'
 ```
 
 ![](https://cdn-images-1.medium.com/max/800/1*JIXC14sMidgEUc07lmwhQA.png)
@@ -626,13 +667,13 @@ curl -s [https://certspotter.com/api/v0/certs\\?domain\\=deliveroo.co.uk](https:
 **subdomains from Archive.**
 
 ```
-**curl -s "http://web.archive.org/cdx/search/cdx?url=\*.hackerone.com/\*&output=text&fl=original&collapse=urlkey" |sort| sed -e 's\_https\*://\_\_' -e "s/\\/.\*//" -e 's/:.\*//' -e 's/^www\\.//' | sort -u**
+curl -s "http://web.archive.org/cdx/search/cdx?url=\*.hackerone.com/\*&output=text&fl=original&collapse=urlkey" |sort| sed -e 's\_https\*://\_\_' -e "s/\\/.\*//" -e 's/:.\*//' -e 's/^www\\.//' | sort -u
 ```
 
 ![](https://cdn-images-1.medium.com/max/800/1*JIXC14sMidgEUc07lmwhQA.png)
 
 ```
-**cat deliveroo-domains.txt | filter-resolved > deliveroo-domains-resolved.txt**
+cat deliveroo-domains.txt | filter-resolved > deliveroo-domains-resolved.txt
 ```
 
 ![](https://cdn-images-1.medium.com/max/800/1*K4MvBTRRhtNIo7cr1htzsg.png)
@@ -648,7 +689,7 @@ cat deliveroo-domains.txt | httprobe | get-title
 **Fetching interesting URL from** `**waybackmachine**`
 
 ```
-**echo hackerone.com | waybackurls | tee test.txt | urinteresting**
+echo hackerone.com | waybackurls | tee test.txt | urinteresting
 ```
 
 ![](https://cdn-images-1.medium.com/max/800/1*8lrJOJrjjNsmmf0DB5twaw.png)
@@ -726,8 +767,6 @@ Thanks to all of the following peoples for creating awesome content.
 
 [**offensive Infosec Blog**  ](https://offensiveinfosec.wordpress.com/ "https://offensiveinfosec.wordpress.com/")[](https://offensiveinfosec.wordpress.com/)
 
-#### Closing Gifs.
 
-huh!!!
 
 #### Until Next Time!
