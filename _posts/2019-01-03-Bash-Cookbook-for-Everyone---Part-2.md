@@ -3,6 +3,8 @@ layout: post
 title: Bash Cookbook for Everyone — Part 2
 ---
 
+This bash cookbook Part -2  I created while learning the bash recently. I’ve put a lot of efforts in assembling the useful information and resources. I’ve divided this cookbook into two parts. 
+
 #### [**Part-1**](https://ehsahil.com/Bash-Cookbook-for-Everyone-Part-1)
 
 **Part-2 — Learn Core Unix Commands.**
