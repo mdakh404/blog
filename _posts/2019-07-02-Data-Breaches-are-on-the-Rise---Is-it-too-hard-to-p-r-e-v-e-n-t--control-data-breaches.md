@@ -96,7 +96,7 @@ I’ve seen companies do not even have the proper information about all the serv
 
 #### If You’re Not Doing Continuous Asset Management You’re Not Doing Security — Daniel Miessler
 
-[**If You’re Not Doing Continuous Asset Management You’re Not Doing Security | Daniel Miessler** ](https://danielmiessler.com/blog/continuous-asset-management-security/ "https://danielmiessler.com/blog/continuous-asset-management-security/")[](https://danielmiessler.com/blog/continuous-asset-management-security/)
+[**If You’re Not Doing Continuous Asset Management You’re Not Doing Security - Daniel Miessler** ](https://danielmiessler.com/blog/continuous-asset-management-security/ "https://danielmiessler.com/blog/continuous-asset-management-security/")[](https://danielmiessler.com/blog/continuous-asset-management-security/)
 
 Continuous Monitoring of your External Surface is very important than you think.
 
@@ -154,7 +154,7 @@ Developers write code → Passed through static code analyzer → Passed though 
 
 Implementation of the Static code analyzer in your pipeline. The static code analyzer tools collect the information based on the source code provided.
 
-[**Continuous Inspection | SonarQube**  ](https://www.sonarqube.org/ "https://www.sonarqube.org/")[](https://www.sonarqube.org/)
+[**Continuous Inspection - SonarQube**  ](https://www.sonarqube.org/ "https://www.sonarqube.org/")[](https://www.sonarqube.org/)
 
 [**RIPS — free PHP security scanner using static code analysis**  ](http://rips-scanner.sourceforge.net/ "http://rips-scanner.sourceforge.net/")[](http://rips-scanner.sourceforge.net/)
 
