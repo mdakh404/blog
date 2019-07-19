@@ -3,7 +3,7 @@ layout: post
 title: Bash Cookbook for Everyone — Part 2
 ---
 
-#### [Part-1] (https://ehsahil.com/Bash-Cookbook-for-Everyone-Part-1)
+#### [**Part-1**](https://ehsahil.com/Bash-Cookbook-for-Everyone-Part-1)
 
 **Part-2 — Learn Core Unix Commands.**
 
@@ -422,9 +422,9 @@ netstat -r
 
 > **IP** — IP is the transport layer protocol used by the Internet protocol family.
 
-> **SSH** — Secure Shell
+> **** — Secure Shell
 
-[**22 SSH Examples, Practical Tips & Tunnels | HackerTarget.com**  ](https://hackertarget.com/ssh-examples-tunnels/ "https://hackertarget.com/ssh-examples-tunnels/")[](https://hackertarget.com/ssh-examples-tunnels/)
+[**22 SSH Examples, Practical Tips & Tunnels - HackerTarget.com**  ](https://hackertarget.com/ssh-examples-tunnels/ "https://hackertarget.com/ssh-examples-tunnels/")[](https://hackertarget.com/ssh-examples-tunnels/)
 
 > **wget** — The non-interactive network downloader.
 
@@ -449,8 +449,7 @@ Getting subdomains from curl using certspotter.com
 
 Cool `bash_profile` by [Behrouz Sadeghipour](https://medium.com/u/9a72584d6865)
 
-[**nahamsec/recon\_profile**  
-_Contribute to nahamsec/recon\_profile development by creating an account on GitHub._github.com](https://github.com/nahamsec/recon_profile "https://github.com/nahamsec/recon_profile")[](https://github.com/nahamsec/recon_profile)
+[**nahamsec/recon\_profile**  ](https://github.com/nahamsec/recon_profile "https://github.com/nahamsec/recon_profile")[](https://github.com/nahamsec/recon_profile)
 
 you can add the recon\_profile in `bash_profile` present in the root directory.
 
@@ -525,9 +524,12 @@ We can use the parallel command to resolve the multiple javascript URLs present 
 
 we can use [TomNomNom](https://twitter.com/TomNomNom) way back URL to get javascript files URLs.
 
+```
 waybackurls deliveroo.com | grep ".js" > deliveroo-js.txt
 
-cat **deliveroo-js.txt** | parallel -j50 -q curl -w 'Status:%{http\_code}\\t Size:%{size\_download}\\t %{url\_effective}\\n' -o /dev/null -sk
+cat deliveroo-js.txt | parallel -j50 -q curl -w 'Status:%{http\_code}\\t Size:%{size\_download}\\t %{url\_effective}\\n' -o /dev/null -sk
+
+```
 
 ![Thanks to Bharat from Appsecco.](https://cdn-images-1.medium.com/max/800/1*xrAvDUn9YL1MsLSzfsUe3Q.png)
 Thanks to Bharat from Appsecco.
@@ -552,7 +554,9 @@ histroy | less
 
 Display most used commands
 
+```
 **history | awk 'BEGIN {FS="\[ \\t\]+|\\\\|"} {print $3}' | sort | uniq -c | sort -nr | head**
+```
 
 > **Git** — the stupid content tracker
 
@@ -623,19 +627,19 @@ masscan -iL uber-up-hosts.txt -p80,443,8080,8000,9000,8888,9999 --rate 10000 --o
 **Find your IP address using the command line:**
 
 ```
-**/sbin/ifconfig -a | awk '/(cast)/ { print $2 }' | cut -d':' -f2 | head -1**
+/sbin/ifconfig -a | awk '/(cast)/ { print $2 }' | cut -d':' -f2 | head -1
 ```
 
 **Pulling IP address from a file.**
 
 ```
-**grep -E -o '\[0-9\]{1,3}\\.\[0-9\]{1,3}\\.\[0-9\]{1,3}\\.\[0-9\]{1,3}'**
+grep -E -o '\[0-9\]{1,3}\\.\[0-9\]{1,3}\\.\[0-9\]{1,3}\\.\[0-9\]{1,3}'
 ```
 
 **Subdomains from hacker target**
 
 ```
-**curl -s** [**https://api.hackertarget.com/hostsearch/?q=deliveroo.com**](https://api.hackertarget.com/hostsearch/?q=deliveroo.com) **| cut -d',' -f1 | sort -u**
+curl -s https://api.hackertarget.com/hostsearch/?q=deliveroo.com | cut -d',' -f1 | sort -u**
 ```
 
 ![](https://cdn-images-1.medium.com/max/800/1*mat02ZzKufaMhExcP1bn5A.png)
@@ -651,7 +655,7 @@ curl -s https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=deliveroo
 **Subdomains from Certspotter**
 
 ```
-curl -s [https://certspotter.com/api/v0/certs\\?domain\\=deliveroo.co.uk](https://certspotter.com/api/v0/certs%5C?domain%5C=deliveroo.co.uk) | jq '.\[\].dns\_names\[\]' | sed 's/\\\*\\.//g' | tr -d "\\"" | sort -u
+curl -s https://certspotter.com/api/v0/certs%5C?domain%5C=deliveroo.co.uk | jq '.\[\].dns\_names\[\]' | sed 's/\\\*\\.//g' | tr -d "\\"" | sort -u
 ```
 
 ![](https://cdn-images-1.medium.com/max/800/1*VsoaF-4Ibdr0C5AcgbwWzg.png)
