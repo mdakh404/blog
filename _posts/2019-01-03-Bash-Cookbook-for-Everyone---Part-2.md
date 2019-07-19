@@ -757,9 +757,9 @@ Thanks to all of the following peoples for creating awesome content.
 
 [**Advanced Bash-Scripting Guide**  ](http://tldp.org/LDP/abs/html/ "http://tldp.org/LDP/abs/html/")[](http://tldp.org/LDP/abs/html/)
 
-[**Bash Guide for Beginners** ] (http://tldp.org/LDP/Bash-Beginners-Guide/html/ "http://tldp.org/LDP/Bash-Beginners-Guide/html/")[](http://tldp.org/LDP/Bash-Beginners-Guide/html/)
+[ **Bash Guide for Beginners** ] (http://tldp.org/LDP/Bash-Beginners-Guide/html/ "http://tldp.org/LDP/Bash-Beginners-Guide/html/")[](http://tldp.org/LDP/Bash-Beginners-Guide/html/)
 
-[**uno: a uniq like CLI tool for log data | Unomaly**  ](https://unomaly.com/blog/its-in-the-anomalies/ "https://unomaly.com/blog/its-in-the-anomalies/")[](https://unomaly.com/blog/its-in-the-anomalies/)
+[**uno: a uniq like CLI tool for log data - Unomaly**  ](https://unomaly.com/blog/its-in-the-anomalies/ "https://unomaly.com/blog/its-in-the-anomalies/")[](https://unomaly.com/blog/its-in-the-anomalies/)
 
 [**Learn Bash the Hard Way**  ](https://leanpub.com/learnbashthehardway "https://leanpub.com/learnbashthehardway")[](https://leanpub.com/learnbashthehardway)
 
