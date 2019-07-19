@@ -3,9 +3,7 @@ layout: post
 title: Bash Cookbook for Everyone — Part 1
 ---
 
-**Hi Guys,**
-
-This bash cookbook I created while learning the bash recently. I’ve put a lot of efforts in assembling the useful information and resources. I’ve divided this cookbook into two parts, first, one will be focused on bash and the second one will be on Unix commands and useful one-liners.
+Hi Guys,This bash cookbook I created while learning the bash recently. I’ve put a lot of efforts in assembling the useful information and resources. I’ve divided this cookbook into two parts, first, one will be focused on bash and the second one will be on Unix commands and useful one-liners.
 
 ### Table of Contents
 
@@ -70,7 +68,7 @@ When the shell is started, it read the configuration files, The most commons are
 *   they let you edit the command.
 *   Shells are highly programmable.
 
-[** Upcase : Mastering the Shell Course ** ](https://thoughtbot.com/upcase/mastering-the-shell "https://thoughtbot.com/upcase/mastering-the-shell")[](https://thoughtbot.com/upcase/mastering-the-shell)
+[ Upcase : Mastering the Shell Course  ](https://thoughtbot.com/upcase/mastering-the-shell "https://thoughtbot.com/upcase/mastering-the-shell")[](https://thoughtbot.com/upcase/mastering-the-shell)
 
 #### Pipelines
 
@@ -123,17 +121,17 @@ Compound commands have the following characteristics:
 
 > **Grouping Commands in a subshell (<list>) **— The list is executed in a separate shell — a subprocess.
 
-(cd opt/tools/VHostScan/; ls)
+`(cd opt/tools/VHostScan/; ls)`
 
 ![](https://cdn-images-1.medium.com/max/800/1*-zwbWHl0J7tNBqhrFuD9XA.png)
 
-> **Grouping Commands {<list>} **— The list command is simply executed in the current shell environment, the command must be terminated with newline or semicolon.
+> **Grouping Commands {<list>} ** — The list command is simply executed in the current shell environment, the command must be terminated with newline or semicolon.
 
-{ cd opt/tools/VHostScan/; ls; }
+`{ cd opt/tools/VHostScan/; ls; }`
 
 ![](https://cdn-images-1.medium.com/max/800/1*lVYr9ac7jdHcefmDfvG36Q.png)
 
-> **Arithmetic Evaluation (( <Expression> )) **— This command evalauates the arithmetic expression.
+> **Arithmetic Evaluation (( <Expression> )) ** — This command evalauates the arithmetic expression.
 
 In arithmetic evaluation **0** is FALSE and **1** is TRUE
 
@@ -141,7 +139,7 @@ In the above script, if you type 1 \`**Your choice is TRUE**\` will return and i
 
 ![](https://cdn-images-1.medium.com/max/800/1*4kNXtq9Roevhq4S8fW1U3w.png)
 
-> **The conditional Expression \[\[<expression>\]\] **— The conditional expression is meant for use as a conditional command like.
+> **The conditional Expression \[\[<expression>\]\] ** — The conditional expression is meant for use as a conditional command like.
 
 ```
 <expression1> && <expression2>
@@ -170,26 +168,31 @@ Getting Ip using dig and doing a whois on IP is taken from Dig.
 
 ![](https://cdn-images-1.medium.com/max/800/1*NvDH_ftxRCVzBvzulEy6MA.png)
 
+```
 **for IP in \`cat company\_ip.txt\`; do echo "$IP =>\`dig -x $IP +short\`";done**
 
 for IP in \`cat company\_ip.txt\`; do echo "$IP =>\`Any command you want to run\`";done
 
 for subdomain in \`cat test.com\`; do echo "Working on $subdomain =>\`ds $subdomain\`";done
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*yYhF8YdMgN9rTFHFickKvQ.png)
 
 Creating and deleting multiple files.
 
-**for x in \`seq 1 5\`; do touch ehsahil\_file\_${x}.txt; done** //creating **  
-for x in \`seq 1 5\`; do rm  ehsahil\_file\_${x}.txt; done** //deleting
 
-**for files in /media/\* do echo $files done**
+```
+for x in \`seq 1 5\`; do touch ehsahil\_file\_${x}.txt; done** //creating **  
+for x in \`seq 1 5\`; do rm  ehsahil\_file\_${x}.txt; done** //deleting
+for files in /media/\* do echo $files done
+```
+            
 
 ![](https://cdn-images-1.medium.com/max/800/1*jbaf_KAEJotxCAvq0rOovA.png)
 
 Extracting multiple files in one command.
 
-**for i in $(ls \*.tar.gz); do tar zxvf $i; done**
+`for i in $(ls \*.tar.gz); do tar zxvf $i; done`
 
 > **The C-style for-loop** —
 
@@ -215,9 +218,11 @@ done
 
 Stepping counter
 
+```
 for ((x = 0 ; x <= 100 ; x += 10)); do  
   echo "Counter: $x"  
 done
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*X7YDWrzoyIouDZQibR-HUg.png)
 
@@ -318,6 +323,5 @@ The more you practice bash and use it for day to day work, the more you will bec
 
 #### Yea !! — Part-2
 
-[**Bash Cookbook for Everyone — Part 2**  ](https://medium.com/ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025 "https://medium.com/ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025")[](https://medium.com/ehsahil/bash-cookbook-for-everyone-part-2-b70d40610025)
+[**Bash Cookbook for Everyone — Part 2**  ](https://ehsahil.com/Bash-Cookbook-for-Everyone-Part-2 "https://ehsahil.com/Bash-Cookbook-for-Everyone-Part-2")[](https://ehsahil.com/Bash-Cookbook-for-Everyone-Part-2)
 
-Good read, If interested : —
