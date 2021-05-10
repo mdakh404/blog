@@ -8,9 +8,9 @@ I'm an information technology and security enthusiast, with more than five years
 
 ### More Information
 
-I am currently working as Security Engineer II at **Zomato**,  <br />
+Product Security Analyst at **Facebook**,  <br />
 Bug bounty Hunter at **HackerOne**, **Bugcrowd**, **Intigriti**, **Hackenproof** and others,  <br />
-Previously **Nykaa** and **Securityescape** <br />
+Previously **Zomato,** **Nykaa** and **Securityescape** <br />
 
 
 ### Contact me
