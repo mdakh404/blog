@@ -1,5 +1,7 @@
-![](https://miro.medium.com/max/1108/1*zVwdJyQL6FH4L5WTcYH3yQ.png)
-
+---
+layout: post
+title: Insecure Deserialization in a nutshell 
+---
 Hello and welcome to this blog, in this blog we're going to discover what insecure deserialization is ? we're going to take some code examples and some exploitation scenarios in PHP & Python, solving 2 labs from Portswigger as well, without wasting any time; let's go !
 
 Serialization vs Deserialization:
