@@ -1,4 +1,4 @@
-Sahil Ahamad - Information Security Blog
+Moad Akhraz - Information Security Blog
 
 Powered by Jekll-Now
 
