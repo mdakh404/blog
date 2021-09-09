@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Sahil Ahamad - Information Security Blog
+name: Moad Akhraz - Information Security Blog
 
 # Short bio or description (displayed in the header)
 description: Security Enthusiast
@@ -18,15 +18,15 @@ avatar: https://avatars1.githubusercontent.com/u/5831392?s=400&u=ea700bfb4e0145d
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: bewithsahil002@gmail.com
-  facebook: ehsahil
+  email: akhrazmoad14@gmail.com
+  facebook: 
   flickr:
-  github: ehsahil
-  instagram: ehsahil
-  linkedin: ehsahil
+  github: mdakh404
+  instagram: 
+  linkedin: moad-akhraz
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: ehsahil
+  twitter: mdakh404
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
