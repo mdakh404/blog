@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I'm an information technology and security enthusiast, with more than five years of practical experience in the information security industry. 
-
-### More Information
-
-Product Security Analyst at **Facebook**,  <br />
-Bug bounty Hunter at **HackerOne**, **Bugcrowd**, **Intigriti**, **Hackenproof** and others,  <br />
-Previously **Zomato,** **Nykaa** and **Securityescape** <br />
-
+I'm Moad Akhraz aka (@mdakh404), an Information Security enthusiast who's interested especially in AppSec && Red Teaming.
 
 ### Contact me
 
-[Email](mailto:bewithsahil002@gmail.com)
+[Email](mailto:akhrazmoad14@gmail.com)
