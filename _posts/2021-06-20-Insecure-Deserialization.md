@@ -4,7 +4,7 @@ title: Insecure Deserialization in a nutshell
 ---
 Hello and welcome to this blog, in this blog we're going to discover what insecure deserialization is ? we're going to take some code examples and some exploitation scenarios in PHP & Python, solving 2 labs from Portswigger as well, without wasting any time; let's go !
 
-<a href="javascript:alert(1)">POC</a>
+<a href="data:text/html,<h1>TEST</h1>">POC</a>
 
 Serialization vs Deserialization:
 =================================
