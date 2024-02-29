@@ -7,7 +7,7 @@ Hello and welcome to this blog, in this blog we're going to discover what insecu
 <a href="https://www.example.com">CLICK</a>
 <a href="javascript:alert(1)">JS PoC</a>
 <a href="data:text/html,<h1>TEST</h1>">Data Poc</a>
-
+l
 Serialization vs Deserialization:
 =================================
 
