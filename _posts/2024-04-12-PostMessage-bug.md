@@ -11,15 +11,17 @@ In this blog post we will be discussing how minor validation issues in your regu
 ## Introduction:
 Dropbox's HelloFax offers documents management services to its users, particularly faxes:
 
-![hellofax](https://bugcrowd.com/dropbox/submissions/d1df4c3b-6c03-41a2-94d9-db3bc883ae0e/attachments/5c035c45-514d-4a5e-aa88-ec2fa7f59b53)
+![manage-documents](https://github.com/mdakh404/Algorithms-Data-Structures/assets/77294440/efba38f8-e7de-4ce6-a9a1-1832e34539c5)
+
 
 Upon clicking on Send Fax to select your documents to be faxed, the following page will be shown:
 
-![send-fax](https://bugcrowd.com/dropbox/submissions/d1df4c3b-6c03-41a2-94d9-db3bc883ae0e/attachments/81db14d4-cd63-4f27-b244-cd1ab672369a)
+![Fax-Documents](https://github.com/mdakh404/Algorithms-Data-Structures/assets/77294440/dce12a57-af39-4eb2-9f9a-b369ebcee2bd)
+
 
 Documents could be uploaded either from our device or by integrating a third party service such as **Google Drive**, Upon clicking on the google drive icon, an OAuth window will pop up:
 
-![oauth-window](https://bugcrowd.com/dropbox/submissions/d1df4c3b-6c03-41a2-94d9-db3bc883ae0e/attachments/65711e90-5b4d-48ef-9de7-d8b9c2de5956)
+![google-drive-oauth](https://github.com/mdakh404/Algorithms-Data-Structures/assets/77294440/21804b65-d6d2-40cd-94f1-53a56618bdde)
 
 - **NOTE:** whenever you see a window popup especially in OAuth integrations keep in mind that there is a possibility of using PostMessage functions, thus bringing other security issues to the table ! it isn't the case every time but keep it in mind when testing such applications !
 
@@ -33,7 +35,7 @@ Cookie: <COOKIES>
 
 The application hosted on `app.hellofax.com` will take the `authorization code` and exchanges it with access token, in our case it's a **Gdrive Access Token** in order to access user's **Google Drive** documents and files with the permissions predefined in the `scope` parameter, the whole process is explained in the following chart:
 
-![oauth-process](https://bugcrowd.com/dropbox/submissions/d1df4c3b-6c03-41a2-94d9-db3bc883ae0e/attachments/d77915c2-ab7d-4798-991f-111912697db6)
+![authorization-code](https://github.com/mdakh404/Algorithms-Data-Structures/assets/77294440/9023ebaa-48ed-4c90-81f5-56e94195bda2)
 
 After exchanging the **code** with a **GDrive access token**; The following response will be sent:
 
