@@ -3,6 +3,8 @@ layout: post
 title: Dropbox bug bounty - Watch your RegEx ! Exploiting PostMessage bug to leak GDrive tokens ! 
 ---
 
+![flying-dog-3058204_1280](https://github.com/mdakh404/Algorithms-Data-Structures/assets/77294440/3c5d5bfb-95e0-4efa-bf77-56398182dfa5)
+
 ## TL;DR
 In this blog post we will be discussing how minor validation issues in your regular expression patterns could lead to major security issues, the Dropbox's origin validation in the PostMessage function was misconfigured leading to GDrive tokens leak to third party origins !
 
