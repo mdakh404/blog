@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Dropbox bug bounty] Watch your regular expressions: Exploiting PostMessage bugs to leak GDrive tokens !
+title: (Dropbox bug bounty) Watch your regular expressions: Exploiting PostMessage bugs to leak GDrive tokens !
 ---
 
 ## TL;DR
