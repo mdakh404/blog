@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Insecure Deserialization in a nutshell 
+title: [Dropbox bug bounty] Watch your regular expressions: Exploiting PostMessage bugs to leak GDrive tokens !
 ---
-
-# [Dropbox bug bounty] Watch your regular expressions: Exploiting PostMessage bugs to leak GDrive tokens !
 
 ## TL;DR
 In this blog post we will be discussing how minor validation issues in your regular expression patterns could lead to major security issues, the Dropbox's origin validation in the PostMessage function was misconfigured leading to GDrive tokens leak to third party origins !
